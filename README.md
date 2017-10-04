@@ -7,7 +7,10 @@ Before to start, please make sure that you have the following dependencies
 3. Numpy 
 4.  Matplotlib 
 5. Librarpy tk 
-``` sudo apt-get install python-tk
+
+```
+sudo apt-get install python-tk
+
 ```
 
 community https://github.com/taynaud/python-louvain/cd
