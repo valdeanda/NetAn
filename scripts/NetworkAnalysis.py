@@ -5,8 +5,11 @@
 # - Alumno: Marcos Emmanuel Gonzalez Laffitte                                                                                                                #
 # - Programa: Analisis de redes                                                                                                                              #
 # - Descripcion: Recibe una red y regresa un archivo con multiples tipos de caracteristicas de la red incluyendo invariantes,                                #
-#                conjuntos y estadisticas. Tambien se hacen algunos ploteos de la red, sus comunidades y distribuciones de                                   #
-#                grado.                                                                                                                                      #
+#                conjuntos y estadisticas. Tambien se hacen algunos ploteos de la red, sus comunidades y distribuciones de  grado.                           #
+#                                                                                                                                                            #
+# - Run:    python3.5   NetworkAnalysis.py  -u  YourNetworkFile_1.txt -d  YourNetworkFile_2.txt                                                              #
+#                                                                                                                                                            #
+#   where  -u  -> undirected   ,  -d   ->    directed  and    YourNetworkFile_1.txt must be a tab separtade list of edges and weights                        #
 #                                                                                                                                                            #
 ##############################################################################################################################################################
 # CODE #######################################################################################################################################################
@@ -79,10 +82,10 @@ def ParseFileToNetwork(networkFileName, typeNW, weight):
 # Function: analize order ------------------------------------------------------------------------------------------------------------------------------------
 def AnalizeOrder(someNetwork):
     # function message
-    print("\t- Obtaining order ...")     
+    print("\t- Obtaining order ...")
     # variables
     orderFinalResult = ""
-    orderResult = "Order:\n"
+    orderResult = "Order:"
     # get order
     orderResult = orderResult + str(someNetwork.order())
     # end of function
@@ -95,20 +98,20 @@ def AnalizeSize(someNetwork):
     print("\t- Obtaining size ...")
     # variables
     sizeFinalResult = ""
-    sizeResult = "Size:\n"
+    sizeResult = "Size:"
     # get size
     sizeResult = sizeResult + str(someNetwork.size())
     # end of function
     sizeFinalResult = "\n\n" + sizeResult + "\n\n//////////////////////////////////////////////////////////////////////"
     return(sizeFinalResult)
-    
+
 # Function: analize diameter ---------------------------------------------------------------------------------------------------------------------------------
 def AnalizeDiameter(someNetwork):
     # function message
     print("\t- Obtaining diameter (for undir network version) ...")
     # variables
     diameterFinalResult = ""
-    diameterResult = "Diameter (Undirected):\n"
+    diameterResult = "Diameter (Undirected):"
     # get diameter
     if(nx.is_connected(someNetwork.to_undirected())):
         diameterResult = diameterResult + str(nx.diameter(someNetwork.to_undirected()))
@@ -124,7 +127,7 @@ def AnalizeRadius(someNetwork):
     print("\t- Obtaining radius (for undir network version) ...")
     # variables
     radiusFinalResult = ""
-    radiusResult = "Radius (Undirected):\n"
+    radiusResult = "Radius (Undirected):"
     # get radius
     if(nx.is_connected(someNetwork.to_undirected())):
         radiusResult = radiusResult + str(nx.radius(someNetwork.to_undirected()))
@@ -140,7 +143,7 @@ def AnalizeDensity(someNetwork):
     print("\t- Obtaining density ...")
     # variables
     densityFinalResult = ""
-    densityResult = "Density:\n"
+    densityResult = "Density:"
     # get density
     densityResult = densityResult + str(nx.density(someNetwork))
     # end of function
@@ -153,12 +156,12 @@ def AnalizeMeanDegree(someNetwork, typeNW):
     print("\t- Obtaining mean degree ...")
     # variables
     meanDegreeFinalResult = ""
-    meanDegreeResult = "Mean Degree:\n"
+    meanDegreeResult = "Mean Degree:"
     # get mean degree
     if(typeNW == "-u"):
         meanDegreeResult = meanDegreeResult + str((2*someNetwork.size())/(someNetwork.order()))
     if(typeNW == "-d"):
-        meanDegreeResult = meanDegreeResult + str((someNetwork.size())/(someNetwork.order()))        
+        meanDegreeResult = meanDegreeResult + str((someNetwork.size())/(someNetwork.order()))
     # end of function
     meanDegreeFinalResult = "\n\n" + meanDegreeResult + "\n\n//////////////////////////////////////////////////////////////////////"
     return(meanDegreeFinalResult)
@@ -169,7 +172,7 @@ def AnalizeMaxDegree(someNetwork):
     print("\t- Obtaining max degree ...")
     # variables
     maxDegreeFinalResult = ""
-    maxDegreeResult = "Max Possible Degree:\n"
+    maxDegreeResult = "Max Possible Degree:"
     # get max degree
     maxDegreeResult = maxDegreeResult + str((someNetwork.order()) - 1)
     # end of function
@@ -182,13 +185,13 @@ def AnalizeClustCoeff(someNetwork, typeNW):
     print("\t- Obtaining mean clusttering coefficient ...")
     # variables
     clustCoeffFinalResult = ""
-    clustCoeffResult = "Clustering Coefficient:\n"
+    clustCoeffResult = "Clustering Coefficient:"
     # get clustering coefficient
     if(nx.is_connected(someNetwork.to_undirected())):
         if(typeNW == "-u"):
             clustCoeffResult = clustCoeffResult + str(nx.average_clustering(someNetwork.to_undirected()))
         if(typeNW == "-d"):
-            clustCoeffResult = clustCoeffResult + str((nx.average_clustering(someNetwork.to_undirected()))/2)        
+            clustCoeffResult = clustCoeffResult + str((nx.average_clustering(someNetwork.to_undirected()))/2)
     else:
         clustCoeffResult = clustCoeffResult + "NOT CONNECTED"
     # end of function
@@ -368,7 +371,7 @@ def AnalizeMaxCliques(someNetwork):
     maxCliquesResult = maxCliquesResult + "- Number of Maximal Cliques: " + str(numbMaxCliques) + "\n"
     for counter in range(numbMaxCliques):
         maxCliquesResult = maxCliquesResult + "- Number of nodes in Maximal Clique " + str(counter + 1) + " : " + str(len(maxCliquesVector[counter])) + "\n"
-        maxCliquesResult = maxCliquesResult + "- Nodes in Clique_" + str(counter + 1) + ": " + ",".join(maxCliquesVector[counter]) + "\n"    
+        maxCliquesResult = maxCliquesResult + "- Nodes in Clique_" + str(counter + 1) + ": " + ",".join(maxCliquesVector[counter]) + "\n"
     # end of function
     maxCliquesFinalResult = "\n\n" + maxCliquesResult + "\n\n//////////////////////////////////////////////////////////////////////"
     return(maxCliquesFinalResult)
@@ -389,8 +392,8 @@ def AnalizeCycleBasis(someNetwork):
     # get result string
     basicCyclesResult = basicCyclesResult + "- Number Cycles in CB: " + str(numbBasicCycles) + "\n"
     for counter in range(numbBasicCycles):
-        basicCyclesResult = basicCyclesResult + "- Number of nodes in Cycle " + str(counter + 1) + ": " + str(len(basicCyclesVector[counter])) + "\n"    
-        basicCyclesResult = basicCyclesResult + "- Nodes in Cycle_" + str(counter + 1) + ": " + ",".join(basicCyclesVector[counter]) + "\n"    
+        basicCyclesResult = basicCyclesResult + "- Number of nodes in Cycle " + str(counter + 1) + ": " + str(len(basicCyclesVector[counter])) + "\n"
+        basicCyclesResult = basicCyclesResult + "- Nodes in Cycle_" + str(counter + 1) + ": " + ",".join(basicCyclesVector[counter]) + "\n"
     # end of function
     basicCyclesFinalResult = "\n\n" + basicCyclesResult + "\n\n//////////////////////////////////////////////////////////////////////"
     return(basicCyclesFinalResult)
@@ -480,7 +483,7 @@ def AnalizeCommunitiesAndDrawings(fileName, someNetwork):
         plt.axis("off")
         plt.title(name)
         plt.savefig("RESULTS_NETWORK_DRAWING_UNDIRECTED_" + name + ".pdf")
-        plt.close()    
+        plt.close()
     # end of function
     communitiesFinalResult = "\n\n" + communitiesResult + "\n\n//////////////////////////////////////////////////////////////////////"
     return(communitiesFinalResult)
@@ -538,7 +541,7 @@ def AnalizeDegreeDistribution(someNetwork, typeNW, fileName):
         plt.close()
         for counter in range(len(distVector)):
             strDistVector.append(str(distVector[counter]))
-        DegDistributionResult = DegDistributionResult + "- Degree distribution: " + ",".join(list(strDistVector))
+        DegDistributionResult = DegDistributionResult + "- Degree distribution:" + ",".join(list(strDistVector))
     # get degree distribution for directed
     if(typeNW == "-d"):
         inDegMapping = someNetwork.in_degree()
@@ -570,7 +573,7 @@ def AnalizeDegreeDistribution(someNetwork, typeNW, fileName):
         plt.close()
         for counter in range(len(inDistVector)):
             strInDistVector.append(str(inDistVector[counter]))
-        DegDistributionResult = DegDistributionResult + "- In Degree distribution: " + ",".join(list(strInDistVector)) + "\n"
+        DegDistributionResult = DegDistributionResult + "- In Degree distribution:" + ",".join(list(strInDistVector)) + "\n"
         # drawing message
         print("\t- Drawing out degree distribution ...")
         # draw out degree distribution
@@ -588,11 +591,11 @@ def AnalizeDegreeDistribution(someNetwork, typeNW, fileName):
         plt.close()
         for counter in range(len(outDistVector)):
             strOutDistVector.append(str(outDistVector[counter]))
-        DegDistributionResult = DegDistributionResult + "- Out Degree distribution: " + ",".join(list(strOutDistVector))
+        DegDistributionResult = DegDistributionResult + "- Out Degree distribution:" + ",".join(list(strOutDistVector))
     # end of function
     DegDistributionFinalResult = "\n\n" + DegDistributionResult + "\n\n//////////////////////////////////////////////////////////////////////"
     return(DegDistributionFinalResult)
-    
+
 # Function: analize network ----------------------------------------------------------------------------------------------------------------------------------
 def AnalizeNetwork(analysisNetwork, networkFileName, typeNW):
     # variables
@@ -603,7 +606,7 @@ def AnalizeNetwork(analysisNetwork, networkFileName, typeNW):
     totalResults = totalResults + AnalizeSize(analysisNetwork)
     totalResults = totalResults + AnalizeDiameter(analysisNetwork)
     totalResults = totalResults + AnalizeRadius(analysisNetwork)
-    totalResults = totalResults + AnalizeDensity(analysisNetwork)    
+    totalResults = totalResults + AnalizeDensity(analysisNetwork)
     totalResults = totalResults + AnalizeMeanDegree(analysisNetwork, typeNW)
     totalResults = totalResults + AnalizeMaxDegree(analysisNetwork)
     totalResults = totalResults + AnalizeClustCoeff(analysisNetwork, typeNW)
@@ -621,11 +624,11 @@ def AnalizeNetwork(analysisNetwork, networkFileName, typeNW):
     if(typeNW == "-u"):
         totalResultsFile = open("RESULTS_UNDIRECTED_DATA_" + networkFileName, "w")
     if(typeNW == "-d"):
-        totalResultsFile = open("RESULTS_DIRECTED_DATA_" + networkFileName, "w")        
+        totalResultsFile = open("RESULTS_DIRECTED_DATA_" + networkFileName, "w")
     # print results
     totalResultsFile.write(totalResults)
     totalResultsFile.close()
-    # end of function 
+    # end of function
 
 # Function: analize random network ---------------------------------------------------------------------------------------------------------------------------
 def RandomNetworkAnalysis(someNetwork):
@@ -640,13 +643,13 @@ def CheckInputStr(inList):
     # check argv right format
     if(totalIn%2==1):
         for i in range(1, totalIn):
-            if(i%2 == 1):
+            if(i%2 == 0):
                 if(".txt" in inList[i]):
                     continue
                 else:
                     right = 0
                     break
-            if(i%2 == 0):
+            if(i%2 == 1):
                 if((inList[i]=="-u") or (inList[i]=="-d")):
                     continue
                 else:
@@ -663,18 +666,18 @@ def CheckInputStr(inList):
 if(CheckInputStr(argv) == 1):
     # Analize every network in command line
     for networkCounter in range(1, len(argv), 2):
-        networkType = argv[networkCounter + 1]
+        networkType = argv[networkCounter]
         if(networkType == "-u"):
             print("\n> Analysing Network:\t" + argv[networkCounter] + "\ttype:\tUndirected")
-            originalUndirNetwork = ParseFileToNetwork(argv[networkCounter], networkType, "else")
-            AnalizeNetwork(originalUndirNetwork, argv[networkCounter], networkType)
+            originalUndirNetwork = ParseFileToNetwork(argv[networkCounter + 1], networkType, "else")
+            AnalizeNetwork(originalUndirNetwork, argv[networkCounter + 1], networkType)
             print("\t- Finished analysis for this network")
         if(networkType == "-d"):
             print("\n> Analysing Network:\t" + argv[networkCounter] + "\ttype:\tDirected")
-            originalDirecNetwork = ParseFileToNetwork(argv[networkCounter], networkType, "else")
-            AnalizeNetwork(originalDirecNetwork, argv[networkCounter], networkType)
+            originalDirecNetwork = ParseFileToNetwork(argv[networkCounter + 1], networkType, "else")
+            AnalizeNetwork(originalDirecNetwork, argv[networkCounter + 1], networkType)
             print("\t- Finished analysis for this network")
-    print("\n\n--- Finished Analyzing Every Given Network ---\n\n") 
+    print("\n\n--- Finished Analyzing Every Given Network ---\n\n")
 else:
     print("\n\n\t :O Sorry, Wrong Input.\n\n")
 
