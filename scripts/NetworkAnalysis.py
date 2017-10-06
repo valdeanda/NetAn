@@ -44,6 +44,21 @@ networkType = ""
 
 # FUNCTIONS ##################################################################################################################################################
 
+# Function: analize network ----------------------------------------------------------------------------------------------------------------------------------
+def CleanNetworkFilename(networkFileName):
+    # variables
+    nameArray = []
+    name = ""
+    if("/" in networkFileName):
+        nameArray = networkFileName.split("/")
+        name = nameArray[-1]
+        return(name)
+    if("\\" in networkFileName):
+        nameArray = networkFileName.split("\\")
+        name = nameArray[-1]
+        return(name)
+    return(networkFileName)
+
 # Function: ParseNetwork -------------------------------------------------------------------------------------------------------------------------------------
 def ParseFileToNetwork(networkFileName, typeNW, weight):
     # function message
@@ -223,7 +238,7 @@ def AnalizeMaxHubs(someNetwork, typeNW):
     counter = 0
     # get max degree hubs undirected graph
     if(typeNW == "-u"):
-        degMapping = someNetwork.degree()
+        degMapping = dict(someNetwork.degree())
         nodeVector = list(degMapping.keys())
         degVector = list(degMapping.values())
         degVector.sort()
@@ -238,8 +253,8 @@ def AnalizeMaxHubs(someNetwork, typeNW):
         maxHubsResult = maxHubsResult + "- Hubs with Max Degree: " + ",".join(hubsVector)
     # get max degree hubs directed graph
     if(typeNW == "-d"):
-        inDegMapping = someNetwork.in_degree()
-        outDegMapping = someNetwork.out_degree()
+        inDegMapping = dict(someNetwork.in_degree())
+        outDegMapping = dict(someNetwork.out_degree())
         inNodeVector = list(inDegMapping.keys())
         outNodeVector = list(outDegMapping.keys())
         inDegVector = list(inDegMapping.values())
@@ -436,7 +451,7 @@ def AnalizeCommunitiesAndDrawings(fileName, someNetwork):
     eachNodes = []
     eachColor = []
     positions = []
-    name = fileName.split(".")[0]
+    name = CleanNetworkFilename(fileName)
     counter = 0
     counter2 = 0
     # get undir graph integer-weighted
@@ -495,7 +510,7 @@ def AnalizeDegreeDistribution(someNetwork, typeNW, fileName):
     # variables
     DegDistributionFinalResult = ""
     DegDistributionResult = "Degree Distribution:\n"
-    name = fileName.split(".")[0]
+    name = CleanNetworkFilename(fileName)
     degMapping = dict()
     inDegMapping = dict()
     outDegMapping = dict()
@@ -518,7 +533,7 @@ def AnalizeDegreeDistribution(someNetwork, typeNW, fileName):
     strOutDistVector = []
     # get degree distribution for undirected
     if(typeNW == "-u"):
-        degMapping = someNetwork.degree()
+        degMapping = dict(someNetwork.degree())
         degVector = list(degMapping.values())
         degVector.sort()
         minDegree = degVector[0]
@@ -544,8 +559,8 @@ def AnalizeDegreeDistribution(someNetwork, typeNW, fileName):
         DegDistributionResult = DegDistributionResult + "- Degree distribution:" + ",".join(list(strDistVector))
     # get degree distribution for directed
     if(typeNW == "-d"):
-        inDegMapping = someNetwork.in_degree()
-        outDegMapping = someNetwork.out_degree()
+        inDegMapping = dict(someNetwork.in_degree())
+        outDegMapping = dict(someNetwork.out_degree())
         inDegVector = list(inDegMapping.values())
         outDegVector = list(outDegMapping.values())
         inDegVector.sort()
@@ -601,6 +616,7 @@ def AnalizeNetwork(analysisNetwork, networkFileName, typeNW):
     # variables
     totalResults = ""
     totalResultsFile = None
+    name = CleanNetworkFilename(networkFileName)
     # start analysis
     totalResults = totalResults + AnalizeOrder(analysisNetwork)
     totalResults = totalResults + AnalizeSize(analysisNetwork)
@@ -622,9 +638,9 @@ def AnalizeNetwork(analysisNetwork, networkFileName, typeNW):
     totalResults = totalResults + AnalizeCommunitiesAndDrawings(networkFileName, analysisNetwork)
     # open results file
     if(typeNW == "-u"):
-        totalResultsFile = open("RESULTS_UNDIRECTED_DATA_" + networkFileName, "w")
+        totalResultsFile = open("RESULTS_UNDIRECTED_DATA_" + name, "w")
     if(typeNW == "-d"):
-        totalResultsFile = open("RESULTS_DIRECTED_DATA_" + networkFileName, "w")
+        totalResultsFile = open("RESULTS_DIRECTED_DATA_" + name, "w")
     # print results
     totalResultsFile.write(totalResults)
     totalResultsFile.close()
