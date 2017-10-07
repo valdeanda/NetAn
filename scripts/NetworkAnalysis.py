@@ -4,13 +4,10 @@
 # ------------------------------
 # Name:     NetworkAnalysis.py
 # Purpose:  Compute topological statistics and some figures from adyacence list  
-# @uthor:   Marcos Emmanuel Gonzales Laffitte  - laffitte6345@live.com.mx
+# @uthor:   Marcos Emmanuel Gonzales Laffitte  - laffitte6345@live.com.m
+# modifications: Valerie de Anda -vdeanda@ciencias.unam.mx
 ## Created:    September  2017
-# ------------------------------                                                                                                                                                          #
-# - Run:    python3.5   NetworkAnalysis.py  -u  YourNetworkFile_1.txt -d  YourNetworkFile_2.txt                                                              #
-#                                                                                                                                                            #
-#   where  -u  -> undirected   ,  -d   ->    directed  and    YourNetworkFile_1.txt must be a tab separtade list of edges and weights                        #
-#                                                                                                                                                            #
+# ------------------------------                                                                                                                                                                                                                                                  #
 import os
 import argparse
 from sys import argv
@@ -36,18 +33,13 @@ parser.add_argument(
 
 parser.add_argument('-d', '--direct', help='Directed graph') 
 args= parser.parse_args() 
-# VARIABLES ##################################################################################################################################################
 
-# the network to analize -------------------------------------------------------------------------------------------------------------------------------------
 originalUndirNetwork = nx.Graph()
 originalDirecNetwork = nx.DiGraph()
-# auxiliary --------------------------------------------------------------------------------------------------------------------------------------------------
 networkCounter = 0
 networkType = ""
 
-# FUNCTIONS ##################################################################################################################################################
-
-# Function: analize network ----------------------------------------------------------------------------------------------------------------------------------
+# Function: analize network ------------------------------
 def CleanNetworkFilename(networkFileName):
     # variables
     nameArray = []
@@ -62,7 +54,7 @@ def CleanNetworkFilename(networkFileName):
         return(name)
     return(networkFileName)
 
-# Function: ParseNetwork -------------------------------------------------------------------------------------------------------------------------------------
+# Function: ParseNetwork ----------------------------------
 def ParseFileToNetwork(networkFileName, typeNW, weight):
     # function message
     if(weight != "community"):
@@ -97,7 +89,7 @@ def ParseFileToNetwork(networkFileName, typeNW, weight):
     # end of function
     return(fileNetwork)
 
-# Function: analize order ------------------------------------------------------------------------------------------------------------------------------------
+# Function: analize order ---------------------------------
 def AnalizeOrder(someNetwork):
     # function message
     print("\t- Obtaining order ...")
@@ -107,10 +99,10 @@ def AnalizeOrder(someNetwork):
     # get order
     orderResult = orderResult + str(someNetwork.order())
     # end of function
-    orderFinalResult = "\n\n" + orderResult + "\n\n//////////////////////////////////////////////////////////////////////"
+    orderFinalResult = "\n\n" + orderResult + "\n\n"
     return(orderFinalResult)
 
-# Function: analize size -------------------------------------------------------------------------------------------------------------------------------------
+# Function: analize size -----------------------------------
 def AnalizeSize(someNetwork):
     # function message
     print("\t- Obtaining size ...")
@@ -120,10 +112,10 @@ def AnalizeSize(someNetwork):
     # get size
     sizeResult = sizeResult + str(someNetwork.size())
     # end of function
-    sizeFinalResult = "\n\n" + sizeResult + "\n\n//////////////////////////////////////////////////////////////////////"
+    sizeFinalResult = "\n\n" + sizeResult + "\n\n"
     return(sizeFinalResult)
 
-# Function: analize diameter ---------------------------------------------------------------------------------------------------------------------------------
+# Function: analize diameter ----------------------------------
 def AnalizeDiameter(someNetwork):
     # function message
     print("\t- Obtaining diameter (for undir network version) ...")
@@ -136,10 +128,10 @@ def AnalizeDiameter(someNetwork):
     else:
         diameterResult = diameterResult + "NOT CONNECTED"
     # end of function
-    diameterFinalResult = "\n\n" + diameterResult + "\n\n//////////////////////////////////////////////////////////////////////"
+    diameterFinalResult = "\n\n" + diameterResult + "\n\n"
     return(diameterFinalResult)
 
-# Function: analize radius -----------------------------------------------------------------------------------------------------------------------------------
+# Function: analize radius ------------------------------------
 def AnalizeRadius(someNetwork):
     # function message
     print("\t- Obtaining radius (for undir network version) ...")
@@ -152,10 +144,10 @@ def AnalizeRadius(someNetwork):
     else:
         radiusResult = radiusResult + "NOT CONNECTED"
     # end of function
-    radiusFinalResult = "\n\n" + radiusResult + "\n\n//////////////////////////////////////////////////////////////////////"
+    radiusFinalResult = "\n\n" + radiusResult + "\n\n"
     return(radiusFinalResult)
 
-# Function: analize density ----------------------------------------------------------------------------------------------------------------------------------
+# Function: analize density -------------------------------------
 def AnalizeDensity(someNetwork):
     # function message
     print("\t- Obtaining density ...")
@@ -165,10 +157,10 @@ def AnalizeDensity(someNetwork):
     # get density
     densityResult = densityResult + str(nx.density(someNetwork))
     # end of function
-    densityFinalResult = "\n\n" + densityResult + "\n\n//////////////////////////////////////////////////////////////////////"
+    densityFinalResult = "\n\n" + densityResult + "\n\n"
     return(densityFinalResult)
 
-# Function: analize mean degree -------------------------------------------------------------------------------------------------------------------
+# Function: analize mean degree ----------------------------------
 def AnalizeMeanDegree(someNetwork, typeNW):
     # function message
     print("\t- Obtaining mean degree ...")
@@ -181,10 +173,10 @@ def AnalizeMeanDegree(someNetwork, typeNW):
     if(typeNW == "-d"):
         meanDegreeResult = meanDegreeResult + str((someNetwork.size())/(someNetwork.order()))
     # end of function
-    meanDegreeFinalResult = "\n\n" + meanDegreeResult + "\n\n//////////////////////////////////////////////////////////////////////"
+    meanDegreeFinalResult = "\n\n" + meanDegreeResult + "\n\n"
     return(meanDegreeFinalResult)
 
-# Function: analize max degree -------------------------------------------------------------------------------------------------------------------------------
+# Function: analize max degree -----------------------------------
 def AnalizeMaxDegree(someNetwork):
     # function message
     print("\t- Obtaining max degree ...")
@@ -194,10 +186,10 @@ def AnalizeMaxDegree(someNetwork):
     # get max degree
     maxDegreeResult = maxDegreeResult + str((someNetwork.order()) - 1)
     # end of function
-    maxDegreeFinalResult = "\n\n" + maxDegreeResult + "\n\n//////////////////////////////////////////////////////////////////////"
+    maxDegreeFinalResult = "\n\n" + maxDegreeResult + "\n\n"
     return(maxDegreeFinalResult)
 
-# Function: analize mean clustering coefficient -------------------------------------------------------------------------------------------------------------
+# Function: analize mean clustering coefficient -------------------
 def AnalizeClustCoeff(someNetwork, typeNW):
     # function message
     print("\t- Obtaining mean clusttering coefficient ...")
@@ -213,10 +205,10 @@ def AnalizeClustCoeff(someNetwork, typeNW):
     else:
         clustCoeffResult = clustCoeffResult + "NOT CONNECTED"
     # end of function
-    clustCoeffFinalResult = "\n\n" + clustCoeffResult + "\n\n//////////////////////////////////////////////////////////////////////"
+    clustCoeffFinalResult = "\n\n" + clustCoeffResult + "\n\n"
     return(clustCoeffFinalResult)
 
-# Function: analize max degree hubs --------------------------------------------------------------------------------------------------------------------------
+# Function: analize max degree hubs ---------------------------------
 def AnalizeMaxHubs(someNetwork, typeNW):
     # function message
     print("\t- Obtaining hubs ...")
@@ -282,10 +274,10 @@ def AnalizeMaxHubs(someNetwork, typeNW):
         maxHubsResult = maxHubsResult + "- Number of Hubs with Max Out Degree: " + str(len(outHubsVector)) + "\n"
         maxHubsResult = maxHubsResult + "- Hubs with Max Out Degree: " + ",".join(outHubsVector)
     # end of function
-    maxHubsFinalResult = "\n\n" + maxHubsResult + "\n\n//////////////////////////////////////////////////////////////////////"
+    maxHubsFinalResult = "\n\n" + maxHubsResult + "\n\n"
     return(maxHubsFinalResult)
 
-# Function: analize minimum cut vertices ---------------------------------------------------------------------------------------------------------------------
+# Function: analize minimum cut vertices -------------------------
 def AnalizeCutVertices(someNetwork):
     # function message
     print("\t- Obtaining mincut vertex set (for undir network version) ...")
@@ -301,10 +293,10 @@ def AnalizeCutVertices(someNetwork):
     else:
         cutVerticesResult = cutVerticesResult + "NOT CONNECTED"
     # end of function
-    cutVerticesFinalResult = "\n\n" + cutVerticesResult + "\n\n//////////////////////////////////////////////////////////////////////"
+    cutVerticesFinalResult = "\n\n" + cutVerticesResult + "\n\n"
     return(cutVerticesFinalResult)
 
-# Function: analize cut edges --------------------------------------------------------------------------------------------------------------------------------
+# Function: analize cut edges -------------------------------------
 def AnalizeCutEdges(someNetwork):
     # function message
     print("\t- Obtaining mincut edge set (for undir network version) ...")
@@ -322,10 +314,10 @@ def AnalizeCutEdges(someNetwork):
     else:
         cutEdgesResult = cutEdgesResult + "NOT CONNECTED"
     # end of function
-    cutEdgesFinalResult = "\n\n" + cutEdgesResult + "\n\n//////////////////////////////////////////////////////////////////////"
+    cutEdgesFinalResult = "\n\n" + cutEdgesResult + "\n\n"
     return(cutEdgesFinalResult)
 
-# Function: analize connected components ------------------------------------------------------------------------------------------------------------
+# Function: analize connected components ------------------------------
 def AnalizeConnComps(someNetwork):
     # function message
     print("\t- Obtaining connected components ...")
@@ -344,10 +336,10 @@ def AnalizeConnComps(someNetwork):
         connCompsResult = connCompsResult + "- Number of nodes in CC_" + str(counter + 1) + " : " + str(len(list(connCompsVector[counter]))) + "\n"
         connCompsResult = connCompsResult + "- Nodes in CC_" + str(counter + 1) + ": " + ",".join(list(connCompsVector[counter])) + "\n"
     # end of function
-    connCompsFinalResult = "\n\n" + connCompsResult + "\n\n//////////////////////////////////////////////////////////////////////"
+    connCompsFinalResult = "\n\n" + connCompsResult + "\n\n"
     return(connCompsFinalResult)
 
-# Function: analize strongly connected components ------------------------------------------------------------------------------------------------------------
+# Function: analize strongly connected components ----------------------
 def AnalizeStronConnComps(someNetwork, typeNW):
     # function message
     print("\t- Obtaining strongly connected components (just for directed case) ...")
@@ -369,10 +361,10 @@ def AnalizeStronConnComps(someNetwork, typeNW):
     else:
         stronConnCompsResult = stronConnCompsResult + "NOT DIRECTED"
     # end of function
-    stronConnCompsFinalResult = "\n\n" + stronConnCompsResult + "\n\n//////////////////////////////////////////////////////////////////////"
+    stronConnCompsFinalResult = "\n\n" + stronConnCompsResult + "\n\n"
     return(stronConnCompsFinalResult)
 
-# Function: analize max cliques ------------------------------------------------------------------------------------------------------------------------------
+# Function: analize max cliques --------------------------------------
 def AnalizeMaxCliques(someNetwork):
     # function message
     print("\t- Obtaining maximal cliques (for undir network version) ...")
@@ -391,10 +383,10 @@ def AnalizeMaxCliques(someNetwork):
         maxCliquesResult = maxCliquesResult + "- Number of nodes in Maximal Clique " + str(counter + 1) + " : " + str(len(maxCliquesVector[counter])) + "\n"
         maxCliquesResult = maxCliquesResult + "- Nodes in Clique_" + str(counter + 1) + ": " + ",".join(maxCliquesVector[counter]) + "\n"
     # end of function
-    maxCliquesFinalResult = "\n\n" + maxCliquesResult + "\n\n//////////////////////////////////////////////////////////////////////"
+    maxCliquesFinalResult = "\n\n" + maxCliquesResult + "\n\n"
     return(maxCliquesFinalResult)
 
-# Function: analize cycle basis ------------------------------------------------------------------------------------------------------------------------------
+# Function: analize cycle basis --------------------------------------
 def AnalizeCycleBasis(someNetwork):
     # function message
     print("\t- Obtaining cycle basis (for undir network version) ,,,")
@@ -413,10 +405,10 @@ def AnalizeCycleBasis(someNetwork):
         basicCyclesResult = basicCyclesResult + "- Number of nodes in Cycle " + str(counter + 1) + ": " + str(len(basicCyclesVector[counter])) + "\n"
         basicCyclesResult = basicCyclesResult + "- Nodes in Cycle_" + str(counter + 1) + ": " + ",".join(basicCyclesVector[counter]) + "\n"
     # end of function
-    basicCyclesFinalResult = "\n\n" + basicCyclesResult + "\n\n//////////////////////////////////////////////////////////////////////"
+    basicCyclesFinalResult = "\n\n" + basicCyclesResult + "\n\n"
     return(basicCyclesFinalResult)
 
-# Function: analize independent set --------------------------------------------------------------------------------------------------------------------------
+# Function: analize independent set -----------------------------------
 def AnalizeIndependentSets(someNetwork, totIndSet):
     # function message
     print("\t- Obtaining maximal independent set ...")
@@ -432,10 +424,10 @@ def AnalizeIndependentSets(someNetwork, totIndSet):
         independentSetsResult = independentSetsResult + "- Number of nodes in this maximal independent set: " + str(len(maxIndependentSet)) + "\n"
         independentSetsResult = independentSetsResult + "- Nodes in this maximal independent set: " + ",".join(maxIndependentSet) + "\n"
     # end of function
-    independentSetsFinalResult = "\n\n" + independentSetsResult + "\n\n//////////////////////////////////////////////////////////////////////"
+    independentSetsFinalResult = "\n\n" + independentSetsResult + "\n\n"
     return(independentSetsFinalResult)
 
-# Function: analize communities ------------------------------------------------------------------------------------------------------------------------------
+# Function: analize communities -----------------------------------------
 def AnalizeCommunitiesAndDrawings(fileName, someNetwork):
     # function message
     print("\t- Obtaining communities (for undir network version)...")
@@ -488,22 +480,26 @@ def AnalizeCommunitiesAndDrawings(fileName, someNetwork):
     nx.draw_networkx(graphForCommunities, with_labels = False, pos = positions, nodelist = eachNodes, node_color = eachColor, node_size = 20, width = 0.4)
     plt.axis("off")
     plt.title(name + " communities")
-    plt.savefig("RESULTS_COMMUNITY_DRAWING_" + name + ".pdf")
+    plt.tight_layout()
+    plt.savefig(  name + "_community_network.png" , dpi=300)
+    
     plt.close()
     if(someNetwork.is_directed()):
         nx.draw_networkx(someNetwork, with_labels = False, pos = positions, node_size = 20, width = 0.4)
         plt.axis("off")
         plt.title(name)
-        plt.savefig("RESULTS_NETWORK_DRAWING_DIRECTED_" + name + ".pdf")
+        plt.savefig(  name + "_directed_network.png" , dpi=300) 
+        plt.tiight_layout()
         plt.close()
     else:
         nx.draw_networkx(someNetwork, with_labels = False, pos = positions, node_size = 20, width = 0.4)
         plt.axis("off")
         plt.title(name)
-        plt.savefig("RESULTS_NETWORK_DRAWING_UNDIRECTED_" + name + ".pdf")
+        plt.savefig( name + "_undirected_network.png" , dpi=300) 
+        plt.tight_layout()
         plt.close()
     # end of function
-    communitiesFinalResult = "\n\n" + communitiesResult + "\n\n//////////////////////////////////////////////////////////////////////"
+    communitiesFinalResult = "\n\n" + communitiesResult + "\n\n"
     return(communitiesFinalResult)
 
 # Function: analize degree distribution ----------------------------------------------------------------------------------------------------------------------
@@ -555,7 +551,8 @@ def AnalizeDegreeDistribution(someNetwork, typeNW, fileName):
         plt.xlabel("Degree")
         plt.ylabel("Nodes with each degree")
         plt.title(name + " degree distribution")
-        plt.savefig("RESULTS_DEGREE_DISTRIBUTION_" + name + ".pdf")
+        plt.tight_layout()
+        plt.savefig(  name + "_distribution_degree.png",dpi=300)
         plt.close()
         for counter in range(len(distVector)):
             strDistVector.append(str(distVector[counter]))
@@ -587,7 +584,9 @@ def AnalizeDegreeDistribution(someNetwork, typeNW, fileName):
         plt.xlabel("In Degree")
         plt.ylabel("Nodes with each in-degree")
         plt.title(name + " in-degree distribution")
-        plt.savefig("RESULTS_INDEGREE_DISTRIBUTION_" + name + ".pdf")
+        plt.tight_layout()
+        plt.savefig( name + "distribution_indegree.png", dpi=300)
+       
         plt.close()
         for counter in range(len(inDistVector)):
             strInDistVector.append(str(inDistVector[counter]))
@@ -605,16 +604,17 @@ def AnalizeDegreeDistribution(someNetwork, typeNW, fileName):
         plt.xlabel("Out Degree")
         plt.ylabel("Nodes with each out-degree")
         plt.title(name + " out-degree distribution")
-        plt.savefig("RESULTS_OUTDEGREE_DISTRIBUTION_" + name + ".pdf")
+        plt.tight_layout()
+        plt.savefig( name + "distribution_outdegree.png", dpi=300)
         plt.close()
         for counter in range(len(outDistVector)):
             strOutDistVector.append(str(outDistVector[counter]))
         DegDistributionResult = DegDistributionResult + "- Out Degree distribution:" + ",".join(list(strOutDistVector))
     # end of function
-    DegDistributionFinalResult = "\n\n" + DegDistributionResult + "\n\n//////////////////////////////////////////////////////////////////////"
+    DegDistributionFinalResult = "\n\n" + DegDistributionResult + "\n\n"
     return(DegDistributionFinalResult)
 
-# Function: analize network ----------------------------------------------------------------------------------------------------------------------------------
+# Function: analize network -----------------------------------------------
 def AnalizeNetwork(analysisNetwork, networkFileName, typeNW):
     # variables
     totalResults = ""
@@ -641,20 +641,20 @@ def AnalizeNetwork(analysisNetwork, networkFileName, typeNW):
     totalResults = totalResults + AnalizeCommunitiesAndDrawings(networkFileName, analysisNetwork)
     # open results file
     if(typeNW == "-u"):
-        totalResultsFile = open("RESULTS_UNDIRECTED_DATA_" + name, "w")
+        totalResultsFile = open( name,"_undirected.txt" "w")
     if(typeNW == "-d"):
-        totalResultsFile = open("RESULTS_DIRECTED_DATA_" + name, "w")
+        totalResultsFile = open( name, "_directed.txt " "w")
     # print results
     totalResultsFile.write(totalResults)
     totalResultsFile.close()
     # end of function
 
-# Function: analize random network ---------------------------------------------------------------------------------------------------------------------------
+# Function: analize random network -------------------------------------
 def RandomNetworkAnalysis(someNetwork):
     # variables
     state = "UNDER CONSTRUCTION"
 
-# Function: check for correct input --------------------------------------------------------------------------------------------------------------------------
+# Function: check for correct input -----------------------------------
 def CheckInputStr(inList):
     # variables
     totalIn = len(inList)
@@ -679,7 +679,7 @@ def CheckInputStr(inList):
     # end of function
     return(right)
 
-# MAIN #######################################################################################################################################################
+# MAIN ##############################################################
 
 # check if command line input is given correctly
 if(CheckInputStr(argv) == 1):
@@ -700,10 +700,7 @@ if(CheckInputStr(argv) == 1):
 else:
     print("\n\n\t :O Sorry, Wrong Input.\n\n")
 
-# END ########################################################################################################################################################
-##############################################################################################################################################################
-##############################################################################################################################################################
-# SUPLEMENTARY ###############################################################################################################################################
+# SUPLEMENTARY ####################################################
 
 # Core function code -----------------------------------------------------------------------------------------------------------------------------------------
 #def AnalizeInvariant(someNetwork):
@@ -717,6 +714,4 @@ else:
 #    invariantFinalResult = "\n\n" + sizeResult + "\n\n//////////////////////////////////////////////////////////////////////"
 #    return(invariantFinalResult)
 
-##############################################################################################################################################################
-##############################################################################################################################################################
-##############################################################################################################################################################
+#########################################################################
