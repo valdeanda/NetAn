@@ -1,38 +1,41 @@
-##############################################################################################################################################################
-#                                                                                                                                                            #
-# - UNAM - CFATA                                                                                                                                             #
-# - Licenciatura en Tecnologia                                                                                                                               #
-# - Alumno: Marcos Emmanuel Gonzalez Laffitte                                                                                                                #
-# - Programa: Analisis de redes                                                                                                                              #
-# - Descripcion: Recibe una red y regresa un archivo con multiples tipos de caracteristicas de la red incluyendo invariantes,                                #
-#                conjuntos y estadisticas. Tambien se hacen algunos ploteos de la red, sus comunidades y distribuciones de  grado.                           #
-#                                                                                                                                                            #
+#!/usr/bin/python3
+# -*- coding: utf-8 -*-
+#
+# ------------------------------
+# Name:     NetworkAnalysis.py
+# Purpose:  Compute topological statistics and some figures from adyacence list  
+# @uthor:   Marcos Emmanuel Gonzales Laffitte  - laffitte6345@live.com.mx
+## Created:    September  2017
+# ------------------------------                                                                                                                                                          #
 # - Run:    python3.5   NetworkAnalysis.py  -u  YourNetworkFile_1.txt -d  YourNetworkFile_2.txt                                                              #
 #                                                                                                                                                            #
 #   where  -u  -> undirected   ,  -d   ->    directed  and    YourNetworkFile_1.txt must be a tab separtade list of edges and weights                        #
 #                                                                                                                                                            #
-##############################################################################################################################################################
-# CODE #######################################################################################################################################################
-
-
-# LIBRARIES ##################################################################################################################################################
-
-# system -----------------------------------------------------------------------------------------------------------------------------------------------------
+import os
+import argparse
 from sys import argv
-# network analysis -------------------------------------------------------------------------------------------------------------------------------------------
 import networkx as nx
-# numpy ------------------------------------------------------------------------------------------------------------------------------------------------------
 from numpy import arange
-# math -------------------------------------------------------------------------------------------------------------------------------------------------------
 import math
-# figures ----------------------------------------------------------------------------------------------------------------------------------------------------
 import matplotlib.pyplot as plt
 import warnings
 warnings.simplefilter("ignore")
 plt.switch_backend('agg')
-# communities ------------------------------------------------------------------------------------------------------------------------------------------------
 import community
 
+#Options 
+epilog = """Example:
+
+$  python3 scripts/NetworkAnalysis.py -d data/a_phylum_consensus.txt """ 
+          
+parser = argparse.ArgumentParser(description=__doc__, epilog=epilog)
+parser.add_argument('filename',
+                    help="Input file in tabular format of adyacence list ")
+parser.add_argument(
+    '-u', '--undirect', help='Undirected graphs no weigth')
+
+parser.add_argument('-d', '--direct', help='Directed graph') 
+args= parser.parse_args() 
 # VARIABLES ##################################################################################################################################################
 
 # the network to analize -------------------------------------------------------------------------------------------------------------------------------------
