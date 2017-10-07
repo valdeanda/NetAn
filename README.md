@@ -1,6 +1,6 @@
 # Networks
 We provide a workflow that use the output derived from [Metamis sofware](https://www.ncbi.nlm.nih.gov/pubmed/27887570) sofware, which is a directed and weighted adyacence list: 
-
+```
 Firmicutes      Ascomycota      -0.000272753971115013
 Firmicutes      Chlorobi        -0.000242343947634859
 Firmicutes      Ignavibacteriae 0.000178797125901064
@@ -11,6 +11,7 @@ Firmicutes      Bacteroidetes/Chlorobi group unclassified       -0.0001537905077
 Firmicutes      Armatimonadetes 0.000145294003838928
 Firmicutes      Cloacimonetes   -0.000130612871481698
 Firmicutes      Candidatus Shapirobacteria      -0.00013061259484347
+```
 
 The main script :  [NetworkAnalysis.py](./scripts/NetworkAnalysis.py) recieves the above mentioned list and compute several topological features such as density, mean degree, hubs, connected components, clustering coefficient modularity etc.  
 
