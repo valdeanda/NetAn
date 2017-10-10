@@ -15,7 +15,7 @@ Firmicutes      Candidatus Shapirobacteria      -0.00013061259484347
 
 The main script :  [NetworkAnalysis.py](./scripts/NetworkAnalysis.py) recieves the above mentioned list and compute several topological features such as density, mean degree, hubs, connected components, clustering coefficient modularity etc.  
 
-#POr favor Marcos checar esta parte 
+#To be updated 
 
 In order to use the script, the following dependencies must be installed first.
 1. [ Python3  ](https://www.python.org/)
