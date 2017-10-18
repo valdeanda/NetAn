@@ -713,12 +713,12 @@ if(CheckInputStr(argv) == 1):
     for networkCounter in range(1, len(argv), 2):
         networkType = argv[networkCounter]
         if(networkType == "-u"):
-            print("\n> Analysing Network:\t" + argv[networkCounter] + "\ttype:\tUndirected")
+            print("\n> Analysing Network:\t" + argv[networkCounter + 1] + "\ttype:\tUndirected")
             originalUndirNetwork = ParseFileToNetwork(argv[networkCounter + 1], networkType, "else")
             AnalizeNetwork(originalUndirNetwork, argv[networkCounter + 1], networkType)
             print("\t- Finished analysis for this network")
         if(networkType == "-d"):
-            print("\n> Analysing Network:\t" + argv[networkCounter] + "\ttype:\tDirected")
+            print("\n> Analysing Network:\t" + argv[networkCounter + 1] + "\ttype:\tDirected")
             originalDirecNetwork = ParseFileToNetwork(argv[networkCounter + 1], networkType, "else")
             AnalizeNetwork(originalDirecNetwork, argv[networkCounter + 1], networkType)
             print("\t- Finished analysis for this network")
