@@ -20,14 +20,14 @@ The main script :  [NetworkAnalysis.py](./scripts/NetworkAnalysis.py) recieves t
 In order to use the script, the following dependencies must be installed first.
 1. [ Python3  ](https://www.python.org/)
 2. [Networkx](https://networkx.github.io/) #Aqui hacer referencia del conflicto con las versiones decomunity  
-3. [Community library](https://github.com/taynaud/python-louvain/cd) #REFERENCIA DEL CONFILICTO DE LAS VERSIONES 
+3. [Community library](https://github.com/taynaud/python-louvain/) 
 
 ```
-sudo pip3 install community
+sudo -H pip install python-louvain
 ```
 
 
-Some python libreries 
+Some extra python libreries 
 
 Numpy and matplotlib
 ```
