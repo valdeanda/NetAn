@@ -1,39 +1,64 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
-#
-# ------------------------------
-# Name:     NetworkAnalysis.py
-# Purpose:  Compute topological statistics and some figures from adyacence list  
-# @uthor:   Marcos Emmanuel Gonzales Laffitte  - laffitte6345@live.com.m
-# modifications: Valerie de Anda -vdeanda@ciencias.unam.mx
-## Created:    September  2017
-# ------------------------------                                                                                                                                                                                                                                                  #
-import os
-import argparse
-from sys import argv
+
+#  General info ------------------------------------------
+"""
+Name:     NetworkAnalysis.py
+Purpose:  Compute topological statistics and some figures from adyacence list  
+@uthor:   Marcos Emmanuel Gonzales Laffitte  - laffitte6345@live.com.m
+modifications: Valerie de Anda -vdeanda@ciencias.unam.mx
+Created:    September  2017
+"""
+
+# Dependencies -------------------------------------------
+
+"""Not in Python 3.5"""
 import networkx as nx
 from numpy import arange
-import math
 import matplotlib.pyplot as plt
+import community
+
+"""Already in python 3.5"""
+from sys import argv
+import pickle
+import math
 import warnings
 warnings.simplefilter("ignore")
 plt.switch_backend('agg')
-import community
 
-#Options 
-epilog = """Example:
+# Dependencies info --------------------------------------
+"""
+- Networkx:
+               - version: 1.11
+               - site: https://networkx.github.io/documentation/networkx-1.11/
+               - last checked: October/17/2017
+- Numpy:
+               - version: 1.13.1
+               - site: http://www.numpy.org/
+               - last checked: October/17/2017
+- Matplotlib:
+               - version: 2.0.2
+               - site: https://matplotlib.org/
+               - last checked: October/17/2017
+- Community:
+               - version: 0.8
+               - site: https://github.com/taynaud/python-louvain
+               - last checked: October/17/2017
+               - package name: python-louvain
+"""
 
-$  python3 scripts/NetworkAnalysis.py -d data/a_phylum_consensus.txt """ 
-          
-parser = argparse.ArgumentParser(description=__doc__, epilog=epilog)
-parser.add_argument('filename',
-                    help="Input file in tabular format of adyacence list ")
-parser.add_argument(
-    '-u', '--undirect', help='Undirected graphs no weigth')
+# How to run and some options ----------------------------
+#epilog = """Example:
+#
+#            $  python3 scripts/NetworkAnalysis.py -d data/a_phylum_consensus.txt """ 
+#          
+#parser = argparse.ArgumentParser(description=__doc__, epilog=epilog)
+#parser.add_argument('filename', help="Input file in tabular format of adyacence list ")
+#parser.add_argument('-u', '--undirect', help='Undirected graphs no weigth')
+#parser.add_argument('-d', '--direct', help='Directed graph') 
+#args= parser.parse_args() 
 
-parser.add_argument('-d', '--direct', help='Directed graph') 
-args= parser.parse_args() 
-
+# Some global variables ----------------------------------
 originalUndirNetwork = nx.Graph()
 originalDirecNetwork = nx.DiGraph()
 networkCounter = 0
@@ -43,16 +68,21 @@ networkType = ""
 def CleanNetworkFilename(networkFileName):
     # variables
     nameArray = []
+    nameTxt = []
     name = ""
     if("/" in networkFileName):
         nameArray = networkFileName.split("/")
-        name = nameArray[-1]
+        nameTxt = nameArray[-1].split(".")
+        name = nameTxt[0]
         return(name)
     if("\\" in networkFileName):
         nameArray = networkFileName.split("\\")
-        name = nameArray[-1]
+        nameTxt = nameArray[-1].split(".")
+        name = nameTxt[0]
         return(name)
-    return(networkFileName)
+    nameTxt = networkFileName.split(".")
+    name = nameTxt[0]
+    return(name)
 
 # Function: ParseNetwork ----------------------------------
 def ParseFileToNetwork(networkFileName, typeNW, weight):
@@ -427,8 +457,8 @@ def AnalizeIndependentSets(someNetwork, totIndSet):
     independentSetsFinalResult = "\n\n" + independentSetsResult + "\n\n"
     return(independentSetsFinalResult)
 
-# Function: analize communities -----------------------------------------
-def AnalizeCommunitiesAndDrawings(fileName, someNetwork):
+# Function: analize communities and make drawings ---------------------
+def AnalizeCommunitiesAndMakeDrawings(name, fileName, someNetwork):
     # function message
     print("\t- Obtaining communities (for undir network version)...")
     # variables
@@ -446,7 +476,6 @@ def AnalizeCommunitiesAndDrawings(fileName, someNetwork):
     eachNodes = []
     eachColor = []
     positions = []
-    name = CleanNetworkFilename(fileName)
     counter = 0
     counter2 = 0
     # get undir graph integer-weighted
@@ -481,35 +510,33 @@ def AnalizeCommunitiesAndDrawings(fileName, someNetwork):
     plt.axis("off")
     plt.title(name + " communities")
     plt.tight_layout()
-    plt.savefig(  name + "_community_network.png" , dpi=300)
-    
+    plt.savefig(name + "_community_network.png" , dpi=300)
     plt.close()
     if(someNetwork.is_directed()):
         nx.draw_networkx(someNetwork, with_labels = False, pos = positions, node_size = 20, width = 0.4)
         plt.axis("off")
         plt.title(name)
-        plt.savefig(  name + "_directed_network.png" , dpi=300) 
-        plt.tiight_layout()
+        plt.tight_layout()
+        plt.savefig(name + "_directed_network.png" , dpi=300) 
         plt.close()
     else:
         nx.draw_networkx(someNetwork, with_labels = False, pos = positions, node_size = 20, width = 0.4)
         plt.axis("off")
         plt.title(name)
-        plt.savefig( name + "_undirected_network.png" , dpi=300) 
         plt.tight_layout()
+        plt.savefig(name + "_undirected_network.png" , dpi=300)
         plt.close()
     # end of function
     communitiesFinalResult = "\n\n" + communitiesResult + "\n\n"
     return(communitiesFinalResult)
 
 # Function: analize degree distribution ----------------------------------------------------------------------------------------------------------------------
-def AnalizeDegreeDistribution(someNetwork, typeNW, fileName):
+def AnalizeDegreeDistribution(someNetwork, typeNW, name):
     # function message
     print("\t- Obtaining degree distribution ...")
     # variables
     DegDistributionFinalResult = ""
     DegDistributionResult = "Degree Distribution:\n"
-    name = CleanNetworkFilename(fileName)
     degMapping = dict()
     inDegMapping = dict()
     outDegMapping = dict()
@@ -549,10 +576,10 @@ def AnalizeDegreeDistribution(someNetwork, typeNW, fileName):
         plt.bar(bars, distVector, bottom = 0, width = 0.99, align = "center", color = "m")
         plt.xticks(range(0, maxDegree + 1, int(math.ceil(maxDegree*0.05))))
         plt.xlabel("Degree")
-        plt.ylabel("Nodes with each degree")
+        plt.ylabel("Number of nodes with each degree")
         plt.title(name + " degree distribution")
         plt.tight_layout()
-        plt.savefig(  name + "_distribution_degree.png",dpi=300)
+        plt.savefig(name + "_distribution_degree.png",dpi=300)
         plt.close()
         for counter in range(len(distVector)):
             strDistVector.append(str(distVector[counter]))
@@ -582,11 +609,10 @@ def AnalizeDegreeDistribution(someNetwork, typeNW, fileName):
         plt.bar(bars, inDistVector, bottom = 0, width = 0.99, align = "center", color = "b")
         plt.xticks(range(0, inMaxDegree + 1, int(math.ceil(inMaxDegree*0.05))))
         plt.xlabel("In Degree")
-        plt.ylabel("Nodes with each in-degree")
+        plt.ylabel("Number of nodes with each in-degree")
         plt.title(name + " in-degree distribution")
         plt.tight_layout()
-        plt.savefig( name + "distribution_indegree.png", dpi=300)
-       
+        plt.savefig(name + "_distribution_indegree.png", dpi=300)
         plt.close()
         for counter in range(len(inDistVector)):
             strInDistVector.append(str(inDistVector[counter]))
@@ -602,10 +628,10 @@ def AnalizeDegreeDistribution(someNetwork, typeNW, fileName):
         plt.bar(bars, outDistVector, bottom = 0, width = 0.99, align = "center", color = "r")
         plt.xticks(range(0, outMaxDegree + 1, int(math.ceil(outMaxDegree*0.05))))
         plt.xlabel("Out Degree")
-        plt.ylabel("Nodes with each out-degree")
+        plt.ylabel("Number of nodes with each out-degree")
         plt.title(name + " out-degree distribution")
         plt.tight_layout()
-        plt.savefig( name + "distribution_outdegree.png", dpi=300)
+        plt.savefig(name + "_distribution_outdegree.png", dpi=300)
         plt.close()
         for counter in range(len(outDistVector)):
             strOutDistVector.append(str(outDistVector[counter]))
@@ -637,13 +663,13 @@ def AnalizeNetwork(analysisNetwork, networkFileName, typeNW):
     totalResults = totalResults + AnalizeMaxCliques(analysisNetwork)
     totalResults = totalResults + AnalizeCycleBasis(analysisNetwork)
     totalResults = totalResults + AnalizeIndependentSets(analysisNetwork, 5)
-    totalResults = totalResults + AnalizeDegreeDistribution(analysisNetwork, typeNW, networkFileName)
-    totalResults = totalResults + AnalizeCommunitiesAndDrawings(networkFileName, analysisNetwork)
+    totalResults = totalResults + AnalizeDegreeDistribution(analysisNetwork, typeNW, name)
+    totalResults = totalResults + AnalizeCommunitiesAndMakeDrawings(name, networkFileName, analysisNetwork)
     # open results file
     if(typeNW == "-u"):
-        totalResultsFile = open( name,"_undirected.txt" "w")
+        totalResultsFile = open(name + "_undirected.txt", "w")
     if(typeNW == "-d"):
-        totalResultsFile = open( name, "_directed.txt " "w")
+        totalResultsFile = open(name + "_directed.txt", "w")
     # print results
     totalResultsFile.write(totalResults)
     totalResultsFile.close()
