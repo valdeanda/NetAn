@@ -1,0 +1,315 @@
+
+
+Order:31
+
+
+
+Size:63
+
+
+
+Diameter (Undirected):4
+
+
+
+Radius (Undirected):2
+
+
+
+Density:0.06774193548387097
+
+
+
+Mean Degree:2.032258064516129
+
+
+
+Max Possible Degree:30
+
+
+
+Clustering Coefficient:0.2758297107533101
+
+
+
+Max Degree Hubs:
+- Max In Degree: 7
+- Number of Hubs with Max In Degree: 2
+- Hubs with Max In Degree: Unclassified Verrucomicrobia unclassified,Aspergillus
+- Max Out Degree: 22
+- Number of Hubs with Max Out Degree: 1
+- Hubs with Max Out Degree: Halanaerobium
+
+
+
+Minimum Cut Node Set (Undirected):
+- Number of Vertices in MinCut Set: 1
+- Vertices in MinCut Set: Desulfatitalea
+
+
+
+Minimum Cut Edge Set (Undirected):
+- Number of Edges in MinCut Set: 1
+- Edges in MinCut Set: ('Desulfatitalea', 'Dactylococcopsis')
+
+
+
+Connected Components:
+- Number of CC's: 1
+- Number of nodes in CC_1 : 31
+- Nodes in CC_1: Pseudorhodobacter,Oscillatoria,Desulfohalobium,Rhodobacteraceae unclassified,Cyanobacterium,Verrucomicrobium,Plesiocystis,Mesotoga,Anaerophaga,Ardenticatena,Geminocystis,Methanohalophilus,Marivirga,Marinobacter,Prolixibacter,Halothece,Nitrospina,Chlorobium,Unclassified Verrucomicrobia unclassified,Spirulina,Cyclobacterium,Halanaerobium,Desulfatitalea,Unclassified Rhizobiales unclassified,Dactylococcopsis,Enhygromyxa,Caldithrix,Methanolobus,Blastomonas,Aspergillus,Desulfotignum
+
+
+
+
+Strongly Connected Components:
+- Number of SCC's: 30
+- Number of nodes in SCC_1 : 1
+- Nodes in SCC_1: Unclassified Verrucomicrobia unclassified
+- Number of nodes in SCC_2 : 1
+- Nodes in SCC_2: Prolixibacter
+- Number of nodes in SCC_3 : 1
+- Nodes in SCC_3: Nitrospina
+- Number of nodes in SCC_4 : 1
+- Nodes in SCC_4: Pseudorhodobacter
+- Number of nodes in SCC_5 : 1
+- Nodes in SCC_5: Spirulina
+- Number of nodes in SCC_6 : 1
+- Nodes in SCC_6: Chlorobium
+- Number of nodes in SCC_7 : 1
+- Nodes in SCC_7: Oscillatoria
+- Number of nodes in SCC_8 : 1
+- Nodes in SCC_8: Ardenticatena
+- Number of nodes in SCC_9 : 1
+- Nodes in SCC_9: Desulfohalobium
+- Number of nodes in SCC_10 : 1
+- Nodes in SCC_10: Cyanobacterium
+- Number of nodes in SCC_11 : 1
+- Nodes in SCC_11: Verrucomicrobium
+- Number of nodes in SCC_12 : 1
+- Nodes in SCC_12: Cyclobacterium
+- Number of nodes in SCC_13 : 1
+- Nodes in SCC_13: Plesiocystis
+- Number of nodes in SCC_14 : 1
+- Nodes in SCC_14: Mesotoga
+- Number of nodes in SCC_15 : 1
+- Nodes in SCC_15: Aspergillus
+- Number of nodes in SCC_16 : 1
+- Nodes in SCC_16: Methanohalophilus
+- Number of nodes in SCC_17 : 1
+- Nodes in SCC_17: Geminocystis
+- Number of nodes in SCC_18 : 1
+- Nodes in SCC_18: Caldithrix
+- Number of nodes in SCC_19 : 1
+- Nodes in SCC_19: Marivirga
+- Number of nodes in SCC_20 : 1
+- Nodes in SCC_20: Methanolobus
+- Number of nodes in SCC_21 : 1
+- Nodes in SCC_21: Blastomonas
+- Number of nodes in SCC_22 : 2
+- Nodes in SCC_22: Halanaerobium,Enhygromyxa
+- Number of nodes in SCC_23 : 1
+- Nodes in SCC_23: Marinobacter
+- Number of nodes in SCC_24 : 1
+- Nodes in SCC_24: Rhodobacteraceae unclassified
+- Number of nodes in SCC_25 : 1
+- Nodes in SCC_25: Unclassified Rhizobiales unclassified
+- Number of nodes in SCC_26 : 1
+- Nodes in SCC_26: Dactylococcopsis
+- Number of nodes in SCC_27 : 1
+- Nodes in SCC_27: Halothece
+- Number of nodes in SCC_28 : 1
+- Nodes in SCC_28: Desulfatitalea
+- Number of nodes in SCC_29 : 1
+- Nodes in SCC_29: Anaerophaga
+- Number of nodes in SCC_30 : 1
+- Nodes in SCC_30: Desulfotignum
+
+
+
+
+Max Cliques:
+- Number of Maximal Cliques: 36
+- Number of nodes in Maximal Clique 1 : 2
+- Nodes in Clique_1: Dactylococcopsis,Desulfatitalea
+- Number of nodes in Maximal Clique 2 : 2
+- Nodes in Clique_2: Desulfatitalea,Halothece
+- Number of nodes in Maximal Clique 3 : 2
+- Nodes in Clique_3: Desulfatitalea,Mesotoga
+- Number of nodes in Maximal Clique 4 : 2
+- Nodes in Clique_4: Desulfatitalea,Unclassified Rhizobiales unclassified
+- Number of nodes in Maximal Clique 5 : 2
+- Nodes in Clique_5: Desulfatitalea,Chlorobium
+- Number of nodes in Maximal Clique 6 : 2
+- Nodes in Clique_6: Desulfatitalea,Unclassified Verrucomicrobia unclassified
+- Number of nodes in Maximal Clique 7 : 2
+- Nodes in Clique_7: Desulfatitalea,Caldithrix
+- Number of nodes in Maximal Clique 8 : 2
+- Nodes in Clique_8: Desulfatitalea,Aspergillus
+- Number of nodes in Maximal Clique 9 : 3
+- Nodes in Clique_9: Halanaerobium,Marinobacter,Unclassified Verrucomicrobia unclassified
+- Number of nodes in Maximal Clique 10 : 3
+- Nodes in Clique_10: Halanaerobium,Marinobacter,Aspergillus
+- Number of nodes in Maximal Clique 11 : 3
+- Nodes in Clique_11: Halanaerobium,Anaerophaga,Unclassified Verrucomicrobia unclassified
+- Number of nodes in Maximal Clique 12 : 3
+- Nodes in Clique_12: Halanaerobium,Anaerophaga,Aspergillus
+- Number of nodes in Maximal Clique 13 : 2
+- Nodes in Clique_13: Halanaerobium,Oscillatoria
+- Number of nodes in Maximal Clique 14 : 3
+- Nodes in Clique_14: Halanaerobium,Rhodobacteraceae unclassified,Prolixibacter
+- Number of nodes in Maximal Clique 15 : 3
+- Nodes in Clique_15: Halanaerobium,Rhodobacteraceae unclassified,Mesotoga
+- Number of nodes in Maximal Clique 16 : 3
+- Nodes in Clique_16: Halanaerobium,Rhodobacteraceae unclassified,Nitrospina
+- Number of nodes in Maximal Clique 17 : 3
+- Nodes in Clique_17: Halanaerobium,Rhodobacteraceae unclassified,Pseudorhodobacter
+- Number of nodes in Maximal Clique 18 : 3
+- Nodes in Clique_18: Halanaerobium,Rhodobacteraceae unclassified,Chlorobium
+- Number of nodes in Maximal Clique 19 : 3
+- Nodes in Clique_19: Halanaerobium,Rhodobacteraceae unclassified,Spirulina
+- Number of nodes in Maximal Clique 20 : 4
+- Nodes in Clique_20: Halanaerobium,Rhodobacteraceae unclassified,Enhygromyxa,Unclassified Verrucomicrobia unclassified
+- Number of nodes in Maximal Clique 21 : 4
+- Nodes in Clique_21: Halanaerobium,Rhodobacteraceae unclassified,Enhygromyxa,Aspergillus
+- Number of nodes in Maximal Clique 22 : 3
+- Nodes in Clique_22: Halanaerobium,Rhodobacteraceae unclassified,Ardenticatena
+- Number of nodes in Maximal Clique 23 : 3
+- Nodes in Clique_23: Halanaerobium,Rhodobacteraceae unclassified,Cyclobacterium
+- Number of nodes in Maximal Clique 24 : 3
+- Nodes in Clique_24: Halanaerobium,Rhodobacteraceae unclassified,Geminocystis
+- Number of nodes in Maximal Clique 25 : 3
+- Nodes in Clique_25: Halanaerobium,Rhodobacteraceae unclassified,Methanohalophilus
+- Number of nodes in Maximal Clique 26 : 3
+- Nodes in Clique_26: Halanaerobium,Rhodobacteraceae unclassified,Caldithrix
+- Number of nodes in Maximal Clique 27 : 3
+- Nodes in Clique_27: Halanaerobium,Rhodobacteraceae unclassified,Desulfohalobium
+- Number of nodes in Maximal Clique 28 : 3
+- Nodes in Clique_28: Halanaerobium,Rhodobacteraceae unclassified,Marivirga
+- Number of nodes in Maximal Clique 29 : 3
+- Nodes in Clique_29: Halanaerobium,Rhodobacteraceae unclassified,Methanolobus
+- Number of nodes in Maximal Clique 30 : 3
+- Nodes in Clique_30: Halanaerobium,Rhodobacteraceae unclassified,Verrucomicrobium
+- Number of nodes in Maximal Clique 31 : 3
+- Nodes in Clique_31: Halanaerobium,Rhodobacteraceae unclassified,Blastomonas
+- Number of nodes in Maximal Clique 32 : 2
+- Nodes in Clique_32: Halanaerobium,Cyanobacterium
+- Number of nodes in Maximal Clique 33 : 2
+- Nodes in Clique_33: Halanaerobium,Plesiocystis
+- Number of nodes in Maximal Clique 34 : 3
+- Nodes in Clique_34: Halanaerobium,Desulfotignum,Unclassified Verrucomicrobia unclassified
+- Number of nodes in Maximal Clique 35 : 3
+- Nodes in Clique_35: Halanaerobium,Desulfotignum,Aspergillus
+- Number of nodes in Maximal Clique 36 : 3
+- Nodes in Clique_36: Halanaerobium,Desulfotignum,Cyclobacterium
+
+
+
+
+Cycle Basis (Undirected):
+- Number Cycles in CB: 32
+- Number of nodes in Cycle 1: 3
+- Nodes in Cycle_1: Halanaerobium,Rhodobacteraceae unclassified,Pseudorhodobacter
+- Number of nodes in Cycle 2: 3
+- Nodes in Cycle_2: Halanaerobium,Cyclobacterium,Rhodobacteraceae unclassified
+- Number of nodes in Cycle 3: 3
+- Nodes in Cycle_3: Halanaerobium,Desulfotignum,Cyclobacterium
+- Number of nodes in Cycle 4: 4
+- Nodes in Cycle_4: Unclassified Verrucomicrobia unclassified,Desulfotignum,Cyclobacterium,Rhodobacteraceae unclassified
+- Number of nodes in Cycle 5: 4
+- Nodes in Cycle_5: Aspergillus,Desulfotignum,Cyclobacterium,Rhodobacteraceae unclassified
+- Number of nodes in Cycle 6: 3
+- Nodes in Cycle_6: Halanaerobium,Blastomonas,Rhodobacteraceae unclassified
+- Number of nodes in Cycle 7: 3
+- Nodes in Cycle_7: Halanaerobium,Verrucomicrobium,Rhodobacteraceae unclassified
+- Number of nodes in Cycle 8: 3
+- Nodes in Cycle_8: Halanaerobium,Mesotoga,Rhodobacteraceae unclassified
+- Number of nodes in Cycle 9: 4
+- Nodes in Cycle_9: Caldithrix,Desulfatitalea,Mesotoga,Rhodobacteraceae unclassified
+- Number of nodes in Cycle 10: 4
+- Nodes in Cycle_10: Unclassified Verrucomicrobia unclassified,Desulfatitalea,Mesotoga,Rhodobacteraceae unclassified
+- Number of nodes in Cycle 11: 4
+- Nodes in Cycle_11: Aspergillus,Desulfatitalea,Mesotoga,Rhodobacteraceae unclassified
+- Number of nodes in Cycle 12: 4
+- Nodes in Cycle_12: Chlorobium,Desulfatitalea,Mesotoga,Rhodobacteraceae unclassified
+- Number of nodes in Cycle 13: 3
+- Nodes in Cycle_13: Halanaerobium,Aspergillus,Rhodobacteraceae unclassified
+- Number of nodes in Cycle 14: 3
+- Nodes in Cycle_14: Enhygromyxa,Aspergillus,Rhodobacteraceae unclassified
+- Number of nodes in Cycle 15: 4
+- Nodes in Cycle_15: Unclassified Verrucomicrobia unclassified,Anaerophaga,Aspergillus,Rhodobacteraceae unclassified
+- Number of nodes in Cycle 16: 3
+- Nodes in Cycle_16: Halanaerobium,Anaerophaga,Aspergillus
+- Number of nodes in Cycle 17: 3
+- Nodes in Cycle_17: Halanaerobium,Marinobacter,Aspergillus
+- Number of nodes in Cycle 18: 4
+- Nodes in Cycle_18: Unclassified Verrucomicrobia unclassified,Marinobacter,Aspergillus,Rhodobacteraceae unclassified
+- Number of nodes in Cycle 19: 3
+- Nodes in Cycle_19: Halanaerobium,Methanolobus,Rhodobacteraceae unclassified
+- Number of nodes in Cycle 20: 3
+- Nodes in Cycle_20: Halanaerobium,Marivirga,Rhodobacteraceae unclassified
+- Number of nodes in Cycle 21: 3
+- Nodes in Cycle_21: Halanaerobium,Desulfohalobium,Rhodobacteraceae unclassified
+- Number of nodes in Cycle 22: 3
+- Nodes in Cycle_22: Halanaerobium,Caldithrix,Rhodobacteraceae unclassified
+- Number of nodes in Cycle 23: 3
+- Nodes in Cycle_23: Halanaerobium,Geminocystis,Rhodobacteraceae unclassified
+- Number of nodes in Cycle 24: 3
+- Nodes in Cycle_24: Halanaerobium,Methanohalophilus,Rhodobacteraceae unclassified
+- Number of nodes in Cycle 25: 3
+- Nodes in Cycle_25: Halanaerobium,Ardenticatena,Rhodobacteraceae unclassified
+- Number of nodes in Cycle 26: 3
+- Nodes in Cycle_26: Unclassified Verrucomicrobia unclassified,Enhygromyxa,Rhodobacteraceae unclassified
+- Number of nodes in Cycle 27: 3
+- Nodes in Cycle_27: Halanaerobium,Enhygromyxa,Rhodobacteraceae unclassified
+- Number of nodes in Cycle 28: 3
+- Nodes in Cycle_28: Halanaerobium,Unclassified Verrucomicrobia unclassified,Rhodobacteraceae unclassified
+- Number of nodes in Cycle 29: 3
+- Nodes in Cycle_29: Halanaerobium,Chlorobium,Rhodobacteraceae unclassified
+- Number of nodes in Cycle 30: 3
+- Nodes in Cycle_30: Halanaerobium,Spirulina,Rhodobacteraceae unclassified
+- Number of nodes in Cycle 31: 3
+- Nodes in Cycle_31: Halanaerobium,Nitrospina,Rhodobacteraceae unclassified
+- Number of nodes in Cycle 32: 3
+- Nodes in Cycle_32: Halanaerobium,Prolixibacter,Rhodobacteraceae unclassified
+
+
+
+
+Maximal Independet Set (might be repeated):
+- Independent Set: 1
+- Number of nodes in this maximal independent set: 24
+- Nodes in this maximal independent set: Ardenticatena,Unclassified Rhizobiales unclassified,Nitrospina,Oscillatoria,Desulfohalobium,Unclassified Verrucomicrobia unclassified,Geminocystis,Pseudorhodobacter,Aspergillus,Marivirga,Methanolobus,Cyclobacterium,Caldithrix,Mesotoga,Spirulina,Plesiocystis,Chlorobium,Prolixibacter,Methanohalophilus,Blastomonas,Halothece,Cyanobacterium,Verrucomicrobium,Dactylococcopsis
+- Independent Set: 2
+- Number of nodes in this maximal independent set: 24
+- Nodes in this maximal independent set: Unclassified Verrucomicrobia unclassified,Geminocystis,Methanolobus,Spirulina,Oscillatoria,Halothece,Nitrospina,Chlorobium,Unclassified Rhizobiales unclassified,Prolixibacter,Cyclobacterium,Desulfohalobium,Blastomonas,Ardenticatena,Caldithrix,Cyanobacterium,Verrucomicrobium,Methanohalophilus,Plesiocystis,Aspergillus,Dactylococcopsis,Pseudorhodobacter,Mesotoga,Marivirga
+- Independent Set: 3
+- Number of nodes in this maximal independent set: 25
+- Nodes in this maximal independent set: Enhygromyxa,Desulfotignum,Methanohalophilus,Desulfohalobium,Prolixibacter,Unclassified Rhizobiales unclassified,Mesotoga,Verrucomicrobium,Methanolobus,Cyanobacterium,Ardenticatena,Halothece,Pseudorhodobacter,Blastomonas,Oscillatoria,Dactylococcopsis,Anaerophaga,Plesiocystis,Nitrospina,Marinobacter,Geminocystis,Chlorobium,Marivirga,Caldithrix,Spirulina
+- Independent Set: 4
+- Number of nodes in this maximal independent set: 25
+- Nodes in this maximal independent set: Methanolobus,Anaerophaga,Caldithrix,Methanohalophilus,Verrucomicrobium,Blastomonas,Unclassified Rhizobiales unclassified,Enhygromyxa,Chlorobium,Marivirga,Mesotoga,Desulfohalobium,Prolixibacter,Desulfotignum,Marinobacter,Spirulina,Oscillatoria,Pseudorhodobacter,Nitrospina,Dactylococcopsis,Geminocystis,Plesiocystis,Ardenticatena,Halothece,Cyanobacterium
+- Independent Set: 5
+- Number of nodes in this maximal independent set: 24
+- Nodes in this maximal independent set: Unclassified Verrucomicrobia unclassified,Halothece,Cyclobacterium,Geminocystis,Ardenticatena,Aspergillus,Pseudorhodobacter,Cyanobacterium,Methanohalophilus,Dactylococcopsis,Blastomonas,Unclassified Rhizobiales unclassified,Caldithrix,Mesotoga,Oscillatoria,Prolixibacter,Spirulina,Plesiocystis,Verrucomicrobium,Desulfohalobium,Marivirga,Chlorobium,Methanolobus,Nitrospina
+
+
+
+
+Degree Distribution:
+- In Degree distribution:5,6,13,4,0,1,0,2
+- Out Degree distribution:24,0,0,3,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,1
+
+
+
+Communities (Undirected):
+- Modularity: 0.2584547346514048
+- Number of Communities: 3
+- Number of nodes in community 1: 7
+- Nodes in C_1: Marinobacter,Unclassified Verrucomicrobia unclassified,Cyclobacterium,Anaerophaga,Enhygromyxa,Aspergillus,Desulfotignum
+- Number of nodes in community 2: 17
+- Nodes in C_2: Prolixibacter,Nitrospina,Pseudorhodobacter,Spirulina,Oscillatoria,Desulfohalobium,Rhodobacteraceae unclassified,Cyanobacterium,Halanaerobium,Verrucomicrobium,Plesiocystis,Geminocystis,Methanohalophilus,Marivirga,Methanolobus,Ardenticatena,Blastomonas
+- Number of nodes in community 3: 7
+- Nodes in C_3: Caldithrix,Halothece,Chlorobium,Mesotoga,Unclassified Rhizobiales unclassified,Desulfatitalea,Dactylococcopsis
+
+

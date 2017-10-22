@@ -1,0 +1,347 @@
+
+
+Order:45
+
+
+
+Size:59
+
+
+
+Diameter (Undirected):3
+
+
+
+Radius (Undirected):2
+
+
+
+Density:0.0297979797979798
+
+
+
+Mean Degree:1.3111111111111111
+
+
+
+Max Possible Degree:44
+
+
+
+Clustering Coefficient:0.011961758506473952
+
+
+
+Max Degree Hubs:
+- Max In Degree: 4
+- Number of Hubs with Max In Degree: 1
+- Hubs with Max In Degree: Aspergillus
+- Max Out Degree: 42
+- Number of Hubs with Max Out Degree: 1
+- Hubs with Max Out Degree: Bacillus
+
+
+
+Minimum Cut Node Set (Undirected):
+- Number of Vertices in MinCut Set: 1
+- Vertices in MinCut Set: Bacillus
+
+
+
+Minimum Cut Edge Set (Undirected):
+- Number of Edges in MinCut Set: 1
+- Edges in MinCut Set: ('Bacillus', 'Planktothricoides')
+
+
+
+Connected Components:
+- Number of CC's: 1
+- Number of nodes in CC_1 : 45
+- Nodes in CC_1: Halothece,Chamaesiphon,Edaphobacter,Francisella,Mizugakiibacter,Prochlorothrix,Stigonematales unclassified,Dehalococcoidia unclassified,Aspergillus,Microcoleus,Lyngbya,Coleofasciculus,Oscillatoriales unclassified,Salinispira,Aminomonas,Limnoraphis,Oscillochloris,Pseudanabaena,Unclassified Rhizobiales unclassified,Leptolyngbya,Candidatus Methylomirabilis,Geitlerinema,Gloeocapsa,Pseudorhodobacter,Dethiosulfatarculus,Azotobacter,Nodosilinea,Synechocystis,Bacteria unclassified,Blastococcus,Desulfobacula,Thermosynechococcus,Spirulina,Holophaga,Bacillus,Cyanothece,Candidatus Parcubacteria unclassified,Dactylococcopsis,Chroococcales unclassified,Neosynechococcus,Oscillatoria,Phormidium,Desulfovirgula,Rhodobacteraceae unclassified,Planktothricoides
+
+
+
+
+Strongly Connected Components:
+- Number of SCC's: 45
+- Number of nodes in SCC_1 : 1
+- Nodes in SCC_1: Halothece
+- Number of nodes in SCC_2 : 1
+- Nodes in SCC_2: Chamaesiphon
+- Number of nodes in SCC_3 : 1
+- Nodes in SCC_3: Edaphobacter
+- Number of nodes in SCC_4 : 1
+- Nodes in SCC_4: Francisella
+- Number of nodes in SCC_5 : 1
+- Nodes in SCC_5: Prochlorothrix
+- Number of nodes in SCC_6 : 1
+- Nodes in SCC_6: Stigonematales unclassified
+- Number of nodes in SCC_7 : 1
+- Nodes in SCC_7: Aminomonas
+- Number of nodes in SCC_8 : 1
+- Nodes in SCC_8: Dehalococcoidia unclassified
+- Number of nodes in SCC_9 : 1
+- Nodes in SCC_9: Aspergillus
+- Number of nodes in SCC_10 : 1
+- Nodes in SCC_10: Gloeocapsa
+- Number of nodes in SCC_11 : 1
+- Nodes in SCC_11: Microcoleus
+- Number of nodes in SCC_12 : 1
+- Nodes in SCC_12: Lyngbya
+- Number of nodes in SCC_13 : 1
+- Nodes in SCC_13: Coleofasciculus
+- Number of nodes in SCC_14 : 1
+- Nodes in SCC_14: Oscillatoriales unclassified
+- Number of nodes in SCC_15 : 1
+- Nodes in SCC_15: Spirulina
+- Number of nodes in SCC_16 : 1
+- Nodes in SCC_16: Salinispira
+- Number of nodes in SCC_17 : 1
+- Nodes in SCC_17: Limnoraphis
+- Number of nodes in SCC_18 : 1
+- Nodes in SCC_18: Oscillochloris
+- Number of nodes in SCC_19 : 1
+- Nodes in SCC_19: Pseudanabaena
+- Number of nodes in SCC_20 : 1
+- Nodes in SCC_20: Desulfovirgula
+- Number of nodes in SCC_21 : 1
+- Nodes in SCC_21: Unclassified Rhizobiales unclassified
+- Number of nodes in SCC_22 : 1
+- Nodes in SCC_22: Leptolyngbya
+- Number of nodes in SCC_23 : 1
+- Nodes in SCC_23: Nodosilinea
+- Number of nodes in SCC_24 : 1
+- Nodes in SCC_24: Candidatus Parcubacteria unclassified
+- Number of nodes in SCC_25 : 1
+- Nodes in SCC_25: Candidatus Methylomirabilis
+- Number of nodes in SCC_26 : 1
+- Nodes in SCC_26: Geitlerinema
+- Number of nodes in SCC_27 : 1
+- Nodes in SCC_27: Pseudorhodobacter
+- Number of nodes in SCC_28 : 1
+- Nodes in SCC_28: Dethiosulfatarculus
+- Number of nodes in SCC_29 : 1
+- Nodes in SCC_29: Azotobacter
+- Number of nodes in SCC_30 : 1
+- Nodes in SCC_30: Synechocystis
+- Number of nodes in SCC_31 : 1
+- Nodes in SCC_31: Oscillatoria
+- Number of nodes in SCC_32 : 1
+- Nodes in SCC_32: Dactylococcopsis
+- Number of nodes in SCC_33 : 1
+- Nodes in SCC_33: Bacteria unclassified
+- Number of nodes in SCC_34 : 1
+- Nodes in SCC_34: Blastococcus
+- Number of nodes in SCC_35 : 1
+- Nodes in SCC_35: Desulfobacula
+- Number of nodes in SCC_36 : 1
+- Nodes in SCC_36: Thermosynechococcus
+- Number of nodes in SCC_37 : 1
+- Nodes in SCC_37: Holophaga
+- Number of nodes in SCC_38 : 1
+- Nodes in SCC_38: Chroococcales unclassified
+- Number of nodes in SCC_39 : 1
+- Nodes in SCC_39: Cyanothece
+- Number of nodes in SCC_40 : 1
+- Nodes in SCC_40: Neosynechococcus
+- Number of nodes in SCC_41 : 1
+- Nodes in SCC_41: Phormidium
+- Number of nodes in SCC_42 : 1
+- Nodes in SCC_42: Mizugakiibacter
+- Number of nodes in SCC_43 : 1
+- Nodes in SCC_43: Planktothricoides
+- Number of nodes in SCC_44 : 1
+- Nodes in SCC_44: Bacillus
+- Number of nodes in SCC_45 : 1
+- Nodes in SCC_45: Rhodobacteraceae unclassified
+
+
+
+
+Max Cliques:
+- Number of Maximal Cliques: 55
+- Number of nodes in Maximal Clique 1 : 2
+- Nodes in Clique_1: Bacteria unclassified,Geitlerinema
+- Number of nodes in Maximal Clique 2 : 2
+- Nodes in Clique_2: Bacteria unclassified,Dactylococcopsis
+- Number of nodes in Maximal Clique 3 : 2
+- Nodes in Clique_3: Bacteria unclassified,Coleofasciculus
+- Number of nodes in Maximal Clique 4 : 2
+- Nodes in Clique_4: Bacteria unclassified,Limnoraphis
+- Number of nodes in Maximal Clique 5 : 2
+- Nodes in Clique_5: Bacteria unclassified,Spirulina
+- Number of nodes in Maximal Clique 6 : 2
+- Nodes in Clique_6: Bacteria unclassified,Prochlorothrix
+- Number of nodes in Maximal Clique 7 : 2
+- Nodes in Clique_7: Bacteria unclassified,Oscillatoria
+- Number of nodes in Maximal Clique 8 : 3
+- Nodes in Clique_8: Bacteria unclassified,Leptolyngbya,Aspergillus
+- Number of nodes in Maximal Clique 9 : 2
+- Nodes in Clique_9: Bacillus,Halothece
+- Number of nodes in Maximal Clique 10 : 2
+- Nodes in Clique_10: Bacillus,Chamaesiphon
+- Number of nodes in Maximal Clique 11 : 2
+- Nodes in Clique_11: Bacillus,Edaphobacter
+- Number of nodes in Maximal Clique 12 : 2
+- Nodes in Clique_12: Bacillus,Mizugakiibacter
+- Number of nodes in Maximal Clique 13 : 2
+- Nodes in Clique_13: Bacillus,Francisella
+- Number of nodes in Maximal Clique 14 : 2
+- Nodes in Clique_14: Bacillus,Prochlorothrix
+- Number of nodes in Maximal Clique 15 : 2
+- Nodes in Clique_15: Bacillus,Stigonematales unclassified
+- Number of nodes in Maximal Clique 16 : 2
+- Nodes in Clique_16: Bacillus,Dehalococcoidia unclassified
+- Number of nodes in Maximal Clique 17 : 3
+- Nodes in Clique_17: Bacillus,Aspergillus,Leptolyngbya
+- Number of nodes in Maximal Clique 18 : 2
+- Nodes in Clique_18: Bacillus,Microcoleus
+- Number of nodes in Maximal Clique 19 : 2
+- Nodes in Clique_19: Bacillus,Lyngbya
+- Number of nodes in Maximal Clique 20 : 2
+- Nodes in Clique_20: Bacillus,Coleofasciculus
+- Number of nodes in Maximal Clique 21 : 2
+- Nodes in Clique_21: Bacillus,Oscillatoriales unclassified
+- Number of nodes in Maximal Clique 22 : 2
+- Nodes in Clique_22: Bacillus,Salinispira
+- Number of nodes in Maximal Clique 23 : 2
+- Nodes in Clique_23: Bacillus,Aminomonas
+- Number of nodes in Maximal Clique 24 : 2
+- Nodes in Clique_24: Bacillus,Limnoraphis
+- Number of nodes in Maximal Clique 25 : 2
+- Nodes in Clique_25: Bacillus,Oscillochloris
+- Number of nodes in Maximal Clique 26 : 2
+- Nodes in Clique_26: Bacillus,Pseudanabaena
+- Number of nodes in Maximal Clique 27 : 2
+- Nodes in Clique_27: Bacillus,Unclassified Rhizobiales unclassified
+- Number of nodes in Maximal Clique 28 : 2
+- Nodes in Clique_28: Bacillus,Candidatus Methylomirabilis
+- Number of nodes in Maximal Clique 29 : 2
+- Nodes in Clique_29: Bacillus,Geitlerinema
+- Number of nodes in Maximal Clique 30 : 2
+- Nodes in Clique_30: Bacillus,Gloeocapsa
+- Number of nodes in Maximal Clique 31 : 2
+- Nodes in Clique_31: Bacillus,Pseudorhodobacter
+- Number of nodes in Maximal Clique 32 : 2
+- Nodes in Clique_32: Bacillus,Dethiosulfatarculus
+- Number of nodes in Maximal Clique 33 : 2
+- Nodes in Clique_33: Bacillus,Azotobacter
+- Number of nodes in Maximal Clique 34 : 2
+- Nodes in Clique_34: Bacillus,Nodosilinea
+- Number of nodes in Maximal Clique 35 : 2
+- Nodes in Clique_35: Bacillus,Synechocystis
+- Number of nodes in Maximal Clique 36 : 2
+- Nodes in Clique_36: Bacillus,Blastococcus
+- Number of nodes in Maximal Clique 37 : 2
+- Nodes in Clique_37: Bacillus,Desulfobacula
+- Number of nodes in Maximal Clique 38 : 2
+- Nodes in Clique_38: Bacillus,Thermosynechococcus
+- Number of nodes in Maximal Clique 39 : 2
+- Nodes in Clique_39: Bacillus,Spirulina
+- Number of nodes in Maximal Clique 40 : 2
+- Nodes in Clique_40: Bacillus,Holophaga
+- Number of nodes in Maximal Clique 41 : 2
+- Nodes in Clique_41: Bacillus,Cyanothece
+- Number of nodes in Maximal Clique 42 : 2
+- Nodes in Clique_42: Bacillus,Candidatus Parcubacteria unclassified
+- Number of nodes in Maximal Clique 43 : 2
+- Nodes in Clique_43: Bacillus,Dactylococcopsis
+- Number of nodes in Maximal Clique 44 : 2
+- Nodes in Clique_44: Bacillus,Chroococcales unclassified
+- Number of nodes in Maximal Clique 45 : 2
+- Nodes in Clique_45: Bacillus,Neosynechococcus
+- Number of nodes in Maximal Clique 46 : 2
+- Nodes in Clique_46: Bacillus,Oscillatoria
+- Number of nodes in Maximal Clique 47 : 2
+- Nodes in Clique_47: Bacillus,Phormidium
+- Number of nodes in Maximal Clique 48 : 2
+- Nodes in Clique_48: Bacillus,Desulfovirgula
+- Number of nodes in Maximal Clique 49 : 2
+- Nodes in Clique_49: Bacillus,Planktothricoides
+- Number of nodes in Maximal Clique 50 : 2
+- Nodes in Clique_50: Rhodobacteraceae unclassified,Halothece
+- Number of nodes in Maximal Clique 51 : 2
+- Nodes in Clique_51: Rhodobacteraceae unclassified,Dactylococcopsis
+- Number of nodes in Maximal Clique 52 : 2
+- Nodes in Clique_52: Rhodobacteraceae unclassified,Spirulina
+- Number of nodes in Maximal Clique 53 : 2
+- Nodes in Clique_53: Rhodobacteraceae unclassified,Prochlorothrix
+- Number of nodes in Maximal Clique 54 : 2
+- Nodes in Clique_54: Rhodobacteraceae unclassified,Oscillatoria
+- Number of nodes in Maximal Clique 55 : 3
+- Nodes in Clique_55: Rhodobacteraceae unclassified,Leptolyngbya,Aspergillus
+
+
+
+
+Cycle Basis (Undirected):
+- Number Cycles in CB: 15
+- Number of nodes in Cycle 1: 4
+- Nodes in Cycle_1: Bacillus,Spirulina,Rhodobacteraceae unclassified,Halothece
+- Number of nodes in Cycle 2: 4
+- Nodes in Cycle_2: Prochlorothrix,Bacteria unclassified,Spirulina,Rhodobacteraceae unclassified
+- Number of nodes in Cycle 3: 4
+- Nodes in Cycle_3: Oscillatoria,Bacteria unclassified,Spirulina,Rhodobacteraceae unclassified
+- Number of nodes in Cycle 4: 4
+- Nodes in Cycle_4: Dactylococcopsis,Bacteria unclassified,Spirulina,Rhodobacteraceae unclassified
+- Number of nodes in Cycle 5: 4
+- Nodes in Cycle_5: Aspergillus,Bacteria unclassified,Spirulina,Rhodobacteraceae unclassified
+- Number of nodes in Cycle 6: 4
+- Nodes in Cycle_6: Leptolyngbya,Bacteria unclassified,Spirulina,Rhodobacteraceae unclassified
+- Number of nodes in Cycle 7: 4
+- Nodes in Cycle_7: Bacillus,Limnoraphis,Bacteria unclassified,Spirulina
+- Number of nodes in Cycle 8: 4
+- Nodes in Cycle_8: Bacillus,Coleofasciculus,Bacteria unclassified,Spirulina
+- Number of nodes in Cycle 9: 4
+- Nodes in Cycle_9: Bacillus,Geitlerinema,Bacteria unclassified,Spirulina
+- Number of nodes in Cycle 10: 3
+- Nodes in Cycle_10: Aspergillus,Leptolyngbya,Rhodobacteraceae unclassified
+- Number of nodes in Cycle 11: 4
+- Nodes in Cycle_11: Bacillus,Leptolyngbya,Rhodobacteraceae unclassified,Halothece
+- Number of nodes in Cycle 12: 4
+- Nodes in Cycle_12: Bacillus,Aspergillus,Rhodobacteraceae unclassified,Halothece
+- Number of nodes in Cycle 13: 4
+- Nodes in Cycle_13: Bacillus,Dactylococcopsis,Rhodobacteraceae unclassified,Halothece
+- Number of nodes in Cycle 14: 4
+- Nodes in Cycle_14: Bacillus,Oscillatoria,Rhodobacteraceae unclassified,Halothece
+- Number of nodes in Cycle 15: 4
+- Nodes in Cycle_15: Bacillus,Prochlorothrix,Rhodobacteraceae unclassified,Halothece
+
+
+
+
+Maximal Independet Set (might be repeated):
+- Independent Set: 1
+- Number of nodes in this maximal independent set: 41
+- Nodes in this maximal independent set: Pseudanabaena,Microcoleus,Thermosynechococcus,Dethiosulfatarculus,Nodosilinea,Spirulina,Planktothricoides,Limnoraphis,Phormidium,Cyanothece,Stigonematales unclassified,Leptolyngbya,Dactylococcopsis,Candidatus Methylomirabilis,Blastococcus,Chamaesiphon,Desulfobacula,Pseudorhodobacter,Neosynechococcus,Halothece,Oscillochloris,Lyngbya,Aminomonas,Geitlerinema,Oscillatoriales unclassified,Synechocystis,Azotobacter,Desulfovirgula,Candidatus Parcubacteria unclassified,Unclassified Rhizobiales unclassified,Dehalococcoidia unclassified,Gloeocapsa,Holophaga,Francisella,Edaphobacter,Mizugakiibacter,Prochlorothrix,Coleofasciculus,Oscillatoria,Salinispira,Chroococcales unclassified
+- Independent Set: 2
+- Number of nodes in this maximal independent set: 34
+- Nodes in this maximal independent set: Pseudanabaena,Cyanothece,Bacteria unclassified,Oscillatoriales unclassified,Desulfobacula,Neosynechococcus,Salinispira,Thermosynechococcus,Candidatus Methylomirabilis,Microcoleus,Candidatus Parcubacteria unclassified,Phormidium,Stigonematales unclassified,Desulfovirgula,Synechocystis,Chroococcales unclassified,Francisella,Halothece,Dehalococcoidia unclassified,Aminomonas,Blastococcus,Unclassified Rhizobiales unclassified,Dethiosulfatarculus,Pseudorhodobacter,Nodosilinea,Mizugakiibacter,Lyngbya,Planktothricoides,Gloeocapsa,Azotobacter,Holophaga,Chamaesiphon,Edaphobacter,Oscillochloris
+- Independent Set: 3
+- Number of nodes in this maximal independent set: 41
+- Nodes in this maximal independent set: Holophaga,Pseudanabaena,Planktothricoides,Microcoleus,Cyanothece,Stigonematales unclassified,Lyngbya,Francisella,Neosynechococcus,Spirulina,Unclassified Rhizobiales unclassified,Chroococcales unclassified,Dactylococcopsis,Leptolyngbya,Thermosynechococcus,Limnoraphis,Salinispira,Synechocystis,Pseudorhodobacter,Desulfovirgula,Nodosilinea,Coleofasciculus,Blastococcus,Edaphobacter,Oscillatoriales unclassified,Dethiosulfatarculus,Phormidium,Desulfobacula,Azotobacter,Mizugakiibacter,Gloeocapsa,Geitlerinema,Oscillochloris,Prochlorothrix,Chamaesiphon,Candidatus Methylomirabilis,Aminomonas,Halothece,Oscillatoria,Candidatus Parcubacteria unclassified,Dehalococcoidia unclassified
+- Independent Set: 4
+- Number of nodes in this maximal independent set: 41
+- Nodes in this maximal independent set: Oscillatoria,Prochlorothrix,Aminomonas,Aspergillus,Salinispira,Chamaesiphon,Edaphobacter,Oscillochloris,Neosynechococcus,Planktothricoides,Azotobacter,Candidatus Parcubacteria unclassified,Stigonematales unclassified,Coleofasciculus,Mizugakiibacter,Chroococcales unclassified,Gloeocapsa,Nodosilinea,Pseudorhodobacter,Holophaga,Phormidium,Spirulina,Dethiosulfatarculus,Blastococcus,Francisella,Limnoraphis,Dehalococcoidia unclassified,Dactylococcopsis,Thermosynechococcus,Lyngbya,Pseudanabaena,Synechocystis,Desulfobacula,Microcoleus,Oscillatoriales unclassified,Unclassified Rhizobiales unclassified,Halothece,Candidatus Methylomirabilis,Desulfovirgula,Geitlerinema,Cyanothece
+- Independent Set: 5
+- Number of nodes in this maximal independent set: 41
+- Nodes in this maximal independent set: Thermosynechococcus,Dehalococcoidia unclassified,Dethiosulfatarculus,Chroococcales unclassified,Synechocystis,Azotobacter,Chamaesiphon,Candidatus Parcubacteria unclassified,Desulfobacula,Mizugakiibacter,Oscillatoriales unclassified,Oscillatoria,Stigonematales unclassified,Pseudanabaena,Cyanothece,Microcoleus,Candidatus Methylomirabilis,Lyngbya,Salinispira,Coleofasciculus,Francisella,Limnoraphis,Leptolyngbya,Desulfovirgula,Geitlerinema,Planktothricoides,Oscillochloris,Pseudorhodobacter,Phormidium,Holophaga,Gloeocapsa,Prochlorothrix,Neosynechococcus,Spirulina,Edaphobacter,Blastococcus,Dactylococcopsis,Aminomonas,Halothece,Nodosilinea,Unclassified Rhizobiales unclassified
+
+
+
+
+Degree Distribution:
+- In Degree distribution:3,32,4,5,1
+- Out Degree distribution:41,1,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+
+
+
+Communities (Undirected):
+- Modularity: 0.29819017523700087
+- Number of Communities: 2
+- Number of nodes in community 1: 12
+- Nodes in C_1: Halothece,Prochlorothrix,Limnoraphis,Aspergillus,Coleofasciculus,Spirulina,Leptolyngbya,Geitlerinema,Bacteria unclassified,Dactylococcopsis,Oscillatoria,Rhodobacteraceae unclassified
+- Number of nodes in community 2: 33
+- Nodes in C_2: Chamaesiphon,Edaphobacter,Francisella,Stigonematales unclassified,Dehalococcoidia unclassified,Gloeocapsa,Microcoleus,Lyngbya,Oscillatoriales unclassified,Salinispira,Aminomonas,Oscillochloris,Pseudanabaena,Desulfovirgula,Unclassified Rhizobiales unclassified,Nodosilinea,Candidatus Parcubacteria unclassified,Candidatus Methylomirabilis,Pseudorhodobacter,Dethiosulfatarculus,Azotobacter,Synechocystis,Blastococcus,Desulfobacula,Thermosynechococcus,Holophaga,Bacillus,Cyanothece,Chroococcales unclassified,Neosynechococcus,Phormidium,Mizugakiibacter,Planktothricoides
+
+

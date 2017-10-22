@@ -1,0 +1,353 @@
+
+
+Order:60
+
+
+
+Size:58
+
+
+
+Diameter (Undirected):NOT CONNECTED
+
+
+
+Radius (Undirected):NOT CONNECTED
+
+
+
+Density:0.01638418079096045
+
+
+
+Mean Degree:0.9666666666666667
+
+
+
+Max Possible Degree:59
+
+
+
+Clustering Coefficient:NOT CONNECTED
+
+
+
+Max Degree Hubs:
+- Max In Degree: 2
+- Number of Hubs with Max In Degree: 1
+- Hubs with Max In Degree: Aspergillus
+- Max Out Degree: 40
+- Number of Hubs with Max Out Degree: 1
+- Hubs with Max Out Degree: Rhodobacteraceae unclassified
+
+
+
+Minimum Cut Node Set (Undirected):
+NOT CONNECTED
+
+
+
+Minimum Cut Edge Set (Undirected):
+NOT CONNECTED
+
+
+
+Connected Components:
+- Number of CC's: 2
+- Number of nodes in CC_1 : 19
+- Nodes in CC_1: Bacillus,Trichoderma,Coleofasciculus,Leotiomyceta unclassified,Ardenticatena,Luteimonas,Haliscomenobacter,Verrucomicrobiales unclassified,Desulfatitalea,Unclassified Acidobacteria unclassified,Muricauda,Nitriliruptor,Lewinella,Aspergillus,Francisella,Nodularia,Roseiflexus,Spiribacter,Edaphobacter
+- Number of nodes in CC_2 : 41
+- Nodes in CC_2: Flexithrix,Micrococcus,Phormidesmis,Desulfovermiculus,Desulfobacula,Methylosarcina,Desulfospira,Fulvimarina,Aminomonas,Anaerophaga,Geoalkalibacter,Sunxiuqinia,Alkaliflexus,Chloroherpeton,Shimia,Pseudorhodobacter,Candidatus Microthrix,Aphanocapsa,Silvibacterium,Anaerolinea,Schlesneria,Unclassified Verrucomicrobia unclassified,Actinokineospora,Arenibacter,Rivularia,Desulfobacca,Geofilum,Desulfotignum,Rubinisphaera,Hydrocarboniphaga,Chlorobaculum,Nitrococcus,Chlorobium,Altererythrobacter,Saccharicrinis,Dehalogenimonas,Thiorhodospira,Novispirillum,Patulibacter,Rhodobacteraceae unclassified,Marinifilum
+
+
+
+
+Strongly Connected Components:
+- Number of SCC's: 60
+- Number of nodes in SCC_1 : 1
+- Nodes in SCC_1: Trichoderma
+- Number of nodes in SCC_2 : 1
+- Nodes in SCC_2: Flexithrix
+- Number of nodes in SCC_3 : 1
+- Nodes in SCC_3: Aphanocapsa
+- Number of nodes in SCC_4 : 1
+- Nodes in SCC_4: Micrococcus
+- Number of nodes in SCC_5 : 1
+- Nodes in SCC_5: Phormidesmis
+- Number of nodes in SCC_6 : 1
+- Nodes in SCC_6: Desulfobacca
+- Number of nodes in SCC_7 : 1
+- Nodes in SCC_7: Desulfovermiculus
+- Number of nodes in SCC_8 : 1
+- Nodes in SCC_8: Desulfobacula
+- Number of nodes in SCC_9 : 1
+- Nodes in SCC_9: Lewinella
+- Number of nodes in SCC_10 : 1
+- Nodes in SCC_10: Coleofasciculus
+- Number of nodes in SCC_11 : 1
+- Nodes in SCC_11: Roseiflexus
+- Number of nodes in SCC_12 : 1
+- Nodes in SCC_12: Francisella
+- Number of nodes in SCC_13 : 1
+- Nodes in SCC_13: Fulvimarina
+- Number of nodes in SCC_14 : 1
+- Nodes in SCC_14: Aminomonas
+- Number of nodes in SCC_15 : 1
+- Nodes in SCC_15: Silvibacterium
+- Number of nodes in SCC_16 : 1
+- Nodes in SCC_16: Anaerophaga
+- Number of nodes in SCC_17 : 1
+- Nodes in SCC_17: Desulfospira
+- Number of nodes in SCC_18 : 1
+- Nodes in SCC_18: Sunxiuqinia
+- Number of nodes in SCC_19 : 1
+- Nodes in SCC_19: Unclassified Acidobacteria unclassified
+- Number of nodes in SCC_20 : 1
+- Nodes in SCC_20: Alkaliflexus
+- Number of nodes in SCC_21 : 1
+- Nodes in SCC_21: Muricauda
+- Number of nodes in SCC_22 : 1
+- Nodes in SCC_22: Ardenticatena
+- Number of nodes in SCC_23 : 1
+- Nodes in SCC_23: Chloroherpeton
+- Number of nodes in SCC_24 : 1
+- Nodes in SCC_24: Methylosarcina
+- Number of nodes in SCC_25 : 1
+- Nodes in SCC_25: Shimia
+- Number of nodes in SCC_26 : 1
+- Nodes in SCC_26: Pseudorhodobacter
+- Number of nodes in SCC_27 : 1
+- Nodes in SCC_27: Candidatus Microthrix
+- Number of nodes in SCC_28 : 1
+- Nodes in SCC_28: Edaphobacter
+- Number of nodes in SCC_29 : 1
+- Nodes in SCC_29: Leotiomyceta unclassified
+- Number of nodes in SCC_30 : 1
+- Nodes in SCC_30: Luteimonas
+- Number of nodes in SCC_31 : 1
+- Nodes in SCC_31: Haliscomenobacter
+- Number of nodes in SCC_32 : 1
+- Nodes in SCC_32: Verrucomicrobiales unclassified
+- Number of nodes in SCC_33 : 1
+- Nodes in SCC_33: Nitriliruptor
+- Number of nodes in SCC_34 : 1
+- Nodes in SCC_34: Aspergillus
+- Number of nodes in SCC_35 : 1
+- Nodes in SCC_35: Nodularia
+- Number of nodes in SCC_36 : 1
+- Nodes in SCC_36: Spiribacter
+- Number of nodes in SCC_37 : 1
+- Nodes in SCC_37: Bacillus
+- Number of nodes in SCC_38 : 1
+- Nodes in SCC_38: Dehalogenimonas
+- Number of nodes in SCC_39 : 1
+- Nodes in SCC_39: Anaerolinea
+- Number of nodes in SCC_40 : 1
+- Nodes in SCC_40: Schlesneria
+- Number of nodes in SCC_41 : 1
+- Nodes in SCC_41: Desulfatitalea
+- Number of nodes in SCC_42 : 1
+- Nodes in SCC_42: Unclassified Verrucomicrobia unclassified
+- Number of nodes in SCC_43 : 1
+- Nodes in SCC_43: Rivularia
+- Number of nodes in SCC_44 : 1
+- Nodes in SCC_44: Geofilum
+- Number of nodes in SCC_45 : 1
+- Nodes in SCC_45: Desulfotignum
+- Number of nodes in SCC_46 : 1
+- Nodes in SCC_46: Rubinisphaera
+- Number of nodes in SCC_47 : 1
+- Nodes in SCC_47: Geoalkalibacter
+- Number of nodes in SCC_48 : 1
+- Nodes in SCC_48: Hydrocarboniphaga
+- Number of nodes in SCC_49 : 1
+- Nodes in SCC_49: Chlorobaculum
+- Number of nodes in SCC_50 : 1
+- Nodes in SCC_50: Nitrococcus
+- Number of nodes in SCC_51 : 1
+- Nodes in SCC_51: Marinifilum
+- Number of nodes in SCC_52 : 1
+- Nodes in SCC_52: Actinokineospora
+- Number of nodes in SCC_53 : 1
+- Nodes in SCC_53: Chlorobium
+- Number of nodes in SCC_54 : 1
+- Nodes in SCC_54: Altererythrobacter
+- Number of nodes in SCC_55 : 1
+- Nodes in SCC_55: Saccharicrinis
+- Number of nodes in SCC_56 : 1
+- Nodes in SCC_56: Thiorhodospira
+- Number of nodes in SCC_57 : 1
+- Nodes in SCC_57: Novispirillum
+- Number of nodes in SCC_58 : 1
+- Nodes in SCC_58: Patulibacter
+- Number of nodes in SCC_59 : 1
+- Nodes in SCC_59: Arenibacter
+- Number of nodes in SCC_60 : 1
+- Nodes in SCC_60: Rhodobacteraceae unclassified
+
+
+
+
+Max Cliques:
+- Number of Maximal Cliques: 58
+- Number of nodes in Maximal Clique 1 : 2
+- Nodes in Clique_1: Bacillus,Trichoderma
+- Number of nodes in Maximal Clique 2 : 2
+- Nodes in Clique_2: Bacillus,Coleofasciculus
+- Number of nodes in Maximal Clique 3 : 2
+- Nodes in Clique_3: Bacillus,Nitriliruptor
+- Number of nodes in Maximal Clique 4 : 2
+- Nodes in Clique_4: Bacillus,Lewinella
+- Number of nodes in Maximal Clique 5 : 2
+- Nodes in Clique_5: Bacillus,Aspergillus
+- Number of nodes in Maximal Clique 6 : 2
+- Nodes in Clique_6: Bacillus,Francisella
+- Number of nodes in Maximal Clique 7 : 2
+- Nodes in Clique_7: Bacillus,Nodularia
+- Number of nodes in Maximal Clique 8 : 2
+- Nodes in Clique_8: Bacillus,Roseiflexus
+- Number of nodes in Maximal Clique 9 : 2
+- Nodes in Clique_9: Bacillus,Leotiomyceta unclassified
+- Number of nodes in Maximal Clique 10 : 2
+- Nodes in Clique_10: Bacillus,Ardenticatena
+- Number of nodes in Maximal Clique 11 : 2
+- Nodes in Clique_11: Bacillus,Luteimonas
+- Number of nodes in Maximal Clique 12 : 2
+- Nodes in Clique_12: Bacillus,Haliscomenobacter
+- Number of nodes in Maximal Clique 13 : 2
+- Nodes in Clique_13: Bacillus,Verrucomicrobiales unclassified
+- Number of nodes in Maximal Clique 14 : 2
+- Nodes in Clique_14: Bacillus,Unclassified Acidobacteria unclassified
+- Number of nodes in Maximal Clique 15 : 2
+- Nodes in Clique_15: Bacillus,Muricauda
+- Number of nodes in Maximal Clique 16 : 2
+- Nodes in Clique_16: Bacillus,Spiribacter
+- Number of nodes in Maximal Clique 17 : 2
+- Nodes in Clique_17: Bacillus,Edaphobacter
+- Number of nodes in Maximal Clique 18 : 2
+- Nodes in Clique_18: Desulfatitalea,Aspergillus
+- Number of nodes in Maximal Clique 19 : 2
+- Nodes in Clique_19: Rhodobacteraceae unclassified,Flexithrix
+- Number of nodes in Maximal Clique 20 : 2
+- Nodes in Clique_20: Rhodobacteraceae unclassified,Micrococcus
+- Number of nodes in Maximal Clique 21 : 2
+- Nodes in Clique_21: Rhodobacteraceae unclassified,Phormidesmis
+- Number of nodes in Maximal Clique 22 : 2
+- Nodes in Clique_22: Rhodobacteraceae unclassified,Methylosarcina
+- Number of nodes in Maximal Clique 23 : 2
+- Nodes in Clique_23: Rhodobacteraceae unclassified,Desulfobacula
+- Number of nodes in Maximal Clique 24 : 2
+- Nodes in Clique_24: Rhodobacteraceae unclassified,Desulfovermiculus
+- Number of nodes in Maximal Clique 25 : 2
+- Nodes in Clique_25: Rhodobacteraceae unclassified,Desulfospira
+- Number of nodes in Maximal Clique 26 : 2
+- Nodes in Clique_26: Rhodobacteraceae unclassified,Fulvimarina
+- Number of nodes in Maximal Clique 27 : 2
+- Nodes in Clique_27: Rhodobacteraceae unclassified,Aminomonas
+- Number of nodes in Maximal Clique 28 : 2
+- Nodes in Clique_28: Rhodobacteraceae unclassified,Anaerophaga
+- Number of nodes in Maximal Clique 29 : 2
+- Nodes in Clique_29: Rhodobacteraceae unclassified,Sunxiuqinia
+- Number of nodes in Maximal Clique 30 : 2
+- Nodes in Clique_30: Rhodobacteraceae unclassified,Alkaliflexus
+- Number of nodes in Maximal Clique 31 : 2
+- Nodes in Clique_31: Rhodobacteraceae unclassified,Chloroherpeton
+- Number of nodes in Maximal Clique 32 : 2
+- Nodes in Clique_32: Rhodobacteraceae unclassified,Shimia
+- Number of nodes in Maximal Clique 33 : 2
+- Nodes in Clique_33: Rhodobacteraceae unclassified,Pseudorhodobacter
+- Number of nodes in Maximal Clique 34 : 2
+- Nodes in Clique_34: Rhodobacteraceae unclassified,Candidatus Microthrix
+- Number of nodes in Maximal Clique 35 : 2
+- Nodes in Clique_35: Rhodobacteraceae unclassified,Aphanocapsa
+- Number of nodes in Maximal Clique 36 : 2
+- Nodes in Clique_36: Rhodobacteraceae unclassified,Silvibacterium
+- Number of nodes in Maximal Clique 37 : 2
+- Nodes in Clique_37: Rhodobacteraceae unclassified,Anaerolinea
+- Number of nodes in Maximal Clique 38 : 2
+- Nodes in Clique_38: Rhodobacteraceae unclassified,Schlesneria
+- Number of nodes in Maximal Clique 39 : 2
+- Nodes in Clique_39: Rhodobacteraceae unclassified,Unclassified Verrucomicrobia unclassified
+- Number of nodes in Maximal Clique 40 : 2
+- Nodes in Clique_40: Rhodobacteraceae unclassified,Actinokineospora
+- Number of nodes in Maximal Clique 41 : 2
+- Nodes in Clique_41: Rhodobacteraceae unclassified,Arenibacter
+- Number of nodes in Maximal Clique 42 : 2
+- Nodes in Clique_42: Rhodobacteraceae unclassified,Rivularia
+- Number of nodes in Maximal Clique 43 : 2
+- Nodes in Clique_43: Rhodobacteraceae unclassified,Desulfobacca
+- Number of nodes in Maximal Clique 44 : 2
+- Nodes in Clique_44: Rhodobacteraceae unclassified,Geofilum
+- Number of nodes in Maximal Clique 45 : 2
+- Nodes in Clique_45: Rhodobacteraceae unclassified,Desulfotignum
+- Number of nodes in Maximal Clique 46 : 2
+- Nodes in Clique_46: Rhodobacteraceae unclassified,Rubinisphaera
+- Number of nodes in Maximal Clique 47 : 2
+- Nodes in Clique_47: Rhodobacteraceae unclassified,Hydrocarboniphaga
+- Number of nodes in Maximal Clique 48 : 2
+- Nodes in Clique_48: Rhodobacteraceae unclassified,Chlorobaculum
+- Number of nodes in Maximal Clique 49 : 2
+- Nodes in Clique_49: Rhodobacteraceae unclassified,Nitrococcus
+- Number of nodes in Maximal Clique 50 : 2
+- Nodes in Clique_50: Rhodobacteraceae unclassified,Chlorobium
+- Number of nodes in Maximal Clique 51 : 2
+- Nodes in Clique_51: Rhodobacteraceae unclassified,Altererythrobacter
+- Number of nodes in Maximal Clique 52 : 2
+- Nodes in Clique_52: Rhodobacteraceae unclassified,Saccharicrinis
+- Number of nodes in Maximal Clique 53 : 2
+- Nodes in Clique_53: Rhodobacteraceae unclassified,Dehalogenimonas
+- Number of nodes in Maximal Clique 54 : 2
+- Nodes in Clique_54: Rhodobacteraceae unclassified,Thiorhodospira
+- Number of nodes in Maximal Clique 55 : 2
+- Nodes in Clique_55: Rhodobacteraceae unclassified,Novispirillum
+- Number of nodes in Maximal Clique 56 : 2
+- Nodes in Clique_56: Rhodobacteraceae unclassified,Patulibacter
+- Number of nodes in Maximal Clique 57 : 2
+- Nodes in Clique_57: Rhodobacteraceae unclassified,Geoalkalibacter
+- Number of nodes in Maximal Clique 58 : 2
+- Nodes in Clique_58: Rhodobacteraceae unclassified,Marinifilum
+
+
+
+
+Cycle Basis (Undirected):
+- Number Cycles in CB: 0
+
+
+
+
+Maximal Independet Set (might be repeated):
+- Independent Set: 1
+- Number of nodes in this maximal independent set: 57
+- Nodes in this maximal independent set: Anaerolinea,Nitriliruptor,Ardenticatena,Saccharicrinis,Hydrocarboniphaga,Muricauda,Spiribacter,Phormidesmis,Desulfobacca,Desulfotignum,Desulfovermiculus,Desulfospira,Sunxiuqinia,Patulibacter,Chloroherpeton,Luteimonas,Francisella,Aminomonas,Unclassified Verrucomicrobia unclassified,Rivularia,Edaphobacter,Geoalkalibacter,Desulfobacula,Methylosarcina,Pseudorhodobacter,Nitrococcus,Trichoderma,Marinifilum,Shimia,Aphanocapsa,Fulvimarina,Dehalogenimonas,Silvibacterium,Haliscomenobacter,Nodularia,Desulfatitalea,Unclassified Acidobacteria unclassified,Schlesneria,Chlorobium,Candidatus Microthrix,Actinokineospora,Chlorobaculum,Geofilum,Arenibacter,Altererythrobacter,Micrococcus,Alkaliflexus,Flexithrix,Roseiflexus,Rubinisphaera,Coleofasciculus,Anaerophaga,Novispirillum,Verrucomicrobiales unclassified,Lewinella,Thiorhodospira,Leotiomyceta unclassified
+- Independent Set: 2
+- Number of nodes in this maximal independent set: 57
+- Nodes in this maximal independent set: Rubinisphaera,Desulfatitalea,Phormidesmis,Roseiflexus,Schlesneria,Anaerophaga,Trichoderma,Luteimonas,Nodularia,Unclassified Acidobacteria unclassified,Silvibacterium,Micrococcus,Aphanocapsa,Francisella,Nitriliruptor,Ardenticatena,Desulfospira,Desulfovermiculus,Sunxiuqinia,Candidatus Microthrix,Saccharicrinis,Coleofasciculus,Desulfobacca,Alkaliflexus,Altererythrobacter,Aminomonas,Flexithrix,Haliscomenobacter,Marinifilum,Fulvimarina,Actinokineospora,Hydrocarboniphaga,Thiorhodospira,Methylosarcina,Unclassified Verrucomicrobia unclassified,Edaphobacter,Chlorobaculum,Patulibacter,Rivularia,Verrucomicrobiales unclassified,Anaerolinea,Pseudorhodobacter,Nitrococcus,Shimia,Chloroherpeton,Lewinella,Chlorobium,Arenibacter,Dehalogenimonas,Leotiomyceta unclassified,Spiribacter,Muricauda,Novispirillum,Desulfobacula,Geoalkalibacter,Geofilum,Desulfotignum
+- Independent Set: 3
+- Number of nodes in this maximal independent set: 57
+- Nodes in this maximal independent set: Actinokineospora,Nitriliruptor,Haliscomenobacter,Muricauda,Spiribacter,Leotiomyceta unclassified,Alkaliflexus,Chlorobium,Rubinisphaera,Nitrococcus,Coleofasciculus,Roseiflexus,Silvibacterium,Desulfovermiculus,Novispirillum,Luteimonas,Rivularia,Chloroherpeton,Desulfatitalea,Hydrocarboniphaga,Aphanocapsa,Chlorobaculum,Ardenticatena,Saccharicrinis,Sunxiuqinia,Flexithrix,Anaerophaga,Fulvimarina,Micrococcus,Thiorhodospira,Pseudorhodobacter,Marinifilum,Unclassified Acidobacteria unclassified,Edaphobacter,Candidatus Microthrix,Dehalogenimonas,Desulfospira,Methylosarcina,Geofilum,Shimia,Verrucomicrobiales unclassified,Unclassified Verrucomicrobia unclassified,Schlesneria,Nodularia,Lewinella,Anaerolinea,Desulfobacula,Desulfotignum,Patulibacter,Aminomonas,Altererythrobacter,Arenibacter,Desulfobacca,Geoalkalibacter,Phormidesmis,Francisella,Trichoderma
+- Independent Set: 4
+- Number of nodes in this maximal independent set: 42
+- Nodes in this maximal independent set: Marinifilum,Silvibacterium,Bacillus,Aphanocapsa,Sunxiuqinia,Thiorhodospira,Desulfobacula,Phormidesmis,Dehalogenimonas,Patulibacter,Geoalkalibacter,Hydrocarboniphaga,Rubinisphaera,Methylosarcina,Nitrococcus,Novispirillum,Desulfotignum,Aminomonas,Schlesneria,Desulfovermiculus,Desulfobacca,Chlorobium,Alkaliflexus,Rivularia,Saccharicrinis,Flexithrix,Unclassified Verrucomicrobia unclassified,Anaerophaga,Desulfospira,Anaerolinea,Actinokineospora,Pseudorhodobacter,Altererythrobacter,Micrococcus,Fulvimarina,Geofilum,Desulfatitalea,Candidatus Microthrix,Arenibacter,Shimia,Chlorobaculum,Chloroherpeton
+- Independent Set: 5
+- Number of nodes in this maximal independent set: 57
+- Nodes in this maximal independent set: Anaerolinea,Dehalogenimonas,Aphanocapsa,Unclassified Verrucomicrobia unclassified,Nitriliruptor,Unclassified Acidobacteria unclassified,Anaerophaga,Geoalkalibacter,Hydrocarboniphaga,Micrococcus,Ardenticatena,Trichoderma,Luteimonas,Roseiflexus,Chlorobium,Pseudorhodobacter,Desulfovermiculus,Verrucomicrobiales unclassified,Fulvimarina,Haliscomenobacter,Phormidesmis,Nitrococcus,Desulfatitalea,Alkaliflexus,Candidatus Microthrix,Leotiomyceta unclassified,Thiorhodospira,Actinokineospora,Aminomonas,Lewinella,Saccharicrinis,Flexithrix,Desulfobacula,Muricauda,Francisella,Rubinisphaera,Chlorobaculum,Rivularia,Geofilum,Methylosarcina,Altererythrobacter,Edaphobacter,Marinifilum,Desulfobacca,Novispirillum,Arenibacter,Coleofasciculus,Desulfospira,Sunxiuqinia,Patulibacter,Chloroherpeton,Silvibacterium,Nodularia,Schlesneria,Desulfotignum,Shimia,Spiribacter
+
+
+
+
+Degree Distribution:
+- In Degree distribution:3,56,1
+- Out Degree distribution:57,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+
+
+
+Communities (Undirected):
+- Modularity: 0.4280618311533888
+- Number of Communities: 2
+- Number of nodes in community 1: 19
+- Nodes in C_1: Trichoderma,Leotiomyceta unclassified,Lewinella,Coleofasciculus,Roseiflexus,Francisella,Unclassified Acidobacteria unclassified,Muricauda,Edaphobacter,Bacillus,Ardenticatena,Desulfatitalea,Nitriliruptor,Aspergillus,Nodularia,Luteimonas,Haliscomenobacter,Verrucomicrobiales unclassified,Spiribacter
+- Number of nodes in community 2: 41
+- Nodes in C_2: Flexithrix,Aphanocapsa,Micrococcus,Phormidesmis,Desulfobacca,Desulfovermiculus,Desulfobacula,Fulvimarina,Dehalogenimonas,Aminomonas,Anaerophaga,Desulfospira,Sunxiuqinia,Alkaliflexus,Chloroherpeton,Shimia,Rubinisphaera,Pseudorhodobacter,Candidatus Microthrix,Silvibacterium,Anaerolinea,Schlesneria,Unclassified Verrucomicrobia unclassified,Rivularia,Geofilum,Desulfotignum,Methylosarcina,Geoalkalibacter,Hydrocarboniphaga,Chlorobaculum,Nitrococcus,Marinifilum,Actinokineospora,Chlorobium,Altererythrobacter,Saccharicrinis,Thiorhodospira,Novispirillum,Patulibacter,Rhodobacteraceae unclassified,Arenibacter
+
+
