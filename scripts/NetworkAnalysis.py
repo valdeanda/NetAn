@@ -530,7 +530,7 @@ def AnalizeCommunitiesAndMakeDrawings(name, fileName, someNetwork):
     communitiesFinalResult = "\n\n" + communitiesResult + "\n\n"
     return(communitiesFinalResult)
 
-# Function: analize degree distribution ----------------------------------------------------------------------------------------------------------------------
+# Function: analize degree distribution --------------------------------------------------
 def AnalizeDegreeDistribution(someNetwork, typeNW, name):
     # function message
     print("\t- Obtaining degree distribution ...")
@@ -647,39 +647,158 @@ def AnalizeNetwork(analysisNetwork, networkFileName, typeNW):
     totalResultsFile = None
     name = CleanNetworkFilename(networkFileName)
     # start analysis
-    totalResults = totalResults + AnalizeOrder(analysisNetwork)
-    totalResults = totalResults + AnalizeSize(analysisNetwork)
-    totalResults = totalResults + AnalizeDiameter(analysisNetwork)
-    totalResults = totalResults + AnalizeRadius(analysisNetwork)
-    totalResults = totalResults + AnalizeDensity(analysisNetwork)
-    totalResults = totalResults + AnalizeMeanDegree(analysisNetwork, typeNW)
-    totalResults = totalResults + AnalizeMaxDegree(analysisNetwork)
-    totalResults = totalResults + AnalizeClustCoeff(analysisNetwork, typeNW)
-    totalResults = totalResults + AnalizeMaxHubs(analysisNetwork, typeNW)
-    totalResults = totalResults + AnalizeCutVertices(analysisNetwork)
-    totalResults = totalResults + AnalizeCutEdges(analysisNetwork)
-    totalResults = totalResults + AnalizeConnComps(analysisNetwork)
-    totalResults = totalResults + AnalizeStronConnComps(analysisNetwork, typeNW)
-    totalResults = totalResults + AnalizeMaxCliques(analysisNetwork)
-    totalResults = totalResults + AnalizeCycleBasis(analysisNetwork)
-    totalResults = totalResults + AnalizeIndependentSets(analysisNetwork, 5)
-    totalResults = totalResults + AnalizeDegreeDistribution(analysisNetwork, typeNW, name)
-    totalResults = totalResults + AnalizeCommunitiesAndMakeDrawings(name, networkFileName, analysisNetwork)
+    #totalResults = totalResults + AnalizeOrder(analysisNetwork)
+    #totalResults = totalResults + AnalizeSize(analysisNetwork)
+    #totalResults = totalResults + AnalizeDiameter(analysisNetwork)
+    #totalResults = totalResults + AnalizeRadius(analysisNetwork)
+    #totalResults = totalResults + AnalizeDensity(analysisNetwork)
+    #totalResults = totalResults + AnalizeMeanDegree(analysisNetwork, typeNW)
+    #totalResults = totalResults + AnalizeMaxDegree(analysisNetwork)
+    #totalResults = totalResults + AnalizeClustCoeff(analysisNetwork, typeNW)
+    #totalResults = totalResults + AnalizeMaxHubs(analysisNetwork, typeNW)
+    #totalResults = totalResults + AnalizeCutVertices(analysisNetwork)
+    #totalResults = totalResults + AnalizeCutEdges(analysisNetwork)
+    #totalResults = totalResults + AnalizeConnComps(analysisNetwork)
+    #totalResults = totalResults + AnalizeStronConnComps(analysisNetwork, typeNW)
+    #totalResults = totalResults + AnalizeMaxCliques(analysisNetwork)
+    #totalResults = totalResults + AnalizeCycleBasis(analysisNetwork)
+    #totalResults = totalResults + AnalizeIndependentSets(analysisNetwork, 5)
+    #totalResults = totalResults + AnalizeDegreeDistribution(analysisNetwork, typeNW, name)
+    #totalResults = totalResults + AnalizeCommunitiesAndMakeDrawings(name, networkFileName, analysisNetwork)
     # open results file
-    if(typeNW == "-u"):
-        totalResultsFile = open(name + "_undirected.txt", "w")
-    if(typeNW == "-d"):
-        totalResultsFile = open(name + "_directed.txt", "w")
+    #if(typeNW == "-u"):
+    #    totalResultsFile = open(name + "_undirected.txt", "w")
+    #if(typeNW == "-d"):
+    #    totalResultsFile = open(name + "_directed.txt", "w")
     # print results
-    totalResultsFile.write(totalResults)
-    totalResultsFile.close()
+    #totalResultsFile.write(totalResults)
+    #totalResultsFile.close()
+    # generate random network data for comparision
+    RandomNetworkAnalysis(analysisNetwork, name)
     # end of function
+    return()
 
-# Function: analize random network -------------------------------------
-def RandomNetworkAnalysis(someNetwork):
+# Function: random network analysis module -------------------------------------
+def RandomNetworkAnalysis(someNetwork, name):
+    # function message
+    print("\t- Running Random Network Analysis ...")
     # variables
-    state = "UNDER CONSTRUCTION"
+    samples = 100
+    orderRef  = 0
+    sizeRef = 0
+    barabasiAlbert = nx.Graph()
+    # properties to analize
+    diameterMean = 0
+    radiusMean = 0
+    densityMean = 0
+    meanDegreeMean = 0
+    maxDegreeMean = 0
+    clustCoeffMean = 0
+    modularityMean = 0
+    numMaxDegreeHubsMean = 0
+    #numConnCompsMean = 0
+    #numStroConnCompsMean = 0
+    numCyclesMean = 0
+    numCommunitiesMean = 0
+    auxA = 0
+    auxB = 0
+    # obtain order and size
+    orderRef = someNetwork.order()
+    sizeRef = (someNetwork.to_undirected()).size()
+    # iterate generating random networks and obtaining sum of properties
+    for i in range(samples):
+        barabasiAlbert = nx.barabasi_albert_graph(orderRef, int(orderRef*0.75))
+        diameterMean = diameterMean + float(nx.diameter(barabasiAlbert))
+        radiusMean = radiusMean + float(nx.radius(barabasiAlbert))
+        densityMean = densityMean + float(nx.density(barabasiAlbert))
+        meanDegreeMean = meanDegreeMean + float(2*sizeRef/orderRef)
+        clustCoeffMean = clustCoeffMean + float(nx.average_clustering(barabasiAlbert))
+        (auxA, auxB) = maxDegreeRandomModule(barabasiAlbert)
+        maxDegreeMean = maxDegreeMean + float(auxA)
+        numMaxDegreeHubsMean = numMaxDegreeHubsMean + (float(auxB))
+        (auxA, auxB) = communitiesRandomModule(barabasiAlbert)
+        modularityMean = modularityMean + float(auxA)
+        numCommunitiesMean = numCommunitiesMean + float(auxB)
+        #numConnCompsMean = numConnCompsMean + float(len(list(nx.connected_components(barabasiAlbert))))
+        #numStroConnCompsMean = numStroConnCompsMean + float(len(list(nx.strongly_connected_components(barabasiAlbert))))
+        numCyclesMean = numCyclesMean + float(len(list(nx.cycle_basis(barabasiAlbert))))
+    # obtain mean value for everything
+    diameterMean = diameterMean / samples
+    radiusMean = radiusMean / samples
+    densityMean = densityMean / samples
+    meanDegreeMean = meanDegreeMean / samples
+    maxDegreeMean = maxDegreeMean / samples
+    clustCoeffMean = clustCoeffMean / samples
+    modularityMean = modularityMean / samples
+    numMaxDegreeHubsMean = numMaxDegreeHubsMean / samples
+    #numConnCompsMean = numConnCompsMean / samples
+    #numStroConnCompsMean = numStroConnCompsMean / samples
+    numCyclesMean = numCyclesMean / samples
+    numCommunitiesMean = numCommunitiesMean / samples
+    # print results    
+    randomAnalysis = open(name + "_random_results.txt", "w")
+    randomAnalysis.write("Random Analysis Results, Mean Measures:\t\t\truns(" + str(samples) + ")\n" + 
+                         " - diameter :\t\t" + str(diameterMean) + "\n" +
+                         " - radius:\t\t" + str(radiusMean) + "\n" +
+                         " - density:\t\t" + str(densityMean) + "\n" +
+                         " - mean degree:\t\t" + str(meanDegreeMean) + "\n" +
+                         " - max degree:\t\t" + str(maxDegreeMean) + "\n" +
+                         " - clustering coefficient:\t\t" + str(clustCoeffMean) + "\n" +
+                         " - modularity:\t\t" + str(modularityMean) + "\n" +
+                         " - number of max degree-hubs:\t\t" + str(numMaxDegreeHubsMean) + "\n" +
+                         #" - number of connected components:\t\t" + str(numConnCompsMean) + "\n" +
+                         #" - number of strongly connected components:\t\t" + str(numStroConnCompsMean) + "\n" +
+                         " - number of cycles in cycle basis:\t\t" + str(numCyclesMean) + "\n" +
+                         " - number of communities:\t\t" + str(numCommunitiesMean))
+    randomAnalysis.close()
+    # end of function
+    return()
 
+def maxDegreeRandomModule(someNetwork):
+    # function for random analysis
+    # variables
+    degMapping = dict()
+    nodeVector = []
+    degVector = []
+    hubsVector = []
+    maxDegree = 0
+    counter = 0
+    #compute max degree
+    degMapping = dict(someNetwork.degree())
+    nodeVector = list(degMapping.keys())
+    degVector = list(degMapping.values())
+    degVector.sort()
+    degVector.reverse()
+    maxDegree = degVector[0]
+    for counter in range(len(nodeVector)):
+        if(degMapping[nodeVector[counter]] == maxDegree):
+            hubsVector.append(nodeVector[counter])
+    # end of function
+    return(maxDegree, len(hubsVector))
+
+def communitiesRandomModule(someNetwork):
+    # function for random analysis
+    # variables
+    bestPartition = dict()
+    everyCommunity = dict()
+    networkModularity = 0
+    listPartition = []
+    listCommunities = []
+    counter = 0
+    # get communities
+    bestPartition = community.best_partition(someNetwork)
+    networkModularity = community.modularity(bestPartition, someNetwork)
+    listPartition = list(bestPartition.keys())
+    for counter in range(len(listPartition)):
+        if(not(bestPartition[listPartition[counter]] in everyCommunity)):
+            everyCommunity[bestPartition[listPartition[counter]]] = []
+            everyCommunity[bestPartition[listPartition[counter]]].append(listPartition[counter])
+        else:
+            everyCommunity[bestPartition[listPartition[counter]]].append(listPartition[counter])
+    listCommunities = list(everyCommunity.keys())
+    # end of function
+    return(networkModularity, len(listCommunities))
+    
 # Function: check for correct input -----------------------------------
 def CheckInputStr(inList):
     # variables
@@ -726,7 +845,7 @@ if(CheckInputStr(argv) == 1):
 else:
     print("\n\n\t :O Sorry, Wrong Input.\n\n")
 
-# SUPLEMENTARY ####################################################
+# SUPLEMENTARY ######################################################
 
 # Core function code -----------------------------------------------------------------------------------------------------------------------------------------
 #def AnalizeInvariant(someNetwork):
@@ -740,4 +859,4 @@ else:
 #    invariantFinalResult = "\n\n" + sizeResult + "\n\n//////////////////////////////////////////////////////////////////////"
 #    return(invariantFinalResult)
 
-#########################################################################
+#####################################################################
