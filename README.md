@@ -143,13 +143,14 @@ Random Analysis Results, Mean Measures:                 runs(100)
 
 ```
 
-# Network figures 
+# Overal network 
+
  ![Network](./a_phylum_consensus_directed_network.png) 
 
+# In degree distribution
+ ![Network1](./a_phylum_consensus_distribution_indegree.png) 
 
-
-
-
-
+# Outdegree distribution
+ ![Network2](./a_phylum_consensus_distribution_outdegree.png) 
 
 
