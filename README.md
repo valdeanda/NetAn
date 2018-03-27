@@ -40,7 +40,7 @@ sudo apt-get install python-tk
 ```
 
 
-#Getting the statistics by using the NetworkAnalysis.py script 
+# Getting the statistics by using the NetworkAnalysis.py script 
 
 ```
 python Networks/scripts/NetworkAnalysis.py -d Networks/data/a_phylum_consensus.txt
