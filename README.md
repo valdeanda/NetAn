@@ -144,9 +144,7 @@ Random Analysis Results, Mean Measures:                 runs(100)
 ```
 
 # Network figures 
-
-
- ![MEBS](./images/MEBS.png) 
+ ![Network](./a_phylum_consensus_directed_network.png) 
 
 
 
