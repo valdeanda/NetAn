@@ -38,17 +38,16 @@ Librarpy tk
 sudo apt-get install python-tk
 ```
 
-### Command line for directed networks   
+# Running the script     
 ```
 python Networks/scripts/NetworkAnalysis.py -d Networks/data/a_phylum_consensus.txt
 ```
-### Command line for undirected networks 
 In the case of having and adyacency list with no directionality, you can use the option -u for undirected networks
 ```
 python Networks/scripts/NetworkAnalysis.py -u Networks/data/a_phylum_consensus.txt
 ```
 
-### Network output 
+# Analyzing the output 
 
 Once the program has finished, the following message will appears in the terminal
 ```
@@ -79,7 +78,6 @@ Analysing Network:    Networks/data/a_phylum_consensus.txt    type:   Directed
         - Finished analysis for this network
 ```
 
-## Analyzing the results  
 
 If you did not have any problems with the dependencies, the following output files should have been generated
 
@@ -92,9 +90,30 @@ a_phylum_consensus_community_network.png
 a_phylum_consensus_directed_network.png
 ```
 Two  files contains the statistical analysis, one real and one generating 1000 random networks with the same number of nodes and edges.  
-### Analyzing the random test  
 ```
-less a_phylum_consensus_random_results.txt
+cat a_phylum_consensus_directed.txt
+```
+Order:61
+Size:3560
+Diameter (Undirected):1
+Radius (Undirected):1
+Density:0.972677595628
+Mean Degree:58
+Max Possible Degree:60
+Clustering Coefficient:0.5
+Max Degree Hubs:
+- Max In Degree: 60
+- Number of Hubs with Max In Degree: 1
+- Hubs with Max In Degree: Ignavibacteriae
+- Max Out Degree: 60
+- Number of Hubs with Max Out Degree: 50
+- Hubs with Max Out Degree: Verrucomicrobia,Bacteroidetes,Parcubacteria group unclassified,Archaea unclassified,FCB group unclassified,Candidatus Kaiserbacteria,Ascomycota,Chlorobi,Actinobacteria,Marinimicrobia,Terrabacteria group unclassified,Patescibacteria group unclassified,Candidatus Peregrinibacteria,Armatimonadetes,Eukaryota unclassified,Bacteria unclassified,Dikarya unclassified,Bacteroidetes/Chlorobi group unclassified,Candidatus Magasanikbacteria,Candidatus Rokubacteria,Cloacimonetes,Nitrospinae,Candidate division CPR2,Firmicutes,Deinococcus-Thermus,Proteobacteria,Candidatus Gottesmanbacteria,Spirochaetes,Candidatus Woesebacteria,Candidatus Poribacteria,Nitrospirae,Candidatus Aminicenantes,Chloroflexi,Planctomycetes,PVC group unclassified,Candidatus Uhrbacteria,Fusobacteria,Candidatus Beckwithbacteria,Synergistetes,Unclassified Bacteria unclassified,Gemmatimonadetes,Chlamydiae,Nanoarchaeota,Cyanobacteria,Microgenomates group unclassified,Bacteria candidate phyla unclassified,Thermotogae,Acidobacteria,Thaumarchaeota,Euryarchaeota
+```
+
+
+
+```
+head a_phylum_consensus_random_results.txt
 ```
 
 ```
