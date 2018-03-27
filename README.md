@@ -89,7 +89,7 @@ a_phylum_consensus_distribution_outdegree.png
 a_phylum_consensus_community_network.png
 a_phylum_consensus_directed_network.png
 ```
-Two  files contains the statistical analysis, one real and one generating 1000 random networks with the same number of nodes and edges.  
+The files containing  the statistical analysis are the folowing:  
 ```
 cat a_phylum_consensus_directed.txt
 ```
@@ -112,6 +112,8 @@ Max Degree Hubs:
 - Hubs with Max Out Degree: Verrucomicrobia,Bacteroidetes,Parcubacteria group unclassified,Archaea unclassified,FCB group unclassified,Candidatus Kaiserbacteria,Ascomycota,Chlorobi,Actinobacteria,Marinimicrobia,Terrabacteria group unclassified,Patescibacteria group unclassified,Candidatus Peregrinibacteria,Armatimonadetes,Eukaryota unclassified,Bacteria unclassified,Dikarya unclassified,Bacteroidetes/Chlorobi group unclassified,Candidatus Magasanikbacteria,Candidatus Rokubacteria,Cloacimonetes,Nitrospinae,Candidate division CPR2,Firmicutes,Deinococcus-Thermus,Proteobacteria,Candidatus Gottesmanbacteria,Spirochaetes,Candidatus Woesebacteria,Candidatus Poribacteria,Nitrospirae,Candidatus Aminicenantes,Chloroflexi,Planctomycetes,PVC group unclassified,Candidatus Uhrbacteria,Fusobacteria,Candidatus Beckwithbacteria,Synergistetes,Unclassified Bacteria unclassified,Gemmatimonadetes,Chlamydiae,Nanoarchaeota,Cyanobacteria,Microgenomates group unclassified,Bacteria candidate phyla unclassified,Thermotogae,Acidobacteria,Thaumarchaeota,Euryarchaeota
 ```
 
+
+The same statistics but in   1000 random networks with the same number of nodes and edges.  
 ```
 cat a_phylum_consensus_random_results.txt
 ```
@@ -141,6 +143,10 @@ Random Analysis Results, Mean Measures:                 runs(100)
 
 ```
 
+# Network figures 
+
+
+ ![MEBS](./images/MEBS.png) 
 
 
 
