@@ -89,9 +89,11 @@ a_phylum_consensus_distribution_outdegree.png
 a_phylum_consensus_community_network.png
 a_phylum_consensus_directed_network.png
 ```
-Two  files contains the statistical analysis, one real and one generating 1000 random networks with the same number of nodes and edges.  
+The files containing  the statistical analysis are the folowing:  
 ```
 cat a_phylum_consensus_directed.txt
+```
+
 ```
 Order:61
 Size:3560
@@ -111,9 +113,9 @@ Max Degree Hubs:
 ```
 
 
-
+The same statistics but in   1000 random networks with the same number of nodes and edges.  
 ```
-head a_phylum_consensus_random_results.txt
+cat a_phylum_consensus_random_results.txt
 ```
 
 ```
@@ -141,9 +143,14 @@ Random Analysis Results, Mean Measures:                 runs(100)
 
 ```
 
+# Overal network 
 
+ ![Network](./a_phylum_consensus_directed_network.png) 
 
+# In degree distribution
+ ![Network1](./a_phylum_consensus_distribution_indegree.png) 
 
-
+# Outdegree distribution
+ ![Network2](./a_phylum_consensus_distribution_outdegree.png) 
 
 
