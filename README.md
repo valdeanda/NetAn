@@ -154,3 +154,8 @@ Random Analysis Results, Mean Measures:                 runs(100)
  ![Network2](./a_phylum_consensus_distribution_outdegree.png) 
 
 
+### If you want to customize your networks..
+We recomend to use [visNetwork](https://datastorm-open.github.io/visNetwork/), as explained in the following [tutorial](./plot_withVisNetwork.html)
+
+
+
