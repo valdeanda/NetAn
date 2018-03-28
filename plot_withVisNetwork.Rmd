@@ -1,0 +1,93 @@
+---
+title: "R Notebook to plot networks USING  visNetwork"
+output:
+  html_document:
+    df_print: paged
+---
+
+To see more examples go to  [visNetwork](https://datastorm-open.github.io/visNetwork/) . 
+
+
+##  Install package
+
+```{r, echo=FALSE}
+#install.packages("visNetwork")
+library(visNetwork)
+```
+
+##  Read Data 
+
+
+```{r}
+  
+nodes_Family_tax2<-read.table("Nodes_family_2tax.txt", sep="\t",header=TRUE)
+edges_family05<-read.table("MI_C_frow.sitea/MI_CON_Top0to0.05(P0.9).txt", header = TRUE,sep="\t")
+edges_family1<-read.table("MI_C_frow.sitea/MI_CON_Top0to1(P0.9).txt", header = TRUE,sep="\t")
+edges_family100<-read.table("a_family_consensus.txt", header = TRUE,sep="\t")
+nodes_phylum<-read.table("Phylum_nodes.txt", header = TRUE, sep="\t")
+edges_phylum<-read.table("a_phylum_consensus.txt", header = TRUE, sep="\t")
+```
+
+
+##  See the nodes file 
+
+```{r}
+ head(nodes_Family_tax2)
+```
+##  See the edges file 
+
+```{r}
+ head(edges_family05)
+```
+
+
+
+##  Only 0.05% of the total interactions Family Level site A
+
+```{r}
+
+visNetwork(nodes_Family_tax2,edges_family05, height = "700px", width = "100%",main = "Site A family", submain = "Only 0.05% of the total interactions"
+           ) %>%
+  visEdges(arrows="to")%>%
+  visOptions(selectedBy = "Domain", 
+             highlightNearest = TRUE, 
+             nodesIdSelection = TRUE,
+             manipulation=TRUE) %>%
+  visPhysics(stabilization =FALSE)
+
+```
+
+##  Only 1% of the total interactions site A
+
+```{r}
+
+visNetwork(nodes_Family_tax2,edges_family1, height = "800px", width = "100%",main = "Site A family", submain = "Only 1% of the total interactions"
+           ) %>%
+  visEdges(arrows="to")%>%
+  visOptions(selectedBy = "Domain", 
+             highlightNearest = TRUE, 
+             nodesIdSelection = TRUE,
+             manipulation=TRUE) %>%
+  visPhysics(stabilization =FALSE)
+
+```
+
+
+
+##  100% of the total interactions site A
+
+```{r}
+
+visNetwork(nodes_phylum,edges_phylum, height = "800px", width = "100%",main = "Site A Phylum", submain = "100% the total interactions"
+           ) %>%
+  visEdges(arrows="to")%>%
+  visOptions( 
+             highlightNearest = TRUE, 
+             nodesIdSelection = TRUE,
+             manipulation=TRUE) %>%
+  visPhysics(stabilization =FALSE)
+
+```
+
+
+
