@@ -155,7 +155,7 @@ Random Analysis Results, Mean Measures:                 runs(100)
 
 
 ### If you want to customize your networks..
-We recomend to use [visNetwork](https://datastorm-open.github.io/visNetwork/), as explained in the following [tutorial](./plot_withVisNetwork.html)
+We recomend to use [visNetwork](https://datastorm-open.github.io/visNetwork/), as explained in the following [tutorial](./scripts/plot_graph.R)
 
 
 
