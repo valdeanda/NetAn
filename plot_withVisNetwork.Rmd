@@ -1,0 +1,152 @@
+---
+title: "R Notebook to plot networks USING  visNetwork"
+output:
+  html_document:
+    df_print: paged
+  pdf_document: default
+  word_document: default
+---
+
+To see more examples go to  [visNetwork](https://datastorm-open.github.io/visNetwork/) . 
+
+
+##  Install package
+
+```{r, echo=FALSE}
+#install.packages("visNetwork")
+library(visNetwork)
+```
+
+##  Read Data 
+```{r}
+  #File containing the nodes (unique families), with their taxonomy and manually added characteristics 
+  #such as color and shape 
+nodes_Family_tax2<-read.table("Nodes_family_2tax.txt", sep="\t",header=TRUE)
+
+#Site A 
+edges_family05<-read.table("MI_C_frow.sitea/MI_CON_Top0to0.05(P0.9).txt", header = TRUE,sep="\t")
+edges_family1<-read.table("MI_C_frow.sitea/MI_CON_Top0to1(P0.9).txt", header = TRUE,sep="\t")
+edges_family100<-read.table("a_family_consensus.txt", header = TRUE,sep="\t")
+
+
+#Site B
+edges_familyB1<-read.table("MI_C_frow.siteb/MI_CON_Top0to0.1(P0.9).txt",header = TRUE, sep="\t")
+edges_familyB05<-read.table("MI_C_frow.siteb/MI_CON_Top0to0.05(P0.9).txt",header = TRUE, sep="\t")
+
+#Site C
+edges_familyC1<-read.table("MI_C_frow.sitec/MI_CON_Top0to1(P0.9).txt",header = TRUE, sep="\t")
+edges_familyC05<-read.table("MI_C_frow.sitec/MI_CON_Top0to0.05(P0.9).txt",header = TRUE, sep="\t")
+```
+
+
+##  See the nodes file 
+
+```{r}
+ head(nodes_Family_tax2)
+```
+##  See the edges file 
+
+```{r}
+ head(edges_family05)
+```
+
+
+
+##  Only 0.05% of the total interactions Family Level site A
+
+```{r}
+
+visNetwork(nodes_Family_tax2,edges_family05, height = "700px", width = "100%",main = "Site A family", submain = "Only 0.05% of the total interactions"
+           ) %>%
+  visEdges(arrows="to")%>%
+  visOptions(selectedBy = "Domain", 
+             highlightNearest = TRUE, 
+             nodesIdSelection = TRUE,
+             manipulation=TRUE)
+ #visConfigure(enabled=TRUE)
+```
+
+
+
+##  Only 0.05% of the total interactions Family Level site B
+
+```{r}
+
+visNetwork(nodes_Family_tax2,edges_familyB05, height = "700px", width = "100%",main = "Site  B family", submain = "Only 0.05% of the total interactions"
+           ) %>%
+  visEdges(arrows="to")%>%
+  visOptions(selectedBy = "Domain", 
+             highlightNearest = TRUE, 
+             nodesIdSelection = TRUE,
+             manipulation=TRUE)
+ #visConfigure(enabled=TRUE)
+```
+
+
+
+
+
+##  Only 0.05% of the total interactions site C
+
+
+```{r}
+
+visNetwork(nodes_Family_tax2,edges_familyC05, height = "700px", width = "100%",main = "Site C family", submain = "Only 0.05% of the total interactions"
+           ) %>%
+  visEdges(arrows="to")%>%
+  visOptions(selectedBy = "Domain", 
+             highlightNearest = TRUE, 
+             nodesIdSelection = TRUE,
+             manipulation=TRUE)
+ #visConfigure(enabled=TRUE)
+```
+
+
+
+
+##  Only 1% of the total interactions site A
+
+```{r}
+visNetwork(nodes_Family_tax2,edges_family1, height = "800px", width = "100%",main = "Site A family", submain = "Only 1% of the total interactions"
+           ) %>%
+  visEdges(arrows="to")%>%
+  visOptions(selectedBy = "Domain", 
+             highlightNearest = TRUE, 
+             nodesIdSelection = TRUE,
+             manipulation=TRUE) %>%
+  visPhysics(stabilization =TRUE)
+#visConfigure(enabled=TRUE)
+
+```
+
+
+
+##  Only 1% of the total interactions site B
+
+```{r}
+visNetwork(nodes_Family_tax2,edges_familyB1, height = "800px", width = "100%",main = "Site B family", submain = "Only 1% of the total interactions"
+           ) %>%
+  visEdges(arrows="to")%>%
+  visOptions(selectedBy = "Domain", 
+             highlightNearest = TRUE, 
+             nodesIdSelection = TRUE,
+             manipulation=TRUE) %>%
+  visPhysics(stabilization =TRUE)
+#visConfigure(enabled=TRUE)
+
+```
+
+
+
+##  Only 1% of the total interactions site C
+
+```{r}
+visNetwork(nodes_Family_tax2,edges_familyC1, height = "800px", width = "100%",main = "Site C family", submain = "Only 1% of the total interactions"
+           ) %>%
+  visEdges(arrows="to")%>%
+  visOptions(selectedBy = "Domain", 
+             highlightNearest = TRUE, 
+             nodesIdSelection = TRUE,
+             manipulation=TRUE) %>%
+  visPhysics(stabilization =TRUE)
+#visConfigure(enabled=TRUE)
