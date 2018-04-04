@@ -1,0 +1,541 @@
+id	Group	Domain	Phylum	Class 	color	shape
+Candidatus Bathyarchaeota unclassified	1	Archaea	Candidatus Bathyarchaeota	Candidatus Bathyarchaeota unclassified	blue	square
+Candidatus Diapherotrites unclassified	1	Archaea	Candidatus Diapherotrites	Candidatus Diapherotrites unclassified	blue	square
+Crenarchaeota unclassified	1	Archaea	Crenarchaeota	Crenarchaeota unclassified	blue	square
+Euryarchaeota unclassified	1	Archaea	Euryarchaeota	Euryarchaeota unclassified	blue	square
+Archaea unclassified	1	Archaea	Archaea_unclassified 	Archaea_unclassified 	blue	square
+Nanoarchaeota unclassified	1	Archaea	Nanoarchaeota	Archaea_unclassified 	blue	square
+TACK group unclassified	1	Archaea	Archaea_unclassified 	Archaea_unclassified 	blue	square
+Thaumarchaeota unclassified	1	Archaea	Thaumarchaeota	Archaea_unclassified 	blue	square
+Unclassified Archaea unclassified	1	Archaea	Archaea_unclassified 	Archaea_unclassified 	blue	square
+Archaeoglobaceae	1	Archaea	Euryarchaeota	Archaeoglobi	blue	square
+Halobacteriaceae	1	Archaea	Euryarchaeota	Halobacteria	blue	square
+Halobacteriales unclassified	1	Archaea	Euryarchaeota	Halobacteria	blue	square
+Halobacteria unclassified	1	Archaea	Euryarchaeota	Halobacteria	blue	square
+Haloferacaceae	1	Archaea	Euryarchaeota	Halobacteria	blue	square
+Natrialbaceae	1	Archaea	Euryarchaeota	Halobacteria	blue	square
+Methanobacteriaceae	1	Archaea	Euryarchaeota	Methanobacteria	blue	square
+Methanocaldococcaceae	1	Archaea	Euryarchaeota	Methanococci	blue	square
+Methanococcaceae	1	Archaea	Euryarchaeota	Methanococci	blue	square
+Methanococcales unclassified	1	Archaea	Euryarchaeota	Methanococci	blue	square
+Methanocellaceae	1	Archaea	Euryarchaeota	Methanomicrobia	blue	square
+Methanocorpusculaceae	1	Archaea	Euryarchaeota	Methanomicrobia	blue	square
+Methanomicrobiaceae	1	Archaea	Euryarchaeota	Methanomicrobia	blue	square
+Methanomicrobiales unclassified	1	Archaea	Euryarchaeota	Methanomicrobia	blue	square
+Methanomicrobia unclassified	1	Archaea	Euryarchaeota	Methanomicrobia	blue	square
+Methanoregulaceae	1	Archaea	Euryarchaeota	Methanomicrobia	blue	square
+Methanosarcinaceae	1	Archaea	Euryarchaeota	Methanomicrobia	blue	square
+Methanosarcinales unclassified	1	Archaea	Euryarchaeota	Methanomicrobia	blue	square
+Nitrososphaeraceae	1	Archaea	Thaumarchaeota	Nitrososphaeria	blue	square
+Nitrosopumilaceae	1	Archaea	Thaumarchaeota	Thaumarchaeota	blue	square
+Thermococcaceae	1	Archaea	Euryarchaeota	Thermococci	blue	square
+Ferroplasmaceae	1	Archaea	Euryarchaeota	Thermoplasmata	blue	square
+Methanomassiliicoccaceae	1	Archaea	Euryarchaeota	Thermoplasmata	blue	square
+Thermoplasmatales unclassified	1	Archaea	Euryarchaeota	Thermoplasmata	blue	square
+Thermoplasmata unclassified	1	Archaea	Euryarchaeota	Thermoplasmata	blue	square
+Desulfurococcaceae	1	Archaea	Crenarchaeota	Thermoprotei	blue	square
+Pyrodictiaceae	1	Archaea	Crenarchaeota	Thermoprotei	blue	square
+Sulfolobaceae	1	Archaea	Crenarchaeota	Thermoprotei	blue	square
+Thermoproteaceae	1	Archaea	Crenarchaeota	Thermoprotei	blue	square
+Thermoprotei unclassified	1	Archaea	Crenarchaeota	Thermoprotei	blue	square
+Parcubacteria group unclassified	2	Bacteria	Parcubacteria group unclassified	Parcubacteria group unclassified	gray	dot
+Acidimicrobiaceae	2	Bacteria	Actinobacteria	Acidimicrobiia	gray	dot
+Acidimicrobiales unclassified	2	Bacteria	Actinobacteria	Acidimicrobiia	gray	dot
+Acidimicrobiia unclassified	2	Bacteria	Actinobacteria	Acidimicrobiia	gray	dot
+Microthrixaceae	2	Bacteria	Actinobacteria	Acidimicrobiia	gray	dot
+Acidobacteria unclassified	2	Bacteria	Acidobacteria	Acidobacteria unclassified	gray	dot
+Acidobacteriaceae	2	Bacteria	Acidobacteria	Acidobacteriia	gray	dot
+Actinomycetaceae	2	Bacteria	Actinobacteria	Actinobacteria	gray	dot
+Actinopolysporaceae	2	Bacteria	Actinobacteria	Actinobacteria	gray	dot
+Bifidobacteriaceae	2	Bacteria	Actinobacteria	Actinobacteria	gray	dot
+Brevibacteriaceae	2	Bacteria	Actinobacteria	Actinobacteria	gray	dot
+Catenulisporales unclassified	2	Bacteria	Actinobacteria	Actinobacteria	gray	dot
+Cellulomonadaceae	2	Bacteria	Actinobacteria	Actinobacteria	gray	dot
+Corynebacteriaceae	2	Bacteria	Actinobacteria	Actinobacteria	gray	dot
+Corynebacteriales unclassified	2	Bacteria	Actinobacteria	Actinobacteria	gray	dot
+Cryptosporangiaceae	2	Bacteria	Actinobacteria	Actinobacteria	gray	dot
+Demequinaceae	2	Bacteria	Actinobacteria	Actinobacteria	gray	dot
+Dermabacteraceae	2	Bacteria	Actinobacteria	Actinobacteria	gray	dot
+Dermacoccaceae	2	Bacteria	Actinobacteria	Actinobacteria	gray	dot
+Dermatophilaceae	2	Bacteria	Actinobacteria	Actinobacteria	gray	dot
+Frankiaceae	2	Bacteria	Actinobacteria	Actinobacteria	gray	dot
+Frankiales unclassified	2	Bacteria	Actinobacteria	Actinobacteria	gray	dot
+Geodermatophilaceae	2	Bacteria	Actinobacteria	Actinobacteria	gray	dot
+Glycomycetaceae	2	Bacteria	Actinobacteria	Actinobacteria	gray	dot
+Gordoniaceae	2	Bacteria	Actinobacteria	Actinobacteria	gray	dot
+Intrasporangiaceae	2	Bacteria	Actinobacteria	Actinobacteria	gray	dot
+Jiangellaceae	2	Bacteria	Actinobacteria	Actinobacteria	gray	dot
+Kineosporiaceae	2	Bacteria	Actinobacteria	Actinobacteria	gray	dot
+Microbacteriaceae	2	Bacteria	Actinobacteria	Actinobacteria	gray	dot
+Micrococcaceae	2	Bacteria	Actinobacteria	Actinobacteria	gray	dot
+Micrococcales unclassified	2	Bacteria	Actinobacteria	Actinobacteria	gray	dot
+Micromonosporaceae	2	Bacteria	Actinobacteria	Actinobacteria	gray	dot
+Mycobacteriaceae	2	Bacteria	Actinobacteria	Actinobacteria	gray	dot
+Nocardiaceae	2	Bacteria	Actinobacteria	Actinobacteria	gray	dot
+Nocardioidaceae	2	Bacteria	Actinobacteria	Actinobacteria	gray	dot
+Nocardiopsaceae	2	Bacteria	Actinobacteria	Actinobacteria	gray	dot
+Promicromonosporaceae	2	Bacteria	Actinobacteria	Actinobacteria	gray	dot
+Propionibacteriaceae	2	Bacteria	Actinobacteria	Actinobacteria	gray	dot
+Propionibacteriales unclassified	2	Bacteria	Actinobacteria	Actinobacteria	gray	dot
+Pseudonocardiaceae	2	Bacteria	Actinobacteria	Actinobacteria	gray	dot
+Sanguibacteraceae	2	Bacteria	Actinobacteria	Actinobacteria	gray	dot
+Streptomycetaceae	2	Bacteria	Actinobacteria	Actinobacteria	gray	dot
+Streptosporangiaceae	2	Bacteria	Actinobacteria	Actinobacteria	gray	dot
+Streptosporangiales unclassified	2	Bacteria	Actinobacteria	Actinobacteria	gray	dot
+Thermomonosporaceae	2	Bacteria	Actinobacteria	Actinobacteria	gray	dot
+Williamsiaceae	2	Bacteria	Actinobacteria	Actinobacteria	gray	dot
+Acetobacteraceae	2	Bacteria	Proteobacteria	Alphaproteobacteria	gray	dot
+Alphaproteobacteria unclassified	2	Bacteria	Proteobacteria	Alphaproteobacteria	gray	dot
+Anaplasmataceae	2	Bacteria	Proteobacteria	Alphaproteobacteria	gray	dot
+Aurantimonadaceae	2	Bacteria	Proteobacteria	Alphaproteobacteria	gray	dot
+Bartonellaceae	2	Bacteria	Proteobacteria	Alphaproteobacteria	gray	dot
+Beijerinckiaceae	2	Bacteria	Proteobacteria	Alphaproteobacteria	gray	dot
+Bradyrhizobiaceae	2	Bacteria	Proteobacteria	Alphaproteobacteria	gray	dot
+Brucellaceae	2	Bacteria	Proteobacteria	Alphaproteobacteria	gray	dot
+Candidatus Paracaedibacteraceae	2	Bacteria	Proteobacteria	Alphaproteobacteria	gray	dot
+Caulobacteraceae	2	Bacteria	Proteobacteria	Alphaproteobacteria	gray	dot
+Erythrobacteraceae	2	Bacteria	Proteobacteria	Alphaproteobacteria	gray	dot
+Holosporaceae	2	Bacteria	Proteobacteria	Alphaproteobacteria	gray	dot
+Hyphomicrobiaceae	2	Bacteria	Proteobacteria	Alphaproteobacteria	gray	dot
+Hyphomonadaceae	2	Bacteria	Proteobacteria	Alphaproteobacteria	gray	dot
+Kiloniellaceae	2	Bacteria	Proteobacteria	Alphaproteobacteria	gray	dot
+Kordiimonadaceae	2	Bacteria	Proteobacteria	Alphaproteobacteria	gray	dot
+Methylobacteriaceae	2	Bacteria	Proteobacteria	Alphaproteobacteria	gray	dot
+Methylocystaceae	2	Bacteria	Proteobacteria	Alphaproteobacteria	gray	dot
+Parvularculaceae	2	Bacteria	Proteobacteria	Alphaproteobacteria	gray	dot
+Pelagibacteraceae	2	Bacteria	Proteobacteria	Alphaproteobacteria	gray	dot
+Phyllobacteriaceae	2	Bacteria	Proteobacteria	Alphaproteobacteria	gray	dot
+Rhizobiaceae	2	Bacteria	Proteobacteria	Alphaproteobacteria	gray	dot
+Rhizobiales unclassified	2	Bacteria	Proteobacteria	Alphaproteobacteria	gray	dot
+Rhodobacteraceae	2	Bacteria	Proteobacteria	Alphaproteobacteria	gray	dot
+Rhodobacterales unclassified	2	Bacteria	Proteobacteria	Alphaproteobacteria	gray	dot
+Rhodobiaceae	2	Bacteria	Proteobacteria	Alphaproteobacteria	gray	dot
+Rhodospirillaceae	2	Bacteria	Proteobacteria	Alphaproteobacteria	gray	dot
+Rhodospirillales unclassified	2	Bacteria	Proteobacteria	Alphaproteobacteria	gray	dot
+Rickettsiaceae	2	Bacteria	Proteobacteria	Alphaproteobacteria	gray	dot
+Rickettsiales unclassified	2	Bacteria	Proteobacteria	Alphaproteobacteria	gray	dot
+Sphingomonadaceae	2	Bacteria	Proteobacteria	Alphaproteobacteria	gray	dot
+Sphingomonadales unclassified	2	Bacteria	Proteobacteria	Alphaproteobacteria	gray	dot
+Xanthobacteraceae	2	Bacteria	Proteobacteria	Alphaproteobacteria	gray	dot
+Anaerolineaceae	2	Bacteria	Chloroflexi	Anaerolineae	gray	dot
+Anaerolineae unclassified	2	Bacteria	Chloroflexi	Anaerolineae	gray	dot
+Aquificaceae	2	Bacteria	Aquificae	Aquificae	gray	dot
+Desulfurobacteriaceae	2	Bacteria	Aquificae	Aquificae	gray	dot
+Hydrogenothermaceae	2	Bacteria	Aquificae	Aquificae	gray	dot
+Ardenticatenaceae	2	Bacteria	Chloroflexi	Ardenticatenia	gray	dot
+Armatimonadetes unclassified	2	Bacteria	Armatimonadetes	Armatimonadetes unclassified	gray	dot
+Aerococcaceae	2	Bacteria	Firmicutes	Bacilli	gray	dot
+Alicyclobacillaceae	2	Bacteria	Firmicutes	Bacilli	gray	dot
+Bacillaceae	2	Bacteria	Firmicutes	Bacilli	gray	dot
+Bacillales unclassified	2	Bacteria	Firmicutes	Bacilli	gray	dot
+Bacilli unclassified	2	Bacteria	Firmicutes	Bacilli	gray	dot
+Carnobacteriaceae	2	Bacteria	Firmicutes	Bacilli	gray	dot
+Enterococcaceae	2	Bacteria	Firmicutes	Bacilli	gray	dot
+Lactobacillaceae	2	Bacteria	Firmicutes	Bacilli	gray	dot
+Lactobacillales unclassified	2	Bacteria	Firmicutes	Bacilli	gray	dot
+Leuconostocaceae	2	Bacteria	Firmicutes	Bacilli	gray	dot
+Listeriaceae	2	Bacteria	Firmicutes	Bacilli	gray	dot
+Paenibacillaceae	2	Bacteria	Firmicutes	Bacilli	gray	dot
+Planococcaceae	2	Bacteria	Firmicutes	Bacilli	gray	dot
+Sporolactobacillaceae	2	Bacteria	Firmicutes	Bacilli	gray	dot
+Staphylococcaceae	2	Bacteria	Firmicutes	Bacilli	gray	dot
+Streptococcaceae	2	Bacteria	Firmicutes	Bacilli	gray	dot
+Thermoactinomycetaceae	2	Bacteria	Firmicutes	Bacilli	gray	dot
+Bacteria candidate phyla unclassified	2	Bacteria	Bacteria candidate phyla unclassified	Bacteria candidate phyla unclassified	gray	dot
+Bacteria unclassified	2	Bacteria	Bacteria unclassified	Bacteria unclassified	gray	dot
+Rhodothermaceae	2	Bacteria	Bacteroidetes	Bacteroidetes	gray	dot
+Bacteroidetes/Chlorobi group unclassified	2	Bacteria	Bacteroidetes/Chlorobi group unclassified	Bacteroidetes/Chlorobi group unclassified	gray	dot
+Bacteroidaceae	2	Bacteria	Bacteroidetes	Bacteroidia	gray	dot
+Bacteroidales unclassified	2	Bacteria	Bacteroidetes	Bacteroidia	gray	dot
+Bacteroidia unclassified	2	Bacteria	Bacteroidetes	Bacteroidia	gray	dot
+Marinifilaceae	2	Bacteria	Bacteroidetes	Bacteroidia	gray	dot
+Marinilabiliaceae	2	Bacteria	Bacteroidetes	Bacteroidia	gray	dot
+Porphyromonadaceae	2	Bacteria	Bacteroidetes	Bacteroidia	gray	dot
+Prevotellaceae	2	Bacteria	Bacteroidetes	Bacteroidia	gray	dot
+Prolixibacteraceae	2	Bacteria	Bacteroidetes	Bacteroidia	gray	dot
+Rikenellaceae	2	Bacteria	Bacteroidetes	Bacteroidia	gray	dot
+Bacteroidetes unclassified	2	Bacteria	Bacteroidetes	Bacteroidia unclassified	gray	dot
+Alcaligenaceae	2	Bacteria	Proteobacteria	Betaproteobacteria	gray	dot
+Betaproteobacteria unclassified	2	Bacteria	Proteobacteria	Betaproteobacteria	gray	dot
+Burkholderiaceae	2	Bacteria	Proteobacteria	Betaproteobacteria	gray	dot
+Burkholderiales unclassified	2	Bacteria	Proteobacteria	Betaproteobacteria	gray	dot
+Chromobacteriaceae	2	Bacteria	Proteobacteria	Betaproteobacteria	gray	dot
+Comamonadaceae	2	Bacteria	Proteobacteria	Betaproteobacteria	gray	dot
+Gallionellaceae	2	Bacteria	Proteobacteria	Betaproteobacteria	gray	dot
+Hydrogenophilaceae	2	Bacteria	Proteobacteria	Betaproteobacteria	gray	dot
+Methylophilaceae	2	Bacteria	Proteobacteria	Betaproteobacteria	gray	dot
+Methylophilales unclassified	2	Bacteria	Proteobacteria	Betaproteobacteria	gray	dot
+Neisseriaceae	2	Bacteria	Proteobacteria	Betaproteobacteria	gray	dot
+Neisseriales unclassified	2	Bacteria	Proteobacteria	Betaproteobacteria	gray	dot
+Nitrosomonadaceae	2	Bacteria	Proteobacteria	Betaproteobacteria	gray	dot
+Oxalobacteraceae	2	Bacteria	Proteobacteria	Betaproteobacteria	gray	dot
+Rhodocyclaceae	2	Bacteria	Proteobacteria	Betaproteobacteria	gray	dot
+Sulfuricellaceae	2	Bacteria	Proteobacteria	Betaproteobacteria	gray	dot
+Sutterellaceae	2	Bacteria	Proteobacteria	Betaproteobacteria	gray	dot
+Blastocatellia unclassified	2	Bacteria	Acidobacteria	Blastocatellia	gray	dot
+Caldilineaceae	2	Bacteria	Chloroflexi	Caldilineae	gray	dot
+Candidate division CPR2 unclassified	2	Bacteria	Candidate division CPR2	Candidate division	gray	dot
+Candidate division CPR3 unclassified	2	Bacteria	Candidate division CPR3	Candidate division	gray	dot
+Candidate division NC10 unclassified	2	Bacteria	Candidate division NC10	Candidate division	gray	dot
+Candidate division WWE3 unclassified	2	Bacteria	Candidate division WWE3	Candidate division	gray	dot
+Candidate division Zixibacteria unclassified	2	Bacteria	Candidate division Zixibacteria	Candidate division	gray	dot
+Candidatus Acetothermia unclassified	2	Bacteria	Candidatus Acetothermia	Candidate division	gray	dot
+Candidatus Adlerbacteria unclassified	2	Bacteria	Candidatus Adlerbacteria	Candidate division	gray	dot
+Candidatus Amesbacteria unclassified	2	Bacteria	Candidatus Amesbacteria	Candidate division	gray	dot
+Candidatus Aminicenantes unclassified	2	Bacteria	Candidatus Aminicenantes	Candidate division	gray	dot
+Candidatus Atribacteria unclassified	2	Bacteria	Candidatus Atribacteria	Candidate division	gray	dot
+Candidatus Azambacteria unclassified	2	Bacteria	Candidatus Azambacteria	Candidate division	gray	dot
+Candidatus Beckwithbacteria unclassified	2	Bacteria	Candidatus Beckwithbacteria	Candidate division	gray	dot
+Candidatus Berkelbacteria unclassified	2	Bacteria	Candidatus Berkelbacteria	Candidate division	gray	dot
+Candidatus Calescamantes unclassified	2	Bacteria	Candidatus Calescamantes	Candidate division	gray	dot
+Candidatus Campbellbacteria unclassified	2	Bacteria	Candidatus Campbellbacteria	Candidate division	gray	dot
+Candidatus Collierbacteria unclassified	2	Bacteria	Candidatus Collierbacteria	Candidate division	gray	dot
+Candidatus Curtissbacteria unclassified	2	Bacteria	Candidatus Curtissbacteria	Candidate division	gray	dot
+Candidatus Daviesbacteria unclassified	2	Bacteria	Candidatus Daviesbacteria	Candidate division	gray	dot
+Candidatus Falkowbacteria unclassified	2	Bacteria	Candidatus Falkowbacteria	Candidate division	gray	dot
+Candidatus Fervidibacteria unclassified	2	Bacteria	Candidatus Fervidibacteria	Candidate division	gray	dot
+Candidatus Giovannonibacteria unclassified	2	Bacteria	Candidatus Giovannonibacteria	Candidate division	gray	dot
+Candidatus Gottesmanbacteria unclassified	2	Bacteria	Candidatus Gottesmanbacteria	Candidate division	gray	dot
+Candidatus Hydrogenedentes unclassified	2	Bacteria	Candidatus Hydrogenedentes	Candidate division	gray	dot
+Candidatus Jorgensenbacteria unclassified	2	Bacteria	Candidatus Jorgensenbacteria	Candidate division	gray	dot
+Candidatus Kaiserbacteria unclassified	2	Bacteria	Candidatus Kaiserbacteria	Candidate division	gray	dot
+Candidatus Levybacteria unclassified	2	Bacteria	Candidatus Levybacteria	Candidate division	gray	dot
+Candidatus Magasanikbacteria unclassified	2	Bacteria	Candidatus Magasanikbacteria	Candidate division	gray	dot
+Candidatus Microgenomates unclassified	2	Bacteria	Candidatus Microgenomates	Candidate division	gray	dot
+Candidatus Moranbacteria unclassified	2	Bacteria	Candidatus Moranbacteria	Candidate division	gray	dot
+Candidatus Nomurabacteria unclassified	2	Bacteria	Candidatus Nomurabacteria	Candidate division	gray	dot
+Candidatus Pacebacteria unclassified	2	Bacteria	Candidatus Pacebacteria	Candidate division	gray	dot
+Candidatus Parcubacteria unclassified	2	Bacteria	Candidatus Parcubacteria	Candidate division	gray	dot
+Candidatus Peregrinibacteria unclassified	2	Bacteria	Candidatus Peregrinibacteria	Candidate division	gray	dot
+Candidatus Poribacteria unclassified	2	Bacteria	Candidatus Poribacteria	Candidate division	gray	dot
+Candidatus Roizmanbacteria unclassified	2	Bacteria	Candidatus Roizmanbacteria	Candidate division	gray	dot
+Candidatus Rokubacteria unclassified	2	Bacteria	Candidatus Rokubacteria	Candidate division	gray	dot
+Candidatus Saccharibacteria unclassified	2	Bacteria	Candidatus Saccharibacteria	Candidate division	gray	dot
+Candidatus Shapirobacteria unclassified	2	Bacteria	Candidatus Shapirobacteria	Candidate division	gray	dot
+Candidatus Uhrbacteria unclassified	2	Bacteria	Candidatus Uhrbacteria	Candidate division	gray	dot
+Candidatus Woesebacteria unclassified	2	Bacteria	Candidatus Woesebacteria	Candidate division	gray	dot
+Candidatus Wolfebacteria unclassified	2	Bacteria	Candidatus Wolfebacteria	Candidate division	gray	dot
+Candidatus Yanofskybacteria unclassified	2	Bacteria	Candidatus Yanofskybacteria	Candidate division	gray	dot
+Candidatus Peribacteria unclassified	2	Bacteria	Candidatus Peregrinibacteria	Candidatus Peribacteria	gray	dot
+Chlamydiae unclassified	2	Bacteria	Chlamydiae	Chlamydiales unclassified	gray	dot
+Chlamydiaceae	2	Bacteria	Chlamydiae	Chlamydiia	gray	dot
+Chlamydiales unclassified	2	Bacteria	Chlamydiae	Chlamydiia	gray	dot
+Parachlamydiaceae	2	Bacteria	Chlamydiae	Chlamydiia	gray	dot
+Simkaniaceae	2	Bacteria	Chlamydiae	Chlamydiia	gray	dot
+Chlorobiaceae	2	Bacteria	Chlorobi	Chlorobia	gray	dot
+Chloroflexi unclassified	2	Bacteria	Chloroflexi	Chloroflexi unclassified	gray	dot
+Chloroflexaceae	2	Bacteria	Chloroflexi	Chloroflexia	gray	dot
+Chloroflexales unclassified	2	Bacteria	Chloroflexi	Chloroflexia	gray	dot
+Chloroflexia unclassified	2	Bacteria	Chloroflexi	Chloroflexia	gray	dot
+Chloroflexineae unclassified	2	Bacteria	Chloroflexi	Chloroflexia	gray	dot
+Herpetosiphonaceae	2	Bacteria	Chloroflexi	Chloroflexia	gray	dot
+Oscillochloridaceae	2	Bacteria	Chloroflexi	Chloroflexia	gray	dot
+Roseiflexaceae	2	Bacteria	Chloroflexi	Chloroflexia	gray	dot
+Chroococcales unclassified	2	Bacteria	Cyanobacteria	Chroococcales unclassified	gray	dot
+Chrysiogenaceae	2	Bacteria	Chrysiogenetes	Chrysiogenetes	gray	dot
+Cloacimonetes unclassified	2	Bacteria	Cloacimonetes	Cloacimonetes unclassified	gray	dot
+Clostridiaceae	2	Bacteria	Firmicutes	Clostridia	gray	dot
+Clostridiales Family XIII. Incertae Sedis	2	Bacteria	Firmicutes	Clostridia	gray	dot
+Clostridiales Family XVII. Incertae Sedis	2	Bacteria	Firmicutes	Clostridia	gray	dot
+Clostridiales unclassified	2	Bacteria	Firmicutes	Clostridia	gray	dot
+Clostridia unclassified	2	Bacteria	Firmicutes	Clostridia	gray	dot
+Eubacteriaceae	2	Bacteria	Firmicutes	Clostridia	gray	dot
+Halanaerobiaceae	2	Bacteria	Firmicutes	Clostridia	gray	dot
+Halobacteroidaceae	2	Bacteria	Firmicutes	Clostridia	gray	dot
+Heliobacteriaceae	2	Bacteria	Firmicutes	Clostridia	gray	dot
+Lachnospiraceae	2	Bacteria	Firmicutes	Clostridia	gray	dot
+Oscillospiraceae	2	Bacteria	Firmicutes	Clostridia	gray	dot
+Peptococcaceae	2	Bacteria	Firmicutes	Clostridia	gray	dot
+Peptostreptococcaceae	2	Bacteria	Firmicutes	Clostridia	gray	dot
+Ruminococcaceae	2	Bacteria	Firmicutes	Clostridia	gray	dot
+Symbiobacteriaceae	2	Bacteria	Firmicutes	Clostridia	gray	dot
+Syntrophomonadaceae	2	Bacteria	Firmicutes	Clostridia	gray	dot
+Thermoanaerobacteraceae	2	Bacteria	Firmicutes	Clostridia	gray	dot
+Thermoanaerobacterales Family III. Incertae Sedis	2	Bacteria	Firmicutes	Clostridia	gray	dot
+Thermoanaerobacterales unclassified	2	Bacteria	Firmicutes	Clostridia	gray	dot
+Thermodesulfobiaceae	2	Bacteria	Firmicutes	Clostridia	gray	dot
+Atopobiaceae	2	Bacteria	Actinobacteria	Coriobacteriia	gray	dot
+Coriobacteriaceae	2	Bacteria	Actinobacteria	Coriobacteriia	gray	dot
+Coriobacteriales unclassified	2	Bacteria	Actinobacteria	Coriobacteriia	gray	dot
+Coriobacteriia unclassified	2	Bacteria	Actinobacteria	Coriobacteriia	gray	dot
+Eggerthellaceae	2	Bacteria	Actinobacteria	Coriobacteriia	gray	dot
+Rivulariaceae	2	Bacteria	Cyanobacteria	Cyanobacteria	gray	dot
+Scytonemataceae	2	Bacteria	Cyanobacteria	Cyanobacteria	gray	dot
+Cyanobacteria unclassified	2	Bacteria	Cyanobacteria	Cyanobacteria unclassified	gray	dot
+Amoebophilaceae	2	Bacteria	Bacteroidetes	Cytophagia	gray	dot
+Cyclobacteriaceae	2	Bacteria	Bacteroidetes	Cytophagia	gray	dot
+Cytophagaceae	2	Bacteria	Bacteroidetes	Cytophagia	gray	dot
+Cytophagales unclassified	2	Bacteria	Bacteroidetes	Cytophagia	gray	dot
+Flammeovirgaceae	2	Bacteria	Bacteroidetes	Cytophagia	gray	dot
+Dehalococcoidaceae	2	Bacteria	Chloroflexi	Dehalococcoidia	gray	dot
+Dehalococcoidia unclassified	2	Bacteria	Chloroflexi	Dehalococcoidia	gray	dot
+Deinococcaceae	2	Bacteria	Deinococcus-Thermus	Deinococci	gray	dot
+Deinococcales unclassified	2	Bacteria	Deinococcus-Thermus	Deinococci	gray	dot
+Deinococci unclassified	2	Bacteria	Deinococcus-Thermus	Deinococci	gray	dot
+Thermaceae	2	Bacteria	Deinococcus-Thermus	Deinococci	gray	dot
+Trueperaceae	2	Bacteria	Deinococcus-Thermus	Deinococci	gray	dot
+Delta/epsilon subdivisions unclassified	2	Bacteria	Proteobacteria	Delta/epsilon subdivisions unclassified	gray	dot
+Anaeromyxobacteraceae	2	Bacteria	Proteobacteria	Deltaproteobacteria	gray	dot
+Bacteriovoracaceae	2	Bacteria	Proteobacteria	Deltaproteobacteria	gray	dot
+Bdellovibrionaceae	2	Bacteria	Proteobacteria	Deltaproteobacteria	gray	dot
+Bdellovibrionales unclassified	2	Bacteria	Proteobacteria	Deltaproteobacteria	gray	dot
+Cystobacteraceae	2	Bacteria	Proteobacteria	Deltaproteobacteria	gray	dot
+Cystobacterineae unclassified	2	Bacteria	Proteobacteria	Deltaproteobacteria	gray	dot
+Deltaproteobacteria unclassified	2	Bacteria	Proteobacteria	Deltaproteobacteria	gray	dot
+Desulfarculaceae	2	Bacteria	Proteobacteria	Deltaproteobacteria	gray	dot
+Desulfobacteraceae	2	Bacteria	Proteobacteria	Deltaproteobacteria	gray	dot
+Desulfobacterales unclassified	2	Bacteria	Proteobacteria	Deltaproteobacteria	gray	dot
+Desulfobulbaceae	2	Bacteria	Proteobacteria	Deltaproteobacteria	gray	dot
+Desulfohalobiaceae	2	Bacteria	Proteobacteria	Deltaproteobacteria	gray	dot
+Desulfomicrobiaceae	2	Bacteria	Proteobacteria	Deltaproteobacteria	gray	dot
+Desulfonatronaceae	2	Bacteria	Proteobacteria	Deltaproteobacteria	gray	dot
+Desulfovibrionaceae	2	Bacteria	Proteobacteria	Deltaproteobacteria	gray	dot
+Desulfovibrionales unclassified	2	Bacteria	Proteobacteria	Deltaproteobacteria	gray	dot
+Desulfurellaceae	2	Bacteria	Proteobacteria	Deltaproteobacteria	gray	dot
+Desulfuromonadaceae	2	Bacteria	Proteobacteria	Deltaproteobacteria	gray	dot
+Desulfuromonadales unclassified	2	Bacteria	Proteobacteria	Deltaproteobacteria	gray	dot
+Geobacteraceae	2	Bacteria	Proteobacteria	Deltaproteobacteria	gray	dot
+Kofleriaceae	2	Bacteria	Proteobacteria	Deltaproteobacteria	gray	dot
+Labilitrichaceae	2	Bacteria	Proteobacteria	Deltaproteobacteria	gray	dot
+Myxococcaceae	2	Bacteria	Proteobacteria	Deltaproteobacteria	gray	dot
+Myxococcales unclassified	2	Bacteria	Proteobacteria	Deltaproteobacteria	gray	dot
+Nannocystaceae	2	Bacteria	Proteobacteria	Deltaproteobacteria	gray	dot
+Nannocystineae unclassified	2	Bacteria	Proteobacteria	Deltaproteobacteria	gray	dot
+Pelobacteraceae	2	Bacteria	Proteobacteria	Deltaproteobacteria	gray	dot
+Polyangiaceae	2	Bacteria	Proteobacteria	Deltaproteobacteria	gray	dot
+Sandaracinaceae	2	Bacteria	Proteobacteria	Deltaproteobacteria	gray	dot
+Sorangiineae unclassified	2	Bacteria	Proteobacteria	Deltaproteobacteria	gray	dot
+Syntrophaceae	2	Bacteria	Proteobacteria	Deltaproteobacteria	gray	dot
+Syntrophobacteraceae	2	Bacteria	Proteobacteria	Deltaproteobacteria	gray	dot
+Syntrophobacterales unclassified	2	Bacteria	Proteobacteria	Deltaproteobacteria	gray	dot
+Syntrophorhabdaceae	2	Bacteria	Proteobacteria	Deltaproteobacteria	gray	dot
+Vulgatibacteraceae	2	Bacteria	Proteobacteria	Deltaproteobacteria	gray	dot
+Dictyoglomaceae	2	Bacteria	Dictyoglomi	Dictyoglomia	gray	dot
+Elusimicrobia unclassified	2	Bacteria	Elusimicrobia	Elusimicrobia unclassified	gray	dot
+Campylobacteraceae	2	Bacteria	Proteobacteria	Epsilonproteobacteria	gray	dot
+Campylobacterales unclassified	2	Bacteria	Proteobacteria	Epsilonproteobacteria	gray	dot
+Epsilonproteobacteria unclassified	2	Bacteria	Proteobacteria	Epsilonproteobacteria	gray	dot
+Helicobacteraceae	2	Bacteria	Proteobacteria	Epsilonproteobacteria	gray	dot
+Nautiliaceae	2	Bacteria	Proteobacteria	Epsilonproteobacteria	gray	dot
+Erysipelotrichaceae	2	Bacteria	Firmicutes	Erysipelotrichia	gray	dot
+FCB group unclassified	2	Bacteria	FCB group unclassified	FCB group unclassified	gray	dot
+Fibrobacteres unclassified	2	Bacteria	Fibrobacteres	Fibrobacteres unclassified	gray	dot
+Fibrobacteria unclassified	2	Bacteria	Fibrobacteres	Fibrobacteria	gray	dot
+Fimbriimonadaceae	2	Bacteria	Armatimonadetes	Fimbriimonadia	gray	dot
+Firmicutes unclassified	2	Bacteria	Firmicutes	Firmicutes unclassified	gray	dot
+Blattabacteriaceae	2	Bacteria	Bacteroidetes	Flavobacteriia	gray	dot
+Cryomorphaceae	2	Bacteria	Bacteroidetes	Flavobacteriia	gray	dot
+Flavobacteriaceae	2	Bacteria	Bacteroidetes	Flavobacteriia	gray	dot
+Flavobacteriales unclassified	2	Bacteria	Bacteroidetes	Flavobacteriia	gray	dot
+Flavobacteriia unclassified	2	Bacteria	Bacteroidetes	Flavobacteriia	gray	dot
+Fusobacteriaceae	2	Bacteria	Fusobacteria	Fusobacteriia	gray	dot
+Fusobacteriales unclassified	2	Bacteria	Fusobacteria	Fusobacteriia	gray	dot
+Leptotrichiaceae	2	Bacteria	Fusobacteria	Fusobacteriia	gray	dot
+Acidithiobacillaceae	2	Bacteria	Proteobacteria	Gammaproteobacteria	gray	dot
+Acidithiobacillales unclassified	2	Bacteria	Proteobacteria	Gammaproteobacteria	gray	dot
+Aeromonadaceae	2	Bacteria	Proteobacteria	Gammaproteobacteria	gray	dot
+Aeromonadales unclassified	2	Bacteria	Proteobacteria	Gammaproteobacteria	gray	dot
+Alcanivoracaceae	2	Bacteria	Proteobacteria	Gammaproteobacteria	gray	dot
+Algiphilaceae	2	Bacteria	Proteobacteria	Gammaproteobacteria	gray	dot
+Alteromonadaceae	2	Bacteria	Proteobacteria	Gammaproteobacteria	gray	dot
+Alteromonadales unclassified	2	Bacteria	Proteobacteria	Gammaproteobacteria	gray	dot
+Cellvibrionaceae	2	Bacteria	Proteobacteria	Gammaproteobacteria	gray	dot
+Cellvibrionales unclassified	2	Bacteria	Proteobacteria	Gammaproteobacteria	gray	dot
+Chromatiaceae	2	Bacteria	Proteobacteria	Gammaproteobacteria	gray	dot
+Chromatiales unclassified	2	Bacteria	Proteobacteria	Gammaproteobacteria	gray	dot
+Colwelliaceae	2	Bacteria	Proteobacteria	Gammaproteobacteria	gray	dot
+Competibacteraceae	2	Bacteria	Proteobacteria	Gammaproteobacteria	gray	dot
+Coxiellaceae	2	Bacteria	Proteobacteria	Gammaproteobacteria	gray	dot
+Ectothiorhodospiraceae	2	Bacteria	Proteobacteria	Gammaproteobacteria	gray	dot
+Enterobacteriaceae	2	Bacteria	Proteobacteria	Gammaproteobacteria	gray	dot
+Ferrimonadaceae	2	Bacteria	Proteobacteria	Gammaproteobacteria	gray	dot
+Francisellaceae	2	Bacteria	Proteobacteria	Gammaproteobacteria	gray	dot
+Gammaproteobacteria unclassified	2	Bacteria	Proteobacteria	Gammaproteobacteria	gray	dot
+Hahellaceae	2	Bacteria	Proteobacteria	Gammaproteobacteria	gray	dot
+Halieaceae	2	Bacteria	Proteobacteria	Gammaproteobacteria	gray	dot
+Halomonadaceae	2	Bacteria	Proteobacteria	Gammaproteobacteria	gray	dot
+Halothiobacillaceae	2	Bacteria	Proteobacteria	Gammaproteobacteria	gray	dot
+Idiomarinaceae	2	Bacteria	Proteobacteria	Gammaproteobacteria	gray	dot
+Legionellaceae	2	Bacteria	Proteobacteria	Gammaproteobacteria	gray	dot
+Legionellales unclassified	2	Bacteria	Proteobacteria	Gammaproteobacteria	gray	dot
+Methylococcaceae	2	Bacteria	Proteobacteria	Gammaproteobacteria	gray	dot
+Methylococcales unclassified	2	Bacteria	Proteobacteria	Gammaproteobacteria	gray	dot
+Methylothermaceae	2	Bacteria	Proteobacteria	Gammaproteobacteria	gray	dot
+Microbulbiferaceae	2	Bacteria	Proteobacteria	Gammaproteobacteria	gray	dot
+Moraxellaceae	2	Bacteria	Proteobacteria	Gammaproteobacteria	gray	dot
+Moritellaceae	2	Bacteria	Proteobacteria	Gammaproteobacteria	gray	dot
+Nevskiales unclassified	2	Bacteria	Proteobacteria	Gammaproteobacteria	gray	dot
+Oceanospirillaceae	2	Bacteria	Proteobacteria	Gammaproteobacteria	gray	dot
+Oceanospirillales unclassified	2	Bacteria	Proteobacteria	Gammaproteobacteria	gray	dot
+Pasteurellaceae	2	Bacteria	Proteobacteria	Gammaproteobacteria	gray	dot
+Piscirickettsiaceae	2	Bacteria	Proteobacteria	Gammaproteobacteria	gray	dot
+Porticoccaceae	2	Bacteria	Proteobacteria	Gammaproteobacteria	gray	dot
+Pseudoalteromonadaceae	2	Bacteria	Proteobacteria	Gammaproteobacteria	gray	dot
+Pseudomonadaceae	2	Bacteria	Proteobacteria	Gammaproteobacteria	gray	dot
+Pseudomonadales unclassified	2	Bacteria	Proteobacteria	Gammaproteobacteria	gray	dot
+Psychromonadaceae	2	Bacteria	Proteobacteria	Gammaproteobacteria	gray	dot
+Rhodanobacteraceae	2	Bacteria	Proteobacteria	Gammaproteobacteria	gray	dot
+Saccharospirillaceae	2	Bacteria	Proteobacteria	Gammaproteobacteria	gray	dot
+Salinisphaeraceae	2	Bacteria	Proteobacteria	Gammaproteobacteria	gray	dot
+Shewanellaceae	2	Bacteria	Proteobacteria	Gammaproteobacteria	gray	dot
+Sinobacteraceae	2	Bacteria	Proteobacteria	Gammaproteobacteria	gray	dot
+Spongiibacteraceae	2	Bacteria	Proteobacteria	Gammaproteobacteria	gray	dot
+Succinivibrionaceae	2	Bacteria	Proteobacteria	Gammaproteobacteria	gray	dot
+Thermithiobacillaceae	2	Bacteria	Proteobacteria	Gammaproteobacteria	gray	dot
+Thiotrichaceae	2	Bacteria	Proteobacteria	Gammaproteobacteria	gray	dot
+Thiotrichales unclassified	2	Bacteria	Proteobacteria	Gammaproteobacteria	gray	dot
+Unclassified Gammaproteobacteria unclassified	2	Bacteria	Proteobacteria	Gammaproteobacteria	gray	dot
+Vibrionaceae	2	Bacteria	Proteobacteria	Gammaproteobacteria	gray	dot
+Vibrionales unclassified	2	Bacteria	Proteobacteria	Gammaproteobacteria	gray	dot
+Wenzhouxiangellaceae	2	Bacteria	Proteobacteria	Gammaproteobacteria	gray	dot
+Xanthomonadaceae	2	Bacteria	Proteobacteria	Gammaproteobacteria	gray	dot
+Xanthomonadales unclassified	2	Bacteria	Proteobacteria	Gammaproteobacteria	gray	dot
+Gemmatimonadaceae	2	Bacteria	Gemmatimonadetes	Gemmatimonadetes	gray	dot
+Gloeobacterales unclassified	2	Bacteria	Cyanobacteria	Gloeobacteria	gray	dot
+Holophagaceae	2	Bacteria	Acidobacteria	Holophagae	gray	dot
+Ignavibacteriaceae	2	Bacteria	Ignavibacteriae	Ignavibacteria	gray	dot
+Ktedonobacteria unclassified	2	Bacteria	Chloroflexi	Ktedonobacteria	gray	dot
+Latescibacteria unclassified	2	Bacteria	Latescibacteria	Latescibacteria unclassified	gray	dot
+Lentisphaerae unclassified	2	Bacteria	Lentisphaerae	Lentisphaerae unclassified	gray	dot
+Limnochordaceae	2	Bacteria	Firmicutes	Limnochordia	gray	dot
+Marinimicrobia unclassified	2	Bacteria	Marinimicrobia	Marinimicrobia unclassified	gray	dot
+Methylacidiphilaceae	2	Bacteria	Verrucomicrobia	Methylacidiphilaceae	gray	dot
+Microchaetaceae	2	Bacteria	Cyanobacteria	Microchaetaceae	gray	dot
+Microgenomates group unclassified	2	Bacteria	Microgenomates group unclassified	Microgenomates group unclassified	gray	dot
+Acholeplasmataceae	2	Bacteria	Tenericutes	Mollicutes	gray	dot
+Acholeplasmatales unclassified	2	Bacteria	Tenericutes	Mollicutes	gray	dot
+Entomoplasmataceae	2	Bacteria	Tenericutes	Mollicutes	gray	dot
+Mollicutes unclassified	2	Bacteria	Tenericutes	Mollicutes	gray	dot
+Mycoplasmataceae	2	Bacteria	Tenericutes	Mollicutes	gray	dot
+Spiroplasmataceae	2	Bacteria	Tenericutes	Mollicutes	gray	dot
+Acidaminococcaceae	2	Bacteria	Firmicutes	Negativicutes	gray	dot
+Selenomonadales unclassified	2	Bacteria	Firmicutes	Negativicutes	gray	dot
+Veillonellaceae	2	Bacteria	Firmicutes	Negativicutes	gray	dot
+Nitriliruptoraceae	2	Bacteria	Actinobacteria	Nitriliruptoria	gray	dot
+Nitrospinaceae	2	Bacteria	Nitrospinae	Nitrospinia	gray	dot
+Nitrospiraceae	2	Bacteria	Nitrospirae	Nitrospira	gray	dot
+Nitrospirae unclassified	2	Bacteria	Nitrospirae	Nitrospirae unclassified	gray	dot
+Nostocaceae	2	Bacteria	Cyanobacteria	Nostocaceae	gray	dot
+Nostocales unclassified	2	Bacteria	Cyanobacteria	Nostocales unclassified	gray	dot
+Omnitrophica unclassified	2	Bacteria	Omnitrophica	Omnitrophica unclassified	gray	dot
+Opitutaceae	2	Bacteria	Verrucomicrobia	Opitutae	gray	dot
+Opitutae unclassified	2	Bacteria	Verrucomicrobia	Opitutae	gray	dot
+Puniceicoccaceae	2	Bacteria	Verrucomicrobia	Opitutae	gray	dot
+Oscillatoriales unclassified	2	Bacteria	Cyanobacteria	Oscillatoriales unclassified	gray	dot
+Oscillatoriophycideae unclassified	2	Bacteria	Cyanobacteria	Oscillatoriophycideae unclassified	gray	dot
+Patescibacteria group unclassified	2	Bacteria	Patescibacteria group unclassified	Patescibacteria group unclassified	gray	dot
+Phycisphaeraceae	2	Bacteria	Planctomycetes	Phycisphaerae	gray	dot
+Phycisphaerae unclassified	2	Bacteria	Planctomycetes	Phycisphaerae	gray	dot
+Planctomycetes unclassified	2	Bacteria	Planctomycetes	Planctomycetes unclassified	gray	dot
+Candidatus Brocadiaceae	2	Bacteria	Planctomycetes	Planctomycetia	gray	dot
+Isosphaeraceae	2	Bacteria	Planctomycetes	Planctomycetia	gray	dot
+Planctomycetaceae	2	Bacteria	Planctomycetes	Planctomycetia	gray	dot
+Planctomycetales unclassified	2	Bacteria	Planctomycetes	Planctomycetia	gray	dot
+Planctomycetia unclassified	2	Bacteria	Planctomycetes	Planctomycetia	gray	dot
+Pleurocapsales unclassified	2	Bacteria	Cyanobacteria	Pleurocapsales unclassified	gray	dot
+Prochlorococcaceae	2	Bacteria	Cyanobacteria	Prochlorococcaceae	gray	dot
+Prochlorotrichaceae	2	Bacteria	Cyanobacteria	Prochlorotrichaceae	gray	dot
+Proteobacteria unclassified	2	Bacteria	Proteobacteria	Proteobacteria unclassified	gray	dot
+PVC group unclassified	2	Bacteria	PVC group unclassified	PVC group unclassified	gray	dot
+Rubrobacteraceae	2	Bacteria	Actinobacteria	Rubrobacteria	gray	dot
+Solibacteraceae	2	Bacteria	Acidobacteria	Solibacteres	gray	dot
+Solibacterales unclassified	2	Bacteria	Acidobacteria	Solibacteres	gray	dot
+Chitinophagaceae	2	Bacteria	Bacteroidetes	Sphingobacteriia	gray	dot
+Saprospiraceae	2	Bacteria	Bacteroidetes	Sphingobacteriia	gray	dot
+Sphingobacteriaceae	2	Bacteria	Bacteroidetes	Sphingobacteriia	gray	dot
+Sphingobacteriales unclassified	2	Bacteria	Bacteroidetes	Sphingobacteriia	gray	dot
+Spirochaetes unclassified	2	Bacteria	Spirochaetes	Spirochaetes unclassified	gray	dot
+Borreliaceae	2	Bacteria	Spirochaetes	Spirochaetia	gray	dot
+Brachyspiraceae	2	Bacteria	Spirochaetes	Spirochaetia	gray	dot
+Leptospiraceae	2	Bacteria	Spirochaetes	Spirochaetia	gray	dot
+Spirochaetaceae	2	Bacteria	Spirochaetes	Spirochaetia	gray	dot
+Spirochaetales unclassified	2	Bacteria	Spirochaetes	Spirochaetia	gray	dot
+Stigonematales unclassified	2	Bacteria	Cyanobacteria	Stigonematales unclassified	gray	dot
+Synergistetes unclassified	2	Bacteria	Synergistetes	Synergistetes unclassified	gray	dot
+Synergistaceae	2	Bacteria	Synergistetes	Synergistia	gray	dot
+Synergistales unclassified	2	Bacteria	Synergistetes	Synergistia	gray	dot
+Terrabacteria group unclassified	2	Bacteria	Terrabacteria group unclassified	Terrabacteria group unclassified	gray	dot
+Thermodesulfobacteriaceae	2	Bacteria	Thermodesulfobacteria	Thermodesulfobacteria	gray	dot
+Conexibacteraceae	2	Bacteria	Actinobacteria	Thermoleophilia	gray	dot
+Patulibacteraceae	2	Bacteria	Actinobacteria	Thermoleophilia	gray	dot
+Solirubrobacteraceae	2	Bacteria	Actinobacteria	Thermoleophilia	gray	dot
+Solirubrobacterales unclassified	2	Bacteria	Actinobacteria	Thermoleophilia	gray	dot
+Sphaerobacteraceae	2	Bacteria	Chloroflexi	Thermomicrobia	gray	dot
+Thermomicrobia unclassified	2	Bacteria	Chloroflexi	Thermomicrobia	gray	dot
+Fervidobacteriaceae	2	Bacteria	Thermotogae	Thermotogae	gray	dot
+Kosmotogaceae	2	Bacteria	Thermotogae	Thermotogae	gray	dot
+Petrotogales unclassified	2	Bacteria	Thermotogae	Thermotogae	gray	dot
+Thermotogaceae	2	Bacteria	Thermotogae	Thermotogae	gray	dot
+Thermotogales unclassified	2	Bacteria	Thermotogae	Thermotogae	gray	dot
+Peptoniphilaceae	2	Bacteria	Firmicutes	Tissierellia	gray	dot
+Tissierellia unclassified	2	Bacteria	Firmicutes	Tissierellia	gray	dot
+Unclassified Bacteria unclassified	2	Bacteria	Unclassified Bacteria unclassified	Unclassified Bacteria unclassified	gray	dot
+Unclassified Verrucomicrobia unclassified	2	Bacteria	Verrucomicrobia	Unclassified Verrucomicrobia unclassified	gray	dot
+Verrucomicrobia unclassified	2	Bacteria	Verrucomicrobia	Verrucomicrobia unclassified	gray	dot
+Akkermansiaceae	2	Bacteria	Verrucomicrobia	Verrucomicrobiae	gray	dot
+Verrucomicrobiaceae	2	Bacteria	Verrucomicrobia	Verrucomicrobiae	gray	dot
+Verrucomicrobiales unclassified	2	Bacteria	Verrucomicrobia	Verrucomicrobiae	gray	dot
+Verrucomicrobia subdivision 3	2	Bacteria	Verrucomicrobia	Verrucomicrobiae	gray	dot
+Verrucomicrobia subdivision 6	2	Bacteria	Verrucomicrobia	Verrucomicrobiae	gray	dot
+Zetaproteobacteria unclassified	2	Bacteria	Proteobacteria	Zetaproteobacteria	gray	dot
+Eukaryota unclassified	4	Eukaryota	Eukaryota unclassified	Eukaryota unclassified	darkolivegray1	triangle
+Agaricales unclassified	3	Fungi	Basidiomycota	Agaricomycetes	orange	diamond
+Agaricomycetes unclassified	3	Fungi	Basidiomycota	Agaricomycetes	orange	diamond
+Polyporaceae	3	Fungi	Basidiomycota	Agaricomycetes	orange	diamond
+Ascomycota unclassified	3	Fungi	Ascomycota	Ascomycota unclassified	orange	diamond
+Basidiomycota unclassified	3	Fungi	Basidiomycota	Basidiomycota unclassified	orange	diamond
+Dikarya unclassified	3	Fungi	Dikarya unclassified	Dikarya unclassified	orange	diamond
+Botryosphaeriaceae	3	Fungi	Ascomycota	Dothideomycetes	orange	diamond
+Mycosphaerellaceae	3	Fungi	Ascomycota	Dothideomycetes	orange	diamond
+Pleosporaceae	3	Fungi	Ascomycota	Dothideomycetes	orange	diamond
+Aspergillaceae	3	Fungi	Ascomycota	Eurotiomycetes	orange	diamond
+Eurotiales unclassified	3	Fungi	Ascomycota	Eurotiomycetes	orange	diamond
+Eurotiomycetes unclassified	3	Fungi	Ascomycota	Eurotiomycetes	orange	diamond
+Fungi unclassified	3	Fungi	Fungi unclassified	Fungi unclassified	orange	diamond
+Leotiomyceta unclassified	3	Fungi	Ascomycota	Leotiomyceta unclassified	orange	diamond
+Myxotrichaceae	3	Fungi	Ascomycota	Leotiomycetes	orange	diamond
+Mucorales unclassified	3	Fungi	Mucorales unclassified	Mucorales unclassified	orange	diamond
+Saccharomyceta unclassified	3	Fungi	Ascomycota	Saccharomyceta unclassified	orange	diamond
+Saccharomycetales unclassified	3	Fungi	Ascomycota	Saccharomycetes	orange	diamond
+Sordariomyceta unclassified	3	Fungi	Ascomycota	Sordariomyceta unclassified	orange	diamond
+Diaporthales unclassified	3	Fungi	Ascomycota	Sordariomycetes	orange	diamond
+Hypocreaceae	3	Fungi	Ascomycota	Sordariomycetes	orange	diamond
+Hypocreales unclassified	3	Fungi	Ascomycota	Sordariomycetes	orange	diamond
+Hypocreomycetidae unclassified	3	Fungi	Ascomycota	Sordariomycetes	orange	diamond
+Ophiostomataceae	3	Fungi	Ascomycota	Sordariomycetes	orange	diamond
+Sordariomycetes unclassified	3	Fungi	Ascomycota	Sordariomycetes	orange	diamond
+Ustilaginaceae	3	Fungi	Basidiomycota	Ustilaginomycetes	orange	diamond
+Plasmodiidae	5	Protista	Apicomplexa	Aconoidasida	pink	star
+Apicomplexa unclassified	5	Protista	Apicomplexa	Apicomplexa unclassified	pink	star
+Eimeriidae	5	Protista	Apicomplexa	Coccidia	pink	star
+Eucoccidiorida unclassified	5	Protista	Apicomplexa	Coccidia	pink	star
+Dictyosteliida unclassified	5	Protista	Dictyosteliida unclassified	Dictyosteliida unclassified	pink	star
+Trypanosomatidae	5	Protista	Trypanosomatidae	Trypanosomatidae	pink	star
+Actinobacteria unclassified_class_1760	6	unclassified	unclassified	unclassified	yellowgreen	ellipse
+Actinobacteria unclassified_phylum_201174	6	unclassified	unclassified	unclassified	yellowgreen	ellipse
+Gemmatimonadetes unclassified_class_219685	6	unclassified	unclassified	unclassified	yellowgreen	ellipse
+Name	6	unclassified	unclassified	unclassified	yellowgreen	ellipse
+Thermotogae unclassified__188708	6	unclassified	unclassified	unclassified	yellowgreen	ellipse
+Thermotogae unclassified_phylum_200918	6	unclassified	unclassified	unclassified	yellowgreen	ellipse
+Bromoviridae	7	Viruses	Viruses	Viruses	salmon	box
+Caliciviridae	7	Viruses	Viruses	Viruses	salmon	box
+Dicistroviridae	7	Viruses	Viruses	Viruses	salmon	box
+DsDNA viruses, no RNA stage unclassified	7	Viruses	Viruses	Viruses	salmon	box
+Fuselloviridae	7	Viruses	Viruses	Viruses	salmon	box
+Herpesviridae	7	Viruses	Viruses	Viruses	salmon	box
+Inoviridae	7	Viruses	Viruses	Viruses	salmon	box
+Mesoniviridae	7	Viruses	Viruses	Viruses	salmon	box
+Microviridae	7	Viruses	Viruses	Viruses	salmon	box
+Mimiviridae	7	Viruses	Viruses	Viruses	salmon	box
+Myoviridae	7	Viruses	Viruses	Viruses	salmon	box
+Nodaviridae	7	Viruses	Viruses	Viruses	salmon	box
+Parvoviridae	7	Viruses	Viruses	Viruses	salmon	box
+Phycodnaviridae	7	Viruses	Viruses	Viruses	salmon	box
+Picornaviridae	7	Viruses	Viruses	Viruses	salmon	box
+Podoviridae	7	Viruses	Viruses	Viruses	salmon	box
+Reoviridae	7	Viruses	Viruses	Viruses	salmon	box
+Retroviridae	7	Viruses	Viruses	Viruses	salmon	box
+Secoviridae	7	Viruses	Viruses	Viruses	salmon	box
+Siphoviridae	7	Viruses	Viruses	Viruses	salmon	box
+Tombusviridae	7	Viruses	Viruses	Viruses	salmon	box
+Viruses unclassified	7	Viruses	Viruses	Viruses	salmon	box

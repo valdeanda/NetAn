@@ -1,0 +1,1201 @@
+from	to	Strength	dashes	color 
+Actinobacteria unclassified_class_1760	Unclassified Gammaproteobacteria unclassified	-5.93E+14	TRUE	gray
+Actinobacteria unclassified_class_1760	Bacillaceae	-5.76E+14	TRUE	gray
+Actinobacteria unclassified_class_1760	Francisellaceae	-5.75E+14	TRUE	gray
+Actinobacteria unclassified_class_1760	Leotiomyceta unclassified	-5.34E+14	TRUE	gray
+Actinobacteria unclassified_class_1760	Nitriliruptoraceae	-4.81E+14	TRUE	gray
+Actinobacteria unclassified_class_1760	Ardenticatenaceae	-4.68E+14	TRUE	gray
+Actinobacteria unclassified_class_1760	Verrucomicrobiales unclassified	-4.61E+14	TRUE	gray
+Actinobacteria unclassified_class_1760	Microchaetaceae	-4.51E+14	TRUE	gray
+Actinobacteria unclassified_class_1760	Competibacteraceae	-4.49E+14	TRUE	gray
+Actinobacteria unclassified_class_1760	Roseiflexaceae	-4.44E+14	TRUE	gray
+Actinobacteria unclassified_class_1760	Kordiimonadaceae	-4.08E+14	TRUE	gray
+Actinobacteria unclassified_class_1760	Methylothermaceae	-3.93E+14	TRUE	gray
+Actinobacteria unclassified_class_1760	Saprospiraceae	-3.68E+14	TRUE	gray
+Actinobacteria unclassified_class_1760	Oscillochloridaceae	-3.56E+14	TRUE	gray
+Actinobacteria unclassified_class_1760	Symbiobacteriaceae	-3.36E+14	TRUE	gray
+Actinobacteria unclassified_class_1760	Listeriaceae	-3.32E+14	TRUE	gray
+Actinobacteria unclassified_class_1760	Bacteroidetes/Chlorobi group unclassified	-3.15E+14	TRUE	gray
+Actinobacteria unclassified_class_1760	Peptoniphilaceae	-2.94E+14	TRUE	gray
+Actinobacteria unclassified_class_1760	Dikarya unclassified	-2.94E+14	TRUE	gray
+Actinobacteria unclassified_class_1760	Acidimicrobiaceae	-2.93E+14	TRUE	gray
+Actinobacteria unclassified_class_1760	Sphaerobacteraceae	-2.88E+14	TRUE	gray
+Actinobacteria unclassified_class_1760	Solirubrobacterales unclassified	-2.77E+14	TRUE	gray
+Actinobacteria unclassified_class_1760	Marinimicrobia unclassified	-2.67E+14	TRUE	gray
+Actinobacteria unclassified_class_1760	Oceanospirillales unclassified	-2.48E+14	TRUE	gray
+Actinobacteria unclassified_class_1760	Trueperaceae	-3.27E+13	TRUE	gray
+Actinobacteria unclassified_class_1760	Salinisphaeraceae	-3.05E+13	TRUE	gray
+Actinobacteria unclassified_class_1760	Conexibacteraceae	-2.63E+13	TRUE	gray
+Actinobacteria unclassified_class_1760	Aspergillaceae	-0.000115994641380573	FALSE	green
+Actinobacteria unclassified_class_1760	Thermoplasmatales unclassified	2.79E+13	FALSE	green
+Actinobacteria unclassified_class_1760	Euryarchaeota unclassified	2.59E+14	FALSE	green
+Actinobacteria unclassified_class_1760	Desulfohalobiaceae	2.92E+14	FALSE	green
+Actinobacteria unclassified_class_1760	Syntrophaceae	3.42E+14	FALSE	green
+Actinobacteria unclassified_class_1760	Hypocreaceae	4.50E+14	FALSE	green
+Actinobacteria unclassified_class_1760	Marinilabiliaceae	5.65E+14	FALSE	green
+Alphaproteobacteria unclassified	Aspergillaceae	-6.50E+14	TRUE	gray
+Alphaproteobacteria unclassified	Unclassified Gammaproteobacteria unclassified	-4.66E+14	TRUE	gray
+Alphaproteobacteria unclassified	Patulibacteraceae	-4.29E+14	TRUE	gray
+Alphaproteobacteria unclassified	Microthrixaceae	-3.91E+14	TRUE	gray
+Alphaproteobacteria unclassified	Unclassified Verrucomicrobia unclassified	-3.66E+14	TRUE	gray
+Alphaproteobacteria unclassified	Leotiomyceta unclassified	-3.53E+14	TRUE	gray
+Alphaproteobacteria unclassified	Salinisphaeraceae	-3.51E+14	TRUE	gray
+Alphaproteobacteria unclassified	Microchaetaceae	-3.34E+14	TRUE	gray
+Alphaproteobacteria unclassified	Acidimicrobiaceae	-3.28E+14	TRUE	gray
+Alphaproteobacteria unclassified	Competibacteraceae	-3.01E+14	TRUE	gray
+Alphaproteobacteria unclassified	Neisseriales unclassified	-2.96E+14	TRUE	gray
+Alphaproteobacteria unclassified	Francisellaceae	-2.94E+14	TRUE	gray
+Alphaproteobacteria unclassified	Saprospiraceae	-2.91E+14	TRUE	gray
+Alphaproteobacteria unclassified	Bacillaceae	-2.81E+14	TRUE	gray
+Alphaproteobacteria unclassified	Candidatus Kaiserbacteria unclassified	-2.73E+14	TRUE	gray
+Alphaproteobacteria unclassified	Nitriliruptoraceae	-2.63E+14	TRUE	gray
+Alphaproteobacteria unclassified	Sphaerobacteraceae	-2.49E+14	TRUE	gray
+Alphaproteobacteria unclassified	Symbiobacteriaceae	-3.20E+13	TRUE	gray
+Alphaproteobacteria unclassified	Oscillochloridaceae	-2.69E+13	TRUE	gray
+Alphaproteobacteria unclassified	Anaerolineae unclassified	3.05E+12	FALSE	green
+Alphaproteobacteria unclassified	Marinilabiliaceae	7.57E+13	FALSE	green
+Alphaproteobacteria unclassified	Desulfobacteraceae	2.47E+14	FALSE	green
+Alphaproteobacteria unclassified	Euryarchaeota unclassified	2.56E+14	FALSE	green
+Alphaproteobacteria unclassified	Halothiobacillaceae	2.64E+14	FALSE	green
+Alphaproteobacteria unclassified	Pasteurellaceae	2.68E+14	FALSE	green
+Alphaproteobacteria unclassified	Spirochaetaceae	2.87E+14	FALSE	green
+Alphaproteobacteria unclassified	Chlorobiaceae	3.09E+14	FALSE	green
+Alphaproteobacteria unclassified	Synergistaceae	3.47E+14	FALSE	green
+Alphaproteobacteria unclassified	Desulfohalobiaceae	3.70E+14	FALSE	green
+Alphaproteobacteria unclassified	Syntrophaceae	3.92E+14	FALSE	green
+Aspergillaceae	Saprospiraceae	-9.88E+14	TRUE	gray
+Aspergillaceae	Oscillochloridaceae	-9.61E+14	TRUE	gray
+Aspergillaceae	Listeriaceae	-9.03E+14	TRUE	gray
+Aspergillaceae	Symbiobacteriaceae	-8.94E+14	TRUE	gray
+Aspergillaceae	Trueperaceae	-8.84E+14	TRUE	gray
+Aspergillaceae	Bacteroidetes/Chlorobi group unclassified	-8.51E+14	TRUE	gray
+Aspergillaceae	Peptoniphilaceae	-8.03E+14	TRUE	gray
+Aspergillaceae	Salinisphaeraceae	-7.98E+14	TRUE	gray
+Aspergillaceae	Sphaerobacteraceae	-7.71E+14	TRUE	gray
+Aspergillaceae	Acidimicrobiaceae	-7.68E+14	TRUE	gray
+Aspergillaceae	Solirubrobacterales unclassified	-7.48E+14	TRUE	gray
+Aspergillaceae	Marinimicrobia unclassified	-7.23E+14	TRUE	gray
+Aspergillaceae	Conexibacteraceae	-7.18E+14	TRUE	gray
+Aspergillaceae	Verrucomicrobia subdivision 3	-6.64E+14	TRUE	gray
+Aspergillaceae	Candidatus Beckwithbacteria unclassified	-6.63E+14	TRUE	gray
+Aspergillaceae	Oceanospirillales unclassified	-6.63E+14	TRUE	gray
+Aspergillaceae	Promicromonosporaceae	-6.57E+14	TRUE	gray
+Aspergillaceae	Bifidobacteriaceae	-6.51E+14	TRUE	gray
+Aspergillaceae	Gallionellaceae	-6.35E+14	TRUE	gray
+Aspergillaceae	Candidatus Kaiserbacteria unclassified	-6.21E+14	TRUE	gray
+Aspergillaceae	Neisseriales unclassified	-6.10E+14	TRUE	gray
+Aspergillaceae	Eggerthellaceae	-6.10E+14	TRUE	gray
+Aspergillaceae	Cytophagaceae	-6.01E+14	TRUE	gray
+Aspergillaceae	Sphingobacteriaceae	-5.93E+14	TRUE	gray
+Aspergillaceae	Cellvibrionales unclassified	-5.92E+14	TRUE	gray
+Aspergillaceae	Chloroflexaceae	-5.76E+14	TRUE	gray
+Aspergillaceae	Dermabacteraceae	-5.71E+14	TRUE	gray
+Aspergillaceae	Candidatus Woesebacteria unclassified	-5.69E+14	TRUE	gray
+Aspergillaceae	Flavobacteriia unclassified	-5.56E+14	TRUE	gray
+Aspergillaceae	Pleurocapsales unclassified	-5.51E+14	TRUE	gray
+Aspergillaceae	Puniceicoccaceae	-5.49E+14	TRUE	gray
+Aspergillaceae	Flavobacteriales unclassified	-5.36E+14	TRUE	gray
+Aspergillaceae	Cyclobacteriaceae	-4.99E+14	TRUE	gray
+Aspergillaceae	Nocardioidaceae	-4.95E+14	TRUE	gray
+Aspergillaceae	Hypocreales unclassified	-4.80E+14	TRUE	gray
+Aspergillaceae	Candidatus Gottesmanbacteria unclassified	-4.80E+14	TRUE	gray
+Aspergillaceae	Neisseriaceae	-4.67E+14	TRUE	gray
+Aspergillaceae	Acidithiobacillales unclassified	-4.56E+14	TRUE	gray
+Aspergillaceae	Comamonadaceae	-4.55E+14	TRUE	gray
+Aspergillaceae	Candidate division CPR2 unclassified	-4.51E+14	TRUE	gray
+Aspergillaceae	Thaumarchaeota unclassified	-4.39E+14	TRUE	gray
+Aspergillaceae	Microthrixaceae	-4.36E+14	TRUE	gray
+Aspergillaceae	Nannocystaceae	-4.29E+14	TRUE	gray
+Aspergillaceae	Verrucomicrobia subdivision 6	-4.28E+14	TRUE	gray
+Aspergillaceae	Oscillatoriales unclassified	-4.18E+14	TRUE	gray
+Aspergillaceae	Ruminococcaceae	-4.15E+14	TRUE	gray
+Aspergillaceae	Sphingomonadaceae	-3.97E+14	TRUE	gray
+Aspergillaceae	Chitinophagaceae	-3.94E+14	TRUE	gray
+Aspergillaceae	Microbacteriaceae	-3.84E+14	TRUE	gray
+Aspergillaceae	Myxococcales unclassified	-3.83E+14	TRUE	gray
+Aspergillaceae	Coriobacteriaceae	-3.81E+14	TRUE	gray
+Aspergillaceae	Cloacimonetes unclassified	-3.81E+14	TRUE	gray
+Aspergillaceae	Candidatus Shapirobacteria unclassified	-3.81E+14	TRUE	gray
+Aspergillaceae	Oceanospirillaceae	-3.81E+14	TRUE	gray
+Aspergillaceae	Candidate division WWE3 unclassified	-3.81E+14	TRUE	gray
+Aspergillaceae	Nostocales unclassified	-3.76E+14	TRUE	gray
+Aspergillaceae	Rivulariaceae	-3.65E+14	TRUE	gray
+Aspergillaceae	Erythrobacteraceae	-3.65E+14	TRUE	gray
+Aspergillaceae	Thermoactinomycetaceae	-3.64E+14	TRUE	gray
+Aspergillaceae	Enterobacteriaceae	-3.62E+14	TRUE	gray
+Aspergillaceae	Gloeobacterales unclassified	-3.45E+14	TRUE	gray
+Aspergillaceae	Wenzhouxiangellaceae	-3.37E+14	TRUE	gray
+Aspergillaceae	Prochlorotrichaceae	-3.12E+14	TRUE	gray
+Aspergillaceae	Gordoniaceae	-3.11E+14	TRUE	gray
+Aspergillaceae	Candidatus Pacebacteria unclassified	-3.11E+14	TRUE	gray
+Aspergillaceae	Nocardiaceae	-3.09E+14	TRUE	gray
+Aspergillaceae	Methylophilaceae	-3.03E+14	TRUE	gray
+Aspergillaceae	Desulfonatronaceae	-3.00E+14	TRUE	gray
+Aspergillaceae	Bacillales unclassified	-2.99E+14	TRUE	gray
+Aspergillaceae	Chroococcales unclassified	-2.93E+14	TRUE	gray
+Aspergillaceae	Sphingomonadales unclassified	-2.93E+14	TRUE	gray
+Aspergillaceae	Parvularculaceae	-2.88E+14	TRUE	gray
+Aspergillaceae	Veillonellaceae	-2.83E+14	TRUE	gray
+Aspergillaceae	Rhizobiaceae	-2.82E+14	TRUE	gray
+Aspergillaceae	Rhodobacteraceae	-2.82E+14	TRUE	gray
+Aspergillaceae	Solirubrobacteraceae	-2.78E+14	TRUE	gray
+Aspergillaceae	Rhodanobacteraceae	-2.78E+14	TRUE	gray
+Aspergillaceae	Algiphilaceae	-2.74E+14	TRUE	gray
+Aspergillaceae	Flavobacteriaceae	-2.72E+14	TRUE	gray
+Aspergillaceae	Chromatiaceae	-2.72E+14	TRUE	gray
+Aspergillaceae	Sandaracinaceae	-2.71E+14	TRUE	gray
+Aspergillaceae	Methylobacteriaceae	-2.67E+14	TRUE	gray
+Aspergillaceae	Propionibacteriales unclassified	-2.58E+14	TRUE	gray
+Aspergillaceae	Pelagibacteraceae	-2.58E+14	TRUE	gray
+Aspergillaceae	Xanthomonadales unclassified	-2.58E+14	TRUE	gray
+Aspergillaceae	Hyphomicrobiaceae	-2.49E+14	TRUE	gray
+Aspergillaceae	Micrococcaceae	-2.47E+14	TRUE	gray
+Aspergillaceae	Thermithiobacillaceae	-2.46E+14	TRUE	gray
+Aspergillaceae	Sorangiineae unclassified	-2.46E+14	TRUE	gray
+Aspergillaceae	Dikarya unclassified	-8.03E+13	TRUE	gray
+Aspergillaceae	Methanomicrobiaceae	-6.03E+13	TRUE	gray
+Aspergillaceae	Nostocaceae	-5.55E+13	TRUE	gray
+Aspergillaceae	Botryosphaeriaceae	-5.51E+13	TRUE	gray
+Aspergillaceae	Sulfuricellaceae	-4.89E+13	TRUE	gray
+Aspergillaceae	Patulibacteraceae	-4.74E+13	TRUE	gray
+Aspergillaceae	Peptococcaceae	-4.10E+13	TRUE	gray
+Aspergillaceae	Unclassified Verrucomicrobia unclassified	-3.88E+13	TRUE	gray
+Aspergillaceae	Lactobacillaceae	-3.70E+13	TRUE	gray
+Aspergillaceae	Beijerinckiaceae	-3.55E+13	TRUE	gray
+Aspergillaceae	Marinifilaceae	-3.32E+13	TRUE	gray
+Aspergillaceae	Legionellaceae	-3.18E+13	TRUE	gray
+Aspergillaceae	Chloroflexineae unclassified	-3.03E+13	TRUE	gray
+Aspergillaceae	Bradyrhizobiaceae	-3.03E+13	TRUE	gray
+Aspergillaceae	Methanobacteriaceae	-2.58E+13	TRUE	gray
+Aspergillaceae	Methylococcaceae	-2.47E+13	TRUE	gray
+Aspergillaceae	Unclassified Gammaproteobacteria unclassified	-0.00015959884148969	FALSE	green
+Aspergillaceae	Bacillaceae	-0.00015820126060848	FALSE	green
+Aspergillaceae	Francisellaceae	-0.000157728267862926	FALSE	green
+Aspergillaceae	Leotiomyceta unclassified	-0.000145082323973665	FALSE	green
+Aspergillaceae	Nitriliruptoraceae	-0.000131641445929875	FALSE	green
+Aspergillaceae	Ardenticatenaceae	-0.000128448301430207	FALSE	green
+Aspergillaceae	Verrucomicrobiales unclassified	-0.000126671208606819	FALSE	green
+Aspergillaceae	Roseiflexaceae	-0.000123454669979574	FALSE	green
+Aspergillaceae	Competibacteraceae	-0.000121889047038427	FALSE	green
+Aspergillaceae	Microchaetaceae	-0.000121589284347548	FALSE	green
+Aspergillaceae	Kordiimonadaceae	-0.000111412263761277	FALSE	green
+Aspergillaceae	Methylothermaceae	-0.000108029554123558	FALSE	green
+Aspergillaceae	Hypocreaceae	0.000125010437030627	FALSE	green
+Aspergillaceae	Marinilabiliaceae	0.000145747020783177	FALSE	green
+Aspergillaceae	Eubacteriaceae	2.48E+13	FALSE	green
+Aspergillaceae	Rubrobacteraceae	3.91E+13	FALSE	green
+Aspergillaceae	Sutterellaceae	5.51E+13	FALSE	green
+Aspergillaceae	Kosmotogaceae	2.46E+14	FALSE	green
+Aspergillaceae	Limnochordaceae	2.47E+14	FALSE	green
+Aspergillaceae	Planctomycetales unclassified	2.61E+14	FALSE	green
+Aspergillaceae	Akkermansiaceae	2.71E+14	FALSE	green
+Aspergillaceae	Syntrophorhabdaceae	2.79E+14	FALSE	green
+Aspergillaceae	Phycisphaerae unclassified	2.80E+14	FALSE	green
+Aspergillaceae	Desulfobacterales unclassified	2.80E+14	FALSE	green
+Aspergillaceae	Alteromonadaceae	2.89E+14	FALSE	green
+Aspergillaceae	Alcanivoracaceae	2.95E+14	FALSE	green
+Aspergillaceae	Jiangellaceae	3.04E+14	FALSE	green
+Aspergillaceae	Halobacteria unclassified	3.22E+14	FALSE	green
+Aspergillaceae	Fusobacteriaceae	3.22E+14	FALSE	green
+Aspergillaceae	Haloferacaceae	3.36E+14	FALSE	green
+Aspergillaceae	Synergistales unclassified	3.63E+14	FALSE	green
+Aspergillaceae	Gemmatimonadetes unclassified_class_219685	3.70E+14	FALSE	green
+Aspergillaceae	Desulfobacteraceae	3.72E+14	FALSE	green
+Aspergillaceae	Dictyosteliida unclassified	3.75E+14	FALSE	green
+Aspergillaceae	Opitutae unclassified	3.75E+14	FALSE	green
+Aspergillaceae	Pasteurellaceae	3.80E+14	FALSE	green
+Aspergillaceae	Planctomycetes unclassified	4.07E+14	FALSE	green
+Aspergillaceae	Halobacteriaceae	4.21E+14	FALSE	green
+Aspergillaceae	Rickettsiales unclassified	4.34E+14	FALSE	green
+Aspergillaceae	Nanoarchaeota unclassified	4.46E+14	FALSE	green
+Aspergillaceae	Blattabacteriaceae	4.98E+14	FALSE	green
+Aspergillaceae	Candidatus Poribacteria unclassified	4.98E+14	FALSE	green
+Aspergillaceae	Cryptosporangiaceae	5.14E+14	FALSE	green
+Aspergillaceae	Anaerolineae unclassified	5.41E+14	FALSE	green
+Aspergillaceae	Geodermatophilaceae	5.49E+14	FALSE	green
+Aspergillaceae	Synergistaceae	5.49E+14	FALSE	green
+Aspergillaceae	Halothiobacillaceae	5.58E+14	FALSE	green
+Aspergillaceae	Spirochaetaceae	5.63E+14	FALSE	green
+Aspergillaceae	Methanosarcinaceae	6.10E+14	FALSE	green
+Aspergillaceae	Candidatus Aminicenantes unclassified	6.23E+14	FALSE	green
+Aspergillaceae	Archaea unclassified	6.26E+14	FALSE	green
+Aspergillaceae	Euryarchaeota unclassified	6.85E+14	FALSE	green
+Aspergillaceae	Thermoplasmatales unclassified	7.50E+14	FALSE	green
+Aspergillaceae	Desulfohalobiaceae	7.57E+14	FALSE	green
+Aspergillaceae	Syntrophaceae	8.96E+14	TRUE	green
+Bacillaceae	Candidatus Woesebacteria unclassified	-9.85E+14	TRUE	gray
+Bacillaceae	Chloroflexaceae	-9.75E+14	TRUE	gray
+Bacillaceae	Puniceicoccaceae	-9.67E+14	TRUE	gray
+Bacillaceae	Dermabacteraceae	-9.67E+14	TRUE	gray
+Bacillaceae	Nostocaceae	-9.37E+14	TRUE	gray
+Bacillaceae	Pleurocapsales unclassified	-9.31E+14	TRUE	gray
+Bacillaceae	Flavobacteriia unclassified	-9.26E+14	TRUE	gray
+Bacillaceae	Flavobacteriales unclassified	-9.09E+14	TRUE	gray
+Bacillaceae	Nocardioidaceae	-8.60E+14	TRUE	gray
+Bacillaceae	Sulfuricellaceae	-8.36E+14	TRUE	gray
+Bacillaceae	Hypocreales unclassified	-7.96E+14	TRUE	gray
+Bacillaceae	Neisseriaceae	-7.92E+14	TRUE	gray
+Bacillaceae	Acidithiobacillales unclassified	-7.92E+14	TRUE	gray
+Bacillaceae	Comamonadaceae	-7.79E+14	TRUE	gray
+Bacillaceae	Candidate division CPR2 unclassified	-7.66E+14	TRUE	gray
+Bacillaceae	Verrucomicrobia subdivision 6	-7.42E+14	TRUE	gray
+Bacillaceae	Nannocystaceae	-7.33E+14	TRUE	gray
+Bacillaceae	Patulibacteraceae	-7.32E+14	TRUE	gray
+Bacillaceae	Thaumarchaeota unclassified	-7.28E+14	TRUE	gray
+Bacillaceae	Ruminococcaceae	-7.13E+14	TRUE	gray
+Bacillaceae	Oscillatoriales unclassified	-7.08E+14	TRUE	gray
+Bacillaceae	Rivulariaceae	-6.96E+14	TRUE	gray
+Bacillaceae	Peptococcaceae	-6.89E+14	TRUE	gray
+Bacillaceae	Microthrixaceae	-6.75E+14	TRUE	gray
+Bacillaceae	Cloacimonetes unclassified	-6.67E+14	TRUE	gray
+Bacillaceae	Candidatus Shapirobacteria unclassified	-6.67E+14	TRUE	gray
+Bacillaceae	Myxococcales unclassified	-6.53E+14	TRUE	gray
+Bacillaceae	Coriobacteriaceae	-6.52E+14	TRUE	gray
+Bacillaceae	Marinifilaceae	-6.33E+14	TRUE	gray
+Bacillaceae	Nostocales unclassified	-6.33E+14	TRUE	gray
+Bacillaceae	Oceanospirillaceae	-6.31E+14	TRUE	gray
+Bacillaceae	Thermoactinomycetaceae	-6.23E+14	TRUE	gray
+Bacillaceae	Erythrobacteraceae	-6.22E+14	TRUE	gray
+Bacillaceae	Beijerinckiaceae	-5.97E+14	TRUE	gray
+Bacillaceae	Unclassified Verrucomicrobia unclassified	-5.96E+14	TRUE	gray
+Bacillaceae	Gloeobacterales unclassified	-5.70E+14	TRUE	gray
+Bacillaceae	Wenzhouxiangellaceae	-5.69E+14	TRUE	gray
+Bacillaceae	Gordoniaceae	-5.36E+14	TRUE	gray
+Bacillaceae	Legionellaceae	-5.35E+14	TRUE	gray
+Bacillaceae	Candidatus Pacebacteria unclassified	-5.33E+14	TRUE	gray
+Bacillaceae	Prochlorotrichaceae	-5.31E+14	TRUE	gray
+Bacillaceae	Desulfonatronaceae	-5.24E+14	TRUE	gray
+Bacillaceae	Methylophilaceae	-5.21E+14	TRUE	gray
+Bacillaceae	Nocardiaceae	-5.20E+14	TRUE	gray
+Bacillaceae	Bacillales unclassified	-5.13E+14	TRUE	gray
+Bacillaceae	Chloroflexineae unclassified	-5.10E+14	TRUE	gray
+Bacillaceae	Bradyrhizobiaceae	-5.07E+14	TRUE	gray
+Bacillaceae	Parvularculaceae	-4.91E+14	TRUE	gray
+Bacillaceae	Sphingomonadales unclassified	-4.90E+14	TRUE	gray
+Bacillaceae	Solirubrobacteraceae	-4.79E+14	TRUE	gray
+Bacillaceae	Veillonellaceae	-4.79E+14	TRUE	gray
+Bacillaceae	Flavobacteriaceae	-4.77E+14	TRUE	gray
+Bacillaceae	Rhizobiaceae	-4.70E+14	TRUE	gray
+Bacillaceae	Rhodobacteraceae	-4.70E+14	TRUE	gray
+Bacillaceae	Chromatiaceae	-4.65E+14	TRUE	gray
+Bacillaceae	Algiphilaceae	-4.60E+14	TRUE	gray
+Bacillaceae	Propionibacteriales unclassified	-4.52E+14	TRUE	gray
+Bacillaceae	Pelagibacteraceae	-4.52E+14	TRUE	gray
+Bacillaceae	Methanobacteriaceae	-4.52E+14	TRUE	gray
+Bacillaceae	Methylobacteriaceae	-4.49E+14	TRUE	gray
+Bacillaceae	Prolixibacteraceae	-4.45E+14	TRUE	gray
+Bacillaceae	Xanthomonadales unclassified	-4.30E+14	TRUE	gray
+Bacillaceae	Methylococcaceae	-4.25E+14	TRUE	gray
+Bacillaceae	Micrococcaceae	-4.24E+14	TRUE	gray
+Bacillaceae	Sorangiineae unclassified	-4.22E+14	TRUE	gray
+Bacillaceae	Bacteroidetes unclassified	-4.20E+14	TRUE	gray
+Bacillaceae	Caldilineaceae	-4.20E+14	TRUE	gray
+Bacillaceae	Thermaceae	-4.10E+14	TRUE	gray
+Bacillaceae	Hyphomicrobiaceae	-4.10E+14	TRUE	gray
+Bacillaceae	Myxococcaceae	-4.09E+14	TRUE	gray
+Bacillaceae	Thermithiobacillaceae	-4.08E+14	TRUE	gray
+Bacillaceae	Pseudomonadales unclassified	-4.08E+14	TRUE	gray
+Bacillaceae	Cellulomonadaceae	-4.04E+14	TRUE	gray
+Bacillaceae	Verrucomicrobiaceae	-4.01E+14	TRUE	gray
+Bacillaceae	Rikenellaceae	-3.99E+14	TRUE	gray
+Bacillaceae	Streptosporangiaceae	-3.97E+14	TRUE	gray
+Bacillaceae	Stigonematales unclassified	-3.92E+14	TRUE	gray
+Bacillaceae	Porphyromonadaceae	-3.90E+14	TRUE	gray
+Bacillaceae	Oscillatoriophycideae unclassified	-3.90E+14	TRUE	gray
+Bacillaceae	Micromonosporaceae	-3.81E+14	TRUE	gray
+Bacillaceae	Brucellaceae	-3.80E+14	TRUE	gray
+Bacillaceae	Nitrospiraceae	-3.80E+14	TRUE	gray
+Bacillaceae	Pseudonocardiaceae	-3.78E+14	TRUE	gray
+Bacillaceae	Chromobacteriaceae	-3.76E+14	TRUE	gray
+Bacillaceae	Alcaligenaceae	-3.73E+14	TRUE	gray
+Bacillaceae	Alicyclobacillaceae	-3.69E+14	TRUE	gray
+Bacillaceae	Cyanobacteria unclassified	-3.67E+14	TRUE	gray
+Bacillaceae	Microgenomates group unclassified	-3.53E+14	TRUE	gray
+Bacillaceae	Intrasporangiaceae	-3.52E+14	TRUE	gray
+Bacillaceae	Candidatus Falkowbacteria unclassified	-3.51E+14	TRUE	gray
+Bacillaceae	Bartonellaceae	-3.48E+14	TRUE	gray
+Bacillaceae	Methylocystaceae	-3.48E+14	TRUE	gray
+Bacillaceae	Rhodospirillaceae	-3.47E+14	TRUE	gray
+Bacillaceae	Bacteroidia unclassified	-3.42E+14	TRUE	gray
+Bacillaceae	Rhodospirillales unclassified	-3.39E+14	TRUE	gray
+Bacillaceae	Cystobacterineae unclassified	-3.39E+14	TRUE	gray
+Bacillaceae	Prevotellaceae	-3.37E+14	TRUE	gray
+Bacillaceae	Geobacteraceae	-3.18E+14	TRUE	gray
+Bacillaceae	Rhodothermaceae	-3.17E+14	TRUE	gray
+Bacillaceae	Rickettsiaceae	-3.16E+14	TRUE	gray
+Bacillaceae	Corynebacteriales unclassified	-3.15E+14	TRUE	gray
+Bacillaceae	Caulobacteraceae	-3.14E+14	TRUE	gray
+Bacillaceae	Hyphomonadaceae	-3.05E+14	TRUE	gray
+Bacillaceae	Streptosporangiales unclassified	-3.01E+14	TRUE	gray
+Bacillaceae	Deinococcaceae	-3.00E+14	TRUE	gray
+Bacillaceae	Aeromonadaceae	-2.92E+14	TRUE	gray
+Bacillaceae	Sinobacteraceae	-2.89E+14	TRUE	gray
+Bacillaceae	Rhodobacterales unclassified	-2.78E+14	TRUE	gray
+Bacillaceae	Xanthomonadaceae	-2.76E+14	TRUE	gray
+Bacillaceae	Paenibacillaceae	-2.76E+14	TRUE	gray
+Bacillaceae	Acetobacteraceae	-2.72E+14	TRUE	gray
+Bacillaceae	Phyllobacteriaceae	-2.72E+14	TRUE	gray
+Bacillaceae	Anaeromyxobacteraceae	-2.70E+14	TRUE	gray
+Bacillaceae	Cystobacteraceae	-2.70E+14	TRUE	gray
+Bacillaceae	Petrotogales unclassified	-2.69E+14	TRUE	gray
+Bacillaceae	Thermotogae unclassified__188708	-2.69E+14	TRUE	gray
+Bacillaceae	Demequinaceae	-2.64E+14	TRUE	gray
+Bacillaceae	Betaproteobacteria unclassified	-2.63E+14	TRUE	gray
+Bacillaceae	Burkholderiales unclassified	-2.59E+14	TRUE	gray
+Bacillaceae	Xanthobacteraceae	-2.52E+14	TRUE	gray
+Bacillaceae	Aurantimonadaceae	-2.51E+14	TRUE	gray
+Bacillaceae	Botryosphaeriaceae	-9.31E+13	TRUE	gray
+Bacillaceae	Cyclobacteriaceae	-8.56E+13	TRUE	gray
+Bacillaceae	Candidatus Gottesmanbacteria unclassified	-7.96E+13	TRUE	gray
+Bacillaceae	Sphingomonadaceae	-6.66E+13	TRUE	gray
+Bacillaceae	Microbacteriaceae	-6.61E+13	TRUE	gray
+Bacillaceae	Chitinophagaceae	-6.60E+13	TRUE	gray
+Bacillaceae	Candidate division WWE3 unclassified	-6.31E+13	TRUE	gray
+Bacillaceae	Enterobacteriaceae	-6.22E+13	TRUE	gray
+Bacillaceae	Lactobacillaceae	-6.21E+13	TRUE	gray
+Bacillaceae	Chroococcales unclassified	-4.95E+13	TRUE	gray
+Bacillaceae	Rhodanobacteraceae	-4.75E+13	TRUE	gray
+Bacillaceae	Rhodobiaceae	-3.81E+13	TRUE	gray
+Bacillaceae	Campylobacteraceae	-3.61E+13	TRUE	gray
+Bacillaceae	Propionibacteriaceae	-3.09E+13	TRUE	gray
+Bacillaceae	Rhizobiales unclassified	-3.07E+13	TRUE	gray
+Bacillaceae	Alphaproteobacteria unclassified	-2.98E+13	TRUE	gray
+Bacillaceae	Sandaracinaceae	-4.67E+12	TRUE	gray
+Bacillaceae	Aspergillaceae	-0.000544173561842526	FALSE	green
+Bacillaceae	Francisellaceae	-0.000271379246379575	FALSE	green
+Bacillaceae	Unclassified Gammaproteobacteria unclassified	-0.000270453595802457	FALSE	green
+Bacillaceae	Leotiomyceta unclassified	-0.000247586710139923	FALSE	green
+Bacillaceae	Nitriliruptoraceae	-0.000226056642250968	FALSE	green
+Bacillaceae	Ardenticatenaceae	-0.000220981131999132	FALSE	green
+Bacillaceae	Verrucomicrobiales unclassified	-0.000218080159336237	FALSE	green
+Bacillaceae	Roseiflexaceae	-0.000214412240222586	FALSE	green
+Bacillaceae	Competibacteraceae	-0.000207897555655885	FALSE	green
+Bacillaceae	Microchaetaceae	-0.000206567563684693	FALSE	green
+Bacillaceae	Kordiimonadaceae	-0.000190988474156278	FALSE	green
+Bacillaceae	Methylothermaceae	-0.000186103842117201	FALSE	green
+Bacillaceae	Saprospiraceae	-0.000167405043919905	FALSE	green
+Bacillaceae	Oscillochloridaceae	-0.000163073190015517	FALSE	green
+Bacillaceae	Listeriaceae	-0.000154235934642845	FALSE	green
+Bacillaceae	Trueperaceae	-0.000150255913109657	FALSE	green
+Bacillaceae	Symbiobacteriaceae	-0.000150015807784559	FALSE	green
+Bacillaceae	Bacteroidetes/Chlorobi group unclassified	-0.000144943885721132	FALSE	green
+Bacillaceae	Peptoniphilaceae	-0.000137712083795199	FALSE	green
+Bacillaceae	Dikarya unclassified	-0.000137712029090497	FALSE	green
+Bacillaceae	Salinisphaeraceae	-0.000132255237050068	FALSE	green
+Bacillaceae	Sphaerobacteraceae	-0.000130052416866717	FALSE	green
+Bacillaceae	Acidimicrobiaceae	-0.000127582166199285	FALSE	green
+Bacillaceae	Solirubrobacterales unclassified	-0.000127245499780563	FALSE	green
+Bacillaceae	Marinimicrobia unclassified	-0.000123157675941153	FALSE	green
+Bacillaceae	Conexibacteraceae	-0.000123030053294107	FALSE	green
+Bacillaceae	Candidatus Beckwithbacteria unclassified	-0.000114423041513207	FALSE	green
+Bacillaceae	Verrucomicrobia subdivision 3	-0.000114363443599903	FALSE	green
+Bacillaceae	Promicromonosporaceae	-0.000113810385161036	FALSE	green
+Bacillaceae	Oceanospirillales unclassified	-0.000111606871968361	FALSE	green
+Bacillaceae	Bifidobacteriaceae	-0.000110237926695297	FALSE	green
+Bacillaceae	Gallionellaceae	-0.000106658465417539	FALSE	green
+Bacillaceae	Eggerthellaceae	-0.000105280396288166	FALSE	green
+Bacillaceae	Sphingobacteriaceae	-0.0001034867402838	FALSE	green
+Bacillaceae	Candidatus Kaiserbacteria unclassified	-0.000102913813113127	FALSE	green
+Bacillaceae	Cytophagaceae	-0.000101920743595914	FALSE	green
+Bacillaceae	Methanomicrobiaceae	-0.000101122268388278	FALSE	green
+Bacillaceae	Cellvibrionales unclassified	-0.000100961236327261	FALSE	green
+Bacillaceae	Neisseriales unclassified	-0.000100477495088231	FALSE	green
+Bacillaceae	Methanosarcinaceae	0.000101945214594245	FALSE	green
+Bacillaceae	Candidatus Aminicenantes unclassified	0.0001056617182988	FALSE	green
+Bacillaceae	Archaea unclassified	0.000106881802250386	FALSE	green
+Bacillaceae	Euryarchaeota unclassified	0.000114745783610299	FALSE	green
+Bacillaceae	Desulfohalobiaceae	0.000124626489247384	FALSE	green
+Bacillaceae	Thermoplasmatales unclassified	0.000127111080216151	FALSE	green
+Bacillaceae	Syntrophaceae	0.000148665063747029	FALSE	green
+Bacillaceae	Hypocreaceae	0.000216929327641704	FALSE	green
+Bacillaceae	Marinilabiliaceae	0.000238821962172597	FALSE	green
+Bacillaceae	Eubacteriaceae	4.21E+13	FALSE	green
+Bacillaceae	Kosmotogaceae	4.30E+13	FALSE	green
+Bacillaceae	Haloferacaceae	5.77E+13	FALSE	green
+Bacillaceae	Opitutae unclassified	6.36E+13	FALSE	green
+Bacillaceae	Halobacteriaceae	6.94E+13	FALSE	green
+Bacillaceae	Candidatus Poribacteria unclassified	8.51E+13	FALSE	green
+Bacillaceae	Clostridiales Family XVII. Incertae Sedis	2.55E+14	FALSE	green
+Bacillaceae	Candidatus Nomurabacteria unclassified	2.60E+14	FALSE	green
+Bacillaceae	Coriobacteriales unclassified	2.86E+14	FALSE	green
+Bacillaceae	Nitrosopumilaceae	2.86E+14	FALSE	green
+Bacillaceae	Dermacoccaceae	2.95E+14	FALSE	green
+Bacillaceae	Herpetosiphonaceae	3.41E+14	FALSE	green
+Bacillaceae	Hydrogenophilaceae	3.43E+14	FALSE	green
+Bacillaceae	Parcubacteria group unclassified	3.57E+14	FALSE	green
+Bacillaceae	Candidatus Hydrogenedentes unclassified	3.65E+14	FALSE	green
+Bacillaceae	Peptostreptococcaceae	3.66E+14	FALSE	green
+Bacillaceae	Limnochordaceae	3.78E+14	FALSE	green
+Bacillaceae	Nitrospinaceae	4.23E+14	FALSE	green
+Bacillaceae	Akkermansiaceae	4.45E+14	FALSE	green
+Bacillaceae	Planctomycetales unclassified	4.49E+14	FALSE	green
+Bacillaceae	Syntrophorhabdaceae	4.49E+14	FALSE	green
+Bacillaceae	Desulfobacterales unclassified	4.67E+14	FALSE	green
+Bacillaceae	Phycisphaerae unclassified	4.69E+14	FALSE	green
+Bacillaceae	Alcanivoracaceae	4.73E+14	FALSE	green
+Bacillaceae	Alteromonadaceae	4.81E+14	FALSE	green
+Bacillaceae	Jiangellaceae	5.01E+14	FALSE	green
+Bacillaceae	Halobacteria unclassified	5.51E+14	FALSE	green
+Bacillaceae	Fusobacteriaceae	5.56E+14	FALSE	green
+Bacillaceae	Desulfobacteraceae	5.96E+14	FALSE	green
+Bacillaceae	Pasteurellaceae	6.05E+14	FALSE	green
+Bacillaceae	Synergistales unclassified	6.13E+14	FALSE	green
+Bacillaceae	Dictyosteliida unclassified	6.36E+14	FALSE	green
+Bacillaceae	Gemmatimonadetes unclassified_class_219685	6.45E+14	FALSE	green
+Bacillaceae	Rubrobacteraceae	6.60E+14	FALSE	green
+Bacillaceae	Planctomycetes unclassified	6.82E+14	FALSE	green
+Bacillaceae	Nanoarchaeota unclassified	7.30E+14	FALSE	green
+Bacillaceae	Rickettsiales unclassified	7.48E+14	FALSE	green
+Bacillaceae	Blattabacteriaceae	8.51E+14	TRUE	green
+Bacillaceae	Anaerolineae unclassified	8.80E+14	TRUE	green
+Bacillaceae	Synergistaceae	8.85E+14	TRUE	green
+Bacillaceae	Cryptosporangiaceae	8.96E+14	TRUE	green
+Bacillaceae	Halothiobacillaceae	9.20E+14	TRUE	green
+Bacillaceae	Geodermatophilaceae	9.21E+14	TRUE	green
+Bacillaceae	Spirochaetaceae	9.24E+14	TRUE	green
+Bacillaceae	Sutterellaceae	9.31E+14	TRUE	green
+Bacteria unclassified	Unclassified Gammaproteobacteria unclassified	-8.49E+14	TRUE	gray
+Bacteria unclassified	Francisellaceae	-7.94E+14	TRUE	gray
+Bacteria unclassified	Bacillaceae	-7.92E+14	TRUE	gray
+Bacteria unclassified	Leotiomyceta unclassified	-7.53E+14	TRUE	gray
+Bacteria unclassified	Nitriliruptoraceae	-6.67E+14	TRUE	gray
+Bacteria unclassified	Ardenticatenaceae	-6.47E+14	TRUE	gray
+Bacteria unclassified	Microchaetaceae	-6.41E+14	TRUE	gray
+Bacteria unclassified	Verrucomicrobiales unclassified	-6.36E+14	TRUE	gray
+Bacteria unclassified	Competibacteraceae	-6.33E+14	TRUE	gray
+Bacteria unclassified	Roseiflexaceae	-5.99E+14	TRUE	gray
+Bacteria unclassified	Kordiimonadaceae	-5.68E+14	TRUE	gray
+Bacteria unclassified	Methylothermaceae	-5.41E+14	TRUE	gray
+Bacteria unclassified	Saprospiraceae	-5.26E+14	TRUE	gray
+Bacteria unclassified	Oscillochloridaceae	-5.08E+14	TRUE	gray
+Bacteria unclassified	Symbiobacteriaceae	-4.92E+14	TRUE	gray
+Bacteria unclassified	Listeriaceae	-4.67E+14	TRUE	gray
+Bacteria unclassified	Trueperaceae	-4.65E+14	TRUE	gray
+Bacteria unclassified	Salinisphaeraceae	-4.56E+14	TRUE	gray
+Bacteria unclassified	Bacteroidetes/Chlorobi group unclassified	-4.45E+14	TRUE	gray
+Bacteria unclassified	Acidimicrobiaceae	-4.37E+14	TRUE	gray
+Bacteria unclassified	Peptoniphilaceae	-4.10E+14	TRUE	gray
+Bacteria unclassified	Dikarya unclassified	-4.10E+14	TRUE	gray
+Bacteria unclassified	Solirubrobacterales unclassified	-3.93E+14	TRUE	gray
+Bacteria unclassified	Marinimicrobia unclassified	-3.78E+14	TRUE	gray
+Bacteria unclassified	Oceanospirillales unclassified	-3.61E+14	TRUE	gray
+Bacteria unclassified	Neisseriales unclassified	-3.57E+14	TRUE	gray
+Bacteria unclassified	Candidatus Kaiserbacteria unclassified	-3.55E+14	TRUE	gray
+Bacteria unclassified	Gallionellaceae	-3.49E+14	TRUE	gray
+Bacteria unclassified	Bifidobacteriaceae	-3.47E+14	TRUE	gray
+Bacteria unclassified	Methanomicrobiaceae	-3.34E+14	TRUE	gray
+Bacteria unclassified	Verrucomicrobia subdivision 3	-3.33E+14	TRUE	gray
+Bacteria unclassified	Patulibacteraceae	-3.31E+14	TRUE	gray
+Bacteria unclassified	Candidatus Beckwithbacteria unclassified	-3.29E+14	TRUE	gray
+Bacteria unclassified	Promicromonosporaceae	-3.22E+14	TRUE	gray
+Bacteria unclassified	Cytophagaceae	-3.19E+14	TRUE	gray
+Bacteria unclassified	Flavobacteriia unclassified	-3.14E+14	TRUE	gray
+Bacteria unclassified	Cellvibrionales unclassified	-3.08E+14	TRUE	gray
+Bacteria unclassified	Chloroflexaceae	-3.08E+14	TRUE	gray
+Bacteria unclassified	Microthrixaceae	-3.04E+14	TRUE	gray
+Bacteria unclassified	Nostocaceae	-3.00E+14	TRUE	gray
+Bacteria unclassified	Pleurocapsales unclassified	-2.96E+14	TRUE	gray
+Bacteria unclassified	Flavobacteriales unclassified	-2.86E+14	TRUE	gray
+Bacteria unclassified	Sphingobacteriaceae	-2.81E+14	TRUE	gray
+Bacteria unclassified	Candidatus Woesebacteria unclassified	-2.79E+14	TRUE	gray
+Bacteria unclassified	Unclassified Verrucomicrobia unclassified	-2.75E+14	TRUE	gray
+Bacteria unclassified	Hypocreales unclassified	-2.75E+14	TRUE	gray
+Bacteria unclassified	Candidatus Gottesmanbacteria unclassified	-2.75E+14	TRUE	gray
+Bacteria unclassified	Cyclobacteriaceae	-2.53E+14	TRUE	gray
+Bacteria unclassified	Sulfuricellaceae	-2.52E+14	TRUE	gray
+Bacteria unclassified	Thaumarchaeota unclassified	-2.52E+14	TRUE	gray
+Bacteria unclassified	Puniceicoccaceae	-2.51E+14	TRUE	gray
+Bacteria unclassified	Neisseriaceae	-2.48E+14	TRUE	gray
+Bacteria unclassified	Sphaerobacteraceae	-4.17E+13	TRUE	gray
+Bacteria unclassified	Conexibacteraceae	-3.67E+13	TRUE	gray
+Bacteria unclassified	Dermabacteraceae	-3.04E+13	TRUE	gray
+Bacteria unclassified	Eggerthellaceae	-3.03E+13	TRUE	gray
+Bacteria unclassified	Botryosphaeriaceae	-2.96E+13	TRUE	gray
+Bacteria unclassified	Aspergillaceae	-0.000161186720200964	FALSE	green
+Bacteria unclassified	Nanoarchaeota unclassified	2.65E+13	FALSE	green
+Bacteria unclassified	Pasteurellaceae	2.45E+14	FALSE	green
+Bacteria unclassified	Blattabacteriaceae	2.58E+14	FALSE	green
+Bacteria unclassified	Candidatus Poribacteria unclassified	2.58E+14	FALSE	green
+Bacteria unclassified	Sutterellaceae	2.96E+14	FALSE	green
+Bacteria unclassified	Geodermatophilaceae	3.02E+14	FALSE	green
+Bacteria unclassified	Halothiobacillaceae	3.24E+14	FALSE	green
+Bacteria unclassified	Archaea unclassified	3.25E+14	FALSE	green
+Bacteria unclassified	Anaerolineae unclassified	3.28E+14	FALSE	green
+Bacteria unclassified	Candidatus Aminicenantes unclassified	3.30E+14	FALSE	green
+Bacteria unclassified	Spirochaetaceae	3.33E+14	FALSE	green
+Bacteria unclassified	Methanosarcinaceae	3.40E+14	FALSE	green
+Bacteria unclassified	Synergistaceae	3.43E+14	FALSE	green
+Bacteria unclassified	Euryarchaeota unclassified	3.80E+14	FALSE	green
+Bacteria unclassified	Thermoplasmatales unclassified	3.99E+14	FALSE	green
+Bacteria unclassified	Desulfohalobiaceae	4.43E+14	FALSE	green
+Bacteria unclassified	Syntrophaceae	5.12E+14	FALSE	green
+Bacteria unclassified	Hypocreaceae	6.09E+14	FALSE	green
+Bacteria unclassified	Marinilabiliaceae	8.66E+14	TRUE	green
+Betaproteobacteria unclassified	Aspergillaceae	-5.85E+14	TRUE	gray
+Betaproteobacteria unclassified	Unclassified Gammaproteobacteria unclassified	-3.07E+14	TRUE	gray
+Betaproteobacteria unclassified	Francisellaceae	-2.88E+14	TRUE	gray
+Betaproteobacteria unclassified	Bacillaceae	-2.88E+14	TRUE	gray
+Betaproteobacteria unclassified	Leotiomyceta unclassified	-2.73E+14	TRUE	gray
+Betaproteobacteria unclassified	Marinilabiliaceae	3.10E+14	FALSE	green
+Bradyrhizobiaceae	Aspergillaceae	-7.73E+14	TRUE	gray
+Bradyrhizobiaceae	Patulibacteraceae	-4.69E+14	TRUE	gray
+Bradyrhizobiaceae	Microthrixaceae	-4.27E+14	TRUE	gray
+Bradyrhizobiaceae	Salinisphaeraceae	-3.94E+14	TRUE	gray
+Bradyrhizobiaceae	Microchaetaceae	-3.86E+14	TRUE	gray
+Bradyrhizobiaceae	Acidimicrobiaceae	-3.69E+14	TRUE	gray
+Bradyrhizobiaceae	Francisellaceae	-3.53E+14	TRUE	gray
+Bradyrhizobiaceae	Competibacteraceae	-3.52E+14	TRUE	gray
+Bradyrhizobiaceae	Bacillaceae	-3.40E+14	TRUE	gray
+Bradyrhizobiaceae	Saprospiraceae	-3.35E+14	TRUE	gray
+Bradyrhizobiaceae	Neisseriales unclassified	-3.31E+14	TRUE	gray
+Bradyrhizobiaceae	Nitriliruptoraceae	-3.14E+14	TRUE	gray
+Bradyrhizobiaceae	Oscillochloridaceae	-3.12E+14	TRUE	gray
+Bradyrhizobiaceae	Candidatus Kaiserbacteria unclassified	-3.07E+14	TRUE	gray
+Bradyrhizobiaceae	Ardenticatenaceae	-2.89E+14	TRUE	gray
+Bradyrhizobiaceae	Sphaerobacteraceae	-2.85E+14	TRUE	gray
+Bradyrhizobiaceae	Kordiimonadaceae	-2.80E+14	TRUE	gray
+Bradyrhizobiaceae	Verrucomicrobiales unclassified	-2.78E+14	TRUE	gray
+Bradyrhizobiaceae	Trueperaceae	-2.76E+14	TRUE	gray
+Bradyrhizobiaceae	Flavobacteriia unclassified	-2.58E+14	TRUE	gray
+Bradyrhizobiaceae	Bacteroidetes/Chlorobi group unclassified	-2.57E+14	TRUE	gray
+Bradyrhizobiaceae	Gallionellaceae	-2.56E+14	TRUE	gray
+Bradyrhizobiaceae	Oceanospirillales unclassified	-2.54E+14	TRUE	gray
+Bradyrhizobiaceae	Methanomicrobiaceae	-2.52E+14	TRUE	gray
+Bradyrhizobiaceae	Listeriaceae	-2.51E+14	TRUE	gray
+Bradyrhizobiaceae	Unclassified Gammaproteobacteria unclassified	-5.37E+13	TRUE	gray
+Bradyrhizobiaceae	Leotiomyceta unclassified	-4.13E+13	TRUE	gray
+Bradyrhizobiaceae	Unclassified Verrucomicrobia unclassified	-4.00E+13	TRUE	gray
+Bradyrhizobiaceae	Symbiobacteriaceae	-3.64E+13	TRUE	gray
+Bradyrhizobiaceae	Methanosarcinaceae	2.66E+13	FALSE	green
+Bradyrhizobiaceae	Chlorobiaceae	3.30E+13	FALSE	green
+Bradyrhizobiaceae	Thermoplasmatales unclassified	2.53E+14	FALSE	green
+Bradyrhizobiaceae	Nanoarchaeota unclassified	2.57E+14	FALSE	green
+Bradyrhizobiaceae	Limnochordaceae	2.60E+14	FALSE	green
+Bradyrhizobiaceae	Desulfobacteraceae	2.73E+14	FALSE	green
+Bradyrhizobiaceae	Euryarchaeota unclassified	2.91E+14	FALSE	green
+Bradyrhizobiaceae	Pasteurellaceae	2.95E+14	FALSE	green
+Bradyrhizobiaceae	Halothiobacillaceae	2.96E+14	FALSE	green
+Bradyrhizobiaceae	Spirochaetaceae	3.20E+14	FALSE	green
+Bradyrhizobiaceae	Anaerolineae unclassified	3.38E+14	FALSE	green
+Bradyrhizobiaceae	Synergistaceae	3.83E+14	FALSE	green
+Bradyrhizobiaceae	Desulfohalobiaceae	4.14E+14	FALSE	green
+Bradyrhizobiaceae	Syntrophaceae	4.40E+14	FALSE	green
+Bradyrhizobiaceae	Marinilabiliaceae	8.44E+14	TRUE	green
+Burkholderiaceae	Aspergillaceae	-3.39E+14	TRUE	gray
+Burkholderiales unclassified	Aspergillaceae	-5.20E+14	TRUE	gray
+Burkholderiales unclassified	Unclassified Gammaproteobacteria unclassified	-2.86E+14	TRUE	gray
+Burkholderiales unclassified	Francisellaceae	-2.54E+14	TRUE	gray
+Burkholderiales unclassified	Bacillaceae	-2.52E+14	TRUE	gray
+Burkholderiales unclassified	Leotiomyceta unclassified	-2.48E+12	TRUE	gray
+Burkholderiales unclassified	Marinilabiliaceae	3.19E+14	FALSE	green
+Chromatiaceae	Aspergillaceae	-9.95E+14	TRUE	gray
+Chromatiaceae	Unclassified Gammaproteobacteria unclassified	-5.16E+14	TRUE	gray
+Chromatiaceae	Francisellaceae	-4.92E+14	TRUE	gray
+Chromatiaceae	Bacillaceae	-4.92E+14	TRUE	gray
+Chromatiaceae	Leotiomyceta unclassified	-4.61E+14	TRUE	gray
+Chromatiaceae	Ardenticatenaceae	-4.01E+14	TRUE	gray
+Chromatiaceae	Verrucomicrobiales unclassified	-3.94E+14	TRUE	gray
+Chromatiaceae	Microchaetaceae	-3.91E+14	TRUE	gray
+Chromatiaceae	Competibacteraceae	-3.88E+14	TRUE	gray
+Chromatiaceae	Roseiflexaceae	-3.76E+14	TRUE	gray
+Chromatiaceae	Kordiimonadaceae	-3.50E+14	TRUE	gray
+Chromatiaceae	Methylothermaceae	-3.36E+14	TRUE	gray
+Chromatiaceae	Saprospiraceae	-3.20E+14	TRUE	gray
+Chromatiaceae	Oscillochloridaceae	-3.09E+14	TRUE	gray
+Chromatiaceae	Symbiobacteriaceae	-2.96E+14	TRUE	gray
+Chromatiaceae	Listeriaceae	-2.87E+14	TRUE	gray
+Chromatiaceae	Trueperaceae	-2.84E+14	TRUE	gray
+Chromatiaceae	Bacteroidetes/Chlorobi group unclassified	-2.72E+14	TRUE	gray
+Chromatiaceae	Salinisphaeraceae	-2.71E+14	TRUE	gray
+Chromatiaceae	Acidimicrobiaceae	-2.60E+14	TRUE	gray
+Chromatiaceae	Dikarya unclassified	-2.53E+14	TRUE	gray
+Chromatiaceae	Nitriliruptoraceae	-4.12E+13	TRUE	gray
+Chromatiaceae	Peptoniphilaceae	-2.53E+13	TRUE	gray
+Chromatiaceae	Sphaerobacteraceae	-2.52E+13	TRUE	gray
+Chromatiaceae	Desulfohalobiaceae	2.61E+14	FALSE	green
+Chromatiaceae	Syntrophaceae	3.04E+14	FALSE	green
+Chromatiaceae	Hypocreaceae	3.81E+14	FALSE	green
+Chromatiaceae	Marinilabiliaceae	5.08E+14	FALSE	green
+Comamonadaceae	Unclassified Gammaproteobacteria unclassified	-6.11E+14	TRUE	gray
+Comamonadaceae	Francisellaceae	-5.77E+14	TRUE	gray
+Comamonadaceae	Bacillaceae	-5.76E+14	TRUE	gray
+Comamonadaceae	Leotiomyceta unclassified	-5.44E+14	TRUE	gray
+Comamonadaceae	Nitriliruptoraceae	-4.84E+14	TRUE	gray
+Comamonadaceae	Ardenticatenaceae	-4.70E+14	TRUE	gray
+Comamonadaceae	Verrucomicrobiales unclassified	-4.62E+14	TRUE	gray
+Comamonadaceae	Microchaetaceae	-4.62E+14	TRUE	gray
+Comamonadaceae	Competibacteraceae	-4.58E+14	TRUE	gray
+Comamonadaceae	Roseiflexaceae	-4.38E+14	TRUE	gray
+Comamonadaceae	Kordiimonadaceae	-4.12E+14	TRUE	gray
+Comamonadaceae	Methylothermaceae	-3.94E+14	TRUE	gray
+Comamonadaceae	Saprospiraceae	-3.79E+14	TRUE	gray
+Comamonadaceae	Oscillochloridaceae	-3.66E+14	TRUE	gray
+Comamonadaceae	Symbiobacteriaceae	-3.52E+14	TRUE	gray
+Comamonadaceae	Listeriaceae	-3.38E+14	TRUE	gray
+Comamonadaceae	Trueperaceae	-3.35E+14	TRUE	gray
+Comamonadaceae	Bacteroidetes/Chlorobi group unclassified	-3.21E+14	TRUE	gray
+Comamonadaceae	Acidimicrobiaceae	-3.11E+14	TRUE	gray
+Comamonadaceae	Sphaerobacteraceae	-2.99E+14	TRUE	gray
+Comamonadaceae	Peptoniphilaceae	-2.97E+14	TRUE	gray
+Comamonadaceae	Dikarya unclassified	-2.97E+14	TRUE	gray
+Comamonadaceae	Solirubrobacterales unclassified	-2.84E+14	TRUE	gray
+Comamonadaceae	Marinimicrobia unclassified	-2.73E+14	TRUE	gray
+Comamonadaceae	Conexibacteraceae	-2.66E+14	TRUE	gray
+Comamonadaceae	Oceanospirillales unclassified	-2.58E+14	TRUE	gray
+Comamonadaceae	Neisseriales unclassified	-2.53E+14	TRUE	gray
+Comamonadaceae	Candidatus Kaiserbacteria unclassified	-2.52E+14	TRUE	gray
+Comamonadaceae	Bifidobacteriaceae	-2.50E+14	TRUE	gray
+Comamonadaceae	Gallionellaceae	-2.49E+14	TRUE	gray
+Comamonadaceae	Salinisphaeraceae	-3.24E+13	TRUE	gray
+Comamonadaceae	Aspergillaceae	-0.000116961426050736	FALSE	green
+Comamonadaceae	Euryarchaeota unclassified	2.71E+12	FALSE	green
+Comamonadaceae	Thermoplasmatales unclassified	2.87E+14	FALSE	green
+Comamonadaceae	Desulfohalobiaceae	3.14E+14	FALSE	green
+Comamonadaceae	Syntrophaceae	3.64E+14	FALSE	green
+Comamonadaceae	Hypocreaceae	4.45E+14	FALSE	green
+Comamonadaceae	Marinilabiliaceae	6.11E+14	FALSE	green
+Deltaproteobacteria unclassified	Aspergillaceae	-3.89E+14	TRUE	gray
+Desulfobacteraceae	Methylothermaceae	-8.73E+14	TRUE	gray
+Desulfobacteraceae	Competibacteraceae	-8.62E+14	TRUE	gray
+Desulfobacteraceae	Kordiimonadaceae	-8.44E+14	TRUE	gray
+Desulfobacteraceae	Rivulariaceae	-6.90E+14	TRUE	gray
+Desulfobacteraceae	Listeriaceae	-6.51E+14	TRUE	gray
+Desulfobacteraceae	Oscillochloridaceae	-6.32E+14	TRUE	gray
+Desulfobacteraceae	Saprospiraceae	-6.30E+14	TRUE	gray
+Desulfobacteraceae	Marinifilaceae	-6.27E+14	TRUE	gray
+Desulfobacteraceae	Peptoniphilaceae	-6.09E+14	TRUE	gray
+Desulfobacteraceae	Dikarya unclassified	-6.09E+14	TRUE	gray
+Desulfobacteraceae	Trueperaceae	-5.96E+14	TRUE	gray
+Desulfobacteraceae	Bacteroidetes/Chlorobi group unclassified	-5.86E+14	TRUE	gray
+Desulfobacteraceae	Puniceicoccaceae	-5.70E+14	TRUE	gray
+Desulfobacteraceae	Promicromonosporaceae	-5.67E+14	TRUE	gray
+Desulfobacteraceae	Sphingobacteriaceae	-5.62E+14	TRUE	gray
+Desulfobacteraceae	Candidatus Beckwithbacteria unclassified	-5.49E+14	TRUE	gray
+Desulfobacteraceae	Conexibacteraceae	-5.41E+14	TRUE	gray
+Desulfobacteraceae	Eggerthellaceae	-5.06E+14	TRUE	gray
+Desulfobacteraceae	Solirubrobacterales unclassified	-5.05E+14	TRUE	gray
+Desulfobacteraceae	Marinimicrobia unclassified	-4.98E+14	TRUE	gray
+Desulfobacteraceae	Candidatus Woesebacteria unclassified	-4.89E+14	TRUE	gray
+Desulfobacteraceae	Symbiobacteriaceae	-4.87E+14	TRUE	gray
+Desulfobacteraceae	Sphaerobacteraceae	-4.60E+14	TRUE	gray
+Desulfobacteraceae	Prolixibacteraceae	-4.57E+14	TRUE	gray
+Desulfobacteraceae	Nocardioidaceae	-4.45E+14	TRUE	gray
+Desulfobacteraceae	Cellvibrionales unclassified	-4.16E+14	TRUE	gray
+Desulfobacteraceae	Bifidobacteriaceae	-4.13E+14	TRUE	gray
+Desulfobacteraceae	Acidithiobacillales unclassified	-4.08E+14	TRUE	gray
+Desulfobacteraceae	Chlorobiaceae	-3.99E+14	TRUE	gray
+Desulfobacteraceae	Cytophagaceae	-3.88E+14	TRUE	gray
+Desulfobacteraceae	Cyclobacteriaceae	-3.84E+14	TRUE	gray
+Desulfobacteraceae	Oceanospirillales unclassified	-3.83E+14	TRUE	gray
+Desulfobacteraceae	Cloacimonetes unclassified	-3.69E+14	TRUE	gray
+Desulfobacteraceae	Candidatus Shapirobacteria unclassified	-3.69E+14	TRUE	gray
+Desulfobacteraceae	Verrucomicrobia subdivision 6	-3.69E+14	TRUE	gray
+Desulfobacteraceae	Dermabacteraceae	-3.63E+14	TRUE	gray
+Desulfobacteraceae	Chloroflexaceae	-3.63E+14	TRUE	gray
+Desulfobacteraceae	Sulfuricellaceae	-3.58E+14	TRUE	gray
+Desulfobacteraceae	Gallionellaceae	-3.50E+14	TRUE	gray
+Desulfobacteraceae	Flavobacteriales unclassified	-3.42E+14	TRUE	gray
+Desulfobacteraceae	Acidimicrobiaceae	-3.41E+14	TRUE	gray
+Desulfobacteraceae	Comamonadaceae	-3.40E+14	TRUE	gray
+Desulfobacteraceae	Salinisphaeraceae	-3.39E+14	TRUE	gray
+Desulfobacteraceae	Pleurocapsales unclassified	-3.38E+14	TRUE	gray
+Desulfobacteraceae	Botryosphaeriaceae	-3.38E+14	TRUE	gray
+Desulfobacteraceae	Nostocaceae	-3.32E+14	TRUE	gray
+Desulfobacteraceae	Ruminococcaceae	-3.24E+14	TRUE	gray
+Desulfobacteraceae	Methanomicrobiaceae	-3.20E+14	TRUE	gray
+Desulfobacteraceae	Nannocystaceae	-3.15E+14	TRUE	gray
+Desulfobacteraceae	Glycomycetaceae	-3.05E+14	TRUE	gray
+Desulfobacteraceae	Microbacteriaceae	-3.04E+14	TRUE	gray
+Desulfobacteraceae	Neisseriaceae	-3.02E+14	TRUE	gray
+Desulfobacteraceae	Candidate division CPR2 unclassified	-2.95E+14	TRUE	gray
+Desulfobacteraceae	Desulfonatronaceae	-2.88E+14	TRUE	gray
+Desulfobacteraceae	Enterobacteriaceae	-2.84E+14	TRUE	gray
+Desulfobacteraceae	Coriobacteriaceae	-2.76E+14	TRUE	gray
+Desulfobacteraceae	Thermoactinomycetaceae	-2.68E+14	TRUE	gray
+Desulfobacteraceae	Petrotogales unclassified	-2.67E+14	TRUE	gray
+Desulfobacteraceae	Thermotogae unclassified__188708	-2.67E+14	TRUE	gray
+Desulfobacteraceae	Myxococcales unclassified	-2.66E+14	TRUE	gray
+Desulfobacteraceae	Flavobacteriaceae	-2.66E+14	TRUE	gray
+Desulfobacteraceae	Oscillatoriales unclassified	-2.65E+14	TRUE	gray
+Desulfobacteraceae	Candidatus Kaiserbacteria unclassified	-2.64E+14	TRUE	gray
+Desulfobacteraceae	FCB group unclassified	-2.60E+14	TRUE	gray
+Desulfobacteraceae	Flavobacteriia unclassified	-2.60E+14	TRUE	gray
+Desulfobacteraceae	Micromonosporaceae	-2.59E+14	TRUE	gray
+Desulfobacteraceae	Propionibacteriales unclassified	-2.53E+14	TRUE	gray
+Desulfobacteraceae	Pelagibacteraceae	-2.53E+14	TRUE	gray
+Desulfobacteraceae	Methanobacteriaceae	-2.53E+14	TRUE	gray
+Desulfobacteraceae	Erythrobacteraceae	-2.52E+14	TRUE	gray
+Desulfobacteraceae	Desulfomicrobiaceae	-2.45E+14	TRUE	gray
+Desulfobacteraceae	Microchaetaceae	-8.11E+13	TRUE	gray
+Desulfobacteraceae	Verrucomicrobia subdivision 3	-5.36E+13	TRUE	gray
+Desulfobacteraceae	Bartonellaceae	-3.45E+13	TRUE	gray
+Desulfobacteraceae	Gordoniaceae	-2.50E+13	TRUE	gray
+Desulfobacteraceae	Aspergillaceae	-0.000243505544215902	FALSE	green
+Desulfobacteraceae	Bacillaceae	-0.000127800500614903	FALSE	green
+Desulfobacteraceae	Francisellaceae	-0.000125418429919698	FALSE	green
+Desulfobacteraceae	Roseiflexaceae	-0.000110021249560937	FALSE	green
+Desulfobacteraceae	Leotiomyceta unclassified	-0.000103316878041367	FALSE	green
+Desulfobacteraceae	Unclassified Gammaproteobacteria unclassified	-0.00010237005920603	FALSE	green
+Desulfobacteraceae	Nitriliruptoraceae	-0.000102076509476593	FALSE	green
+Desulfobacteraceae	Ardenticatenaceae	-0.000102014993552641	FALSE	green
+Desulfobacteraceae	Verrucomicrobiales unclassified	-0.000101529128657086	FALSE	green
+Desulfobacteraceae	Hypocreaceae	0.000110312870488348	FALSE	green
+Desulfobacteraceae	Haloferacaceae	2.59E+14	FALSE	green
+Desulfobacteraceae	Desulfohalobiaceae	2.68E+14	FALSE	green
+Desulfobacteraceae	Fusobacteriaceae	2.73E+14	FALSE	green
+Desulfobacteraceae	Geodermatophilaceae	2.97E+14	FALSE	green
+Desulfobacteraceae	Methanosarcinaceae	3.09E+14	FALSE	green
+Desulfobacteraceae	Sutterellaceae	3.38E+14	FALSE	green
+Desulfobacteraceae	Gemmatimonadetes unclassified_class_219685	3.47E+14	FALSE	green
+Desulfobacteraceae	Rickettsiales unclassified	3.51E+14	FALSE	green
+Desulfobacteraceae	Blattabacteriaceae	3.55E+14	FALSE	green
+Desulfobacteraceae	Candidatus Poribacteria unclassified	3.55E+14	FALSE	green
+Desulfobacteraceae	Euryarchaeota unclassified	3.57E+14	FALSE	green
+Desulfobacteraceae	Syntrophaceae	3.85E+14	FALSE	green
+Desulfobacteraceae	Candidatus Aminicenantes unclassified	4.05E+14	FALSE	green
+Desulfobacteraceae	Archaea unclassified	4.46E+14	FALSE	green
+Desulfobacteraceae	Marinilabiliaceae	4.52E+14	FALSE	green
+Desulfobacteraceae	Thermoplasmatales unclassified	4.80E+14	FALSE	green
+Desulfobacteraceae	Cryptosporangiaceae	4.82E+14	FALSE	green
+Desulfobulbaceae	Aspergillaceae	-3.94E+14	TRUE	gray
+Desulfovibrionaceae	Bacillaceae	-5.27E+14	TRUE	gray
+Desulfovibrionaceae	Francisellaceae	-5.21E+14	TRUE	gray
+Desulfovibrionaceae	Unclassified Gammaproteobacteria unclassified	-4.63E+14	TRUE	gray
+Desulfovibrionaceae	Roseiflexaceae	-4.38E+14	TRUE	gray
+Desulfovibrionaceae	Nitriliruptoraceae	-4.28E+14	TRUE	gray
+Desulfovibrionaceae	Ardenticatenaceae	-4.24E+14	TRUE	gray
+Desulfovibrionaceae	Verrucomicrobiales unclassified	-4.20E+14	TRUE	gray
+Desulfovibrionaceae	Competibacteraceae	-3.74E+14	TRUE	gray
+Desulfovibrionaceae	Microchaetaceae	-3.61E+14	TRUE	gray
+Desulfovibrionaceae	Methylothermaceae	-3.60E+14	TRUE	gray
+Desulfovibrionaceae	Kordiimonadaceae	-3.57E+14	TRUE	gray
+Desulfovibrionaceae	Saprospiraceae	-2.86E+14	TRUE	gray
+Desulfovibrionaceae	Oscillochloridaceae	-2.83E+14	TRUE	gray
+Desulfovibrionaceae	Listeriaceae	-2.81E+14	TRUE	gray
+Desulfovibrionaceae	Trueperaceae	-2.64E+14	TRUE	gray
+Desulfovibrionaceae	Bacteroidetes/Chlorobi group unclassified	-2.57E+14	TRUE	gray
+Desulfovibrionaceae	Dikarya unclassified	-2.57E+14	TRUE	gray
+Desulfovibrionaceae	Leotiomyceta unclassified	-4.48E+13	TRUE	gray
+Desulfovibrionaceae	Peptoniphilaceae	-2.57E+12	TRUE	gray
+Desulfovibrionaceae	Aspergillaceae	-0.000102397175383338	FALSE	green
+Desulfovibrionaceae	Hypocreaceae	4.41E+12	FALSE	green
+Desulfovibrionaceae	Marinilabiliaceae	2.97E+14	FALSE	green
+Enterobacteriaceae	Aspergillaceae	-4.44E+14	TRUE	gray
+Geobacteraceae	Aspergillaceae	-3.12E+14	TRUE	gray
+Marinilabiliaceae	Aspergillaceae	3.10E+14	FALSE	green
+Methylobacteriaceae	Aspergillaceae	-5.25E+14	TRUE	gray
+Methylobacteriaceae	Unclassified Gammaproteobacteria unclassified	-3.29E+14	TRUE	gray
+Methylobacteriaceae	Leotiomyceta unclassified	-2.66E+14	TRUE	gray
+Methylobacteriaceae	Francisellaceae	-2.48E+14	TRUE	gray
+Methylobacteriaceae	Syntrophaceae	2.45E+14	FALSE	green
+Methylobacteriaceae	Marinilabiliaceae	4.55E+14	FALSE	green
+Microbacteriaceae	Unclassified Gammaproteobacteria unclassified	-2.83E+14	TRUE	gray
+Microbacteriaceae	Francisellaceae	-2.76E+14	TRUE	gray
+Microbacteriaceae	Bacillaceae	-2.76E+14	TRUE	gray
+Microbacteriaceae	Leotiomyceta unclassified	-2.56E+14	TRUE	gray
+Microbacteriaceae	Aspergillaceae	-5.54E+13	TRUE	gray
+Microbacteriaceae	Marinilabiliaceae	2.65E+14	FALSE	green
+Myxococcales unclassified	Aspergillaceae	-7.36E+14	TRUE	gray
+Myxococcales unclassified	Unclassified Gammaproteobacteria unclassified	-4.12E+14	TRUE	gray
+Myxococcales unclassified	Francisellaceae	-3.57E+14	TRUE	gray
+Myxococcales unclassified	Bacillaceae	-3.54E+14	TRUE	gray
+Myxococcales unclassified	Leotiomyceta unclassified	-3.53E+14	TRUE	gray
+Myxococcales unclassified	Nitriliruptoraceae	-3.04E+14	TRUE	gray
+Myxococcales unclassified	Competibacteraceae	-2.98E+14	TRUE	gray
+Myxococcales unclassified	Ardenticatenaceae	-2.91E+14	TRUE	gray
+Myxococcales unclassified	Verrucomicrobiales unclassified	-2.85E+14	TRUE	gray
+Myxococcales unclassified	Kordiimonadaceae	-2.61E+14	TRUE	gray
+Myxococcales unclassified	Saprospiraceae	-2.56E+14	TRUE	gray
+Myxococcales unclassified	Roseiflexaceae	-2.55E+14	TRUE	gray
+Myxococcales unclassified	Symbiobacteriaceae	-2.49E+14	TRUE	gray
+Myxococcales unclassified	Microchaetaceae	-3.08E+13	TRUE	gray
+Myxococcales unclassified	Hypocreaceae	2.61E+14	FALSE	green
+Myxococcales unclassified	Syntrophaceae	2.71E+14	FALSE	green
+Myxococcales unclassified	Marinilabiliaceae	4.76E+14	FALSE	green
+Nannocystaceae	Aspergillaceae	-3.13E+14	TRUE	gray
+Nocardioidaceae	Aspergillaceae	-4.45E+14	TRUE	gray
+Oscillatoriales unclassified	Aspergillaceae	-7.91E+14	TRUE	gray
+Oscillatoriales unclassified	Unclassified Gammaproteobacteria unclassified	-4.53E+14	TRUE	gray
+Oscillatoriales unclassified	Leotiomyceta unclassified	-3.84E+14	TRUE	gray
+Oscillatoriales unclassified	Francisellaceae	-3.81E+14	TRUE	gray
+Oscillatoriales unclassified	Bacillaceae	-3.77E+14	TRUE	gray
+Oscillatoriales unclassified	Microchaetaceae	-3.37E+14	TRUE	gray
+Oscillatoriales unclassified	Nitriliruptoraceae	-3.25E+14	TRUE	gray
+Oscillatoriales unclassified	Competibacteraceae	-3.24E+14	TRUE	gray
+Oscillatoriales unclassified	Ardenticatenaceae	-3.11E+14	TRUE	gray
+Oscillatoriales unclassified	Saprospiraceae	-2.82E+14	TRUE	gray
+Oscillatoriales unclassified	Kordiimonadaceae	-2.81E+14	TRUE	gray
+Oscillatoriales unclassified	Symbiobacteriaceae	-2.77E+14	TRUE	gray
+Oscillatoriales unclassified	Salinisphaeraceae	-2.74E+14	TRUE	gray
+Oscillatoriales unclassified	Roseiflexaceae	-2.66E+14	TRUE	gray
+Oscillatoriales unclassified	Acidimicrobiaceae	-2.60E+14	TRUE	gray
+Oscillatoriales unclassified	Methylothermaceae	-2.57E+14	TRUE	gray
+Oscillatoriales unclassified	Patulibacteraceae	-2.51E+14	TRUE	gray
+Oscillatoriales unclassified	Verrucomicrobiales unclassified	-3.04E+13	TRUE	gray
+Oscillatoriales unclassified	Oscillochloridaceae	-2.68E+13	TRUE	gray
+Oscillatoriales unclassified	Hypocreaceae	2.72E+14	FALSE	green
+Oscillatoriales unclassified	Desulfohalobiaceae	2.75E+14	FALSE	green
+Oscillatoriales unclassified	Syntrophaceae	3.07E+14	FALSE	green
+Oscillatoriales unclassified	Marinilabiliaceae	5.47E+14	FALSE	green
+Proteobacteria unclassified	Unclassified Gammaproteobacteria unclassified	-8.97E+14	TRUE	gray
+Proteobacteria unclassified	Francisellaceae	-8.20E+14	TRUE	gray
+Proteobacteria unclassified	Bacillaceae	-8.17E+14	TRUE	gray
+Proteobacteria unclassified	Leotiomyceta unclassified	-7.88E+14	TRUE	gray
+Proteobacteria unclassified	Nitriliruptoraceae	-6.92E+14	TRUE	gray
+Proteobacteria unclassified	Microchaetaceae	-6.75E+14	TRUE	gray
+Proteobacteria unclassified	Ardenticatenaceae	-6.68E+14	TRUE	gray
+Proteobacteria unclassified	Competibacteraceae	-6.63E+14	TRUE	gray
+Proteobacteria unclassified	Verrucomicrobiales unclassified	-6.56E+14	TRUE	gray
+Proteobacteria unclassified	Roseiflexaceae	-6.09E+14	TRUE	gray
+Proteobacteria unclassified	Kordiimonadaceae	-5.91E+14	TRUE	gray
+Proteobacteria unclassified	Methylothermaceae	-5.58E+14	TRUE	gray
+Proteobacteria unclassified	Saprospiraceae	-5.57E+14	TRUE	gray
+Proteobacteria unclassified	Symbiobacteriaceae	-5.26E+14	TRUE	gray
+Proteobacteria unclassified	Salinisphaeraceae	-4.96E+14	TRUE	gray
+Proteobacteria unclassified	Listeriaceae	-4.88E+14	TRUE	gray
+Proteobacteria unclassified	Acidimicrobiaceae	-4.73E+14	TRUE	gray
+Proteobacteria unclassified	Bacteroidetes/Chlorobi group unclassified	-4.68E+14	TRUE	gray
+Proteobacteria unclassified	Sphaerobacteraceae	-4.43E+14	TRUE	gray
+Proteobacteria unclassified	Peptoniphilaceae	-4.26E+14	TRUE	gray
+Proteobacteria unclassified	Dikarya unclassified	-4.26E+14	TRUE	gray
+Proteobacteria unclassified	Solirubrobacterales unclassified	-4.14E+14	TRUE	gray
+Proteobacteria unclassified	Marinimicrobia unclassified	-3.98E+14	TRUE	gray
+Proteobacteria unclassified	Neisseriales unclassified	-3.90E+14	TRUE	gray
+Proteobacteria unclassified	Candidatus Kaiserbacteria unclassified	-3.86E+14	TRUE	gray
+Proteobacteria unclassified	Oceanospirillales unclassified	-3.84E+14	TRUE	gray
+Proteobacteria unclassified	Patulibacteraceae	-3.83E+14	TRUE	gray
+Proteobacteria unclassified	Gallionellaceae	-3.73E+14	TRUE	gray
+Proteobacteria unclassified	Bifidobacteriaceae	-3.67E+14	TRUE	gray
+Proteobacteria unclassified	Methanomicrobiaceae	-3.58E+14	TRUE	gray
+Proteobacteria unclassified	Microthrixaceae	-3.51E+14	TRUE	gray
+Proteobacteria unclassified	Cytophagaceae	-3.38E+14	TRUE	gray
+Proteobacteria unclassified	Promicromonosporaceae	-3.29E+14	TRUE	gray
+Proteobacteria unclassified	Chloroflexaceae	-3.26E+14	TRUE	gray
+Proteobacteria unclassified	Cellvibrionales unclassified	-3.23E+14	TRUE	gray
+Proteobacteria unclassified	Dermabacteraceae	-3.22E+14	TRUE	gray
+Proteobacteria unclassified	Unclassified Verrucomicrobia unclassified	-3.20E+14	TRUE	gray
+Proteobacteria unclassified	Nostocaceae	-3.19E+14	TRUE	gray
+Proteobacteria unclassified	Pleurocapsales unclassified	-3.14E+14	TRUE	gray
+Proteobacteria unclassified	Botryosphaeriaceae	-3.14E+14	TRUE	gray
+Proteobacteria unclassified	Eggerthellaceae	-3.11E+14	TRUE	gray
+Proteobacteria unclassified	Flavobacteriales unclassified	-3.02E+14	TRUE	gray
+Proteobacteria unclassified	Hypocreales unclassified	-2.99E+14	TRUE	gray
+Proteobacteria unclassified	Candidatus Gottesmanbacteria unclassified	-2.99E+14	TRUE	gray
+Proteobacteria unclassified	Candidatus Woesebacteria unclassified	-2.86E+14	TRUE	gray
+Proteobacteria unclassified	Sphingobacteriaceae	-2.83E+14	TRUE	gray
+Proteobacteria unclassified	Cyclobacteriaceae	-2.63E+14	TRUE	gray
+Proteobacteria unclassified	Sulfuricellaceae	-2.63E+14	TRUE	gray
+Proteobacteria unclassified	Neisseriaceae	-2.62E+14	TRUE	gray
+Proteobacteria unclassified	Candidate division CPR2 unclassified	-2.52E+14	TRUE	gray
+Proteobacteria unclassified	Puniceicoccaceae	-2.48E+14	TRUE	gray
+Proteobacteria unclassified	Oscillochloridaceae	-5.36E+13	TRUE	gray
+Proteobacteria unclassified	Trueperaceae	-4.89E+13	TRUE	gray
+Proteobacteria unclassified	Conexibacteraceae	-3.82E+13	TRUE	gray
+Proteobacteria unclassified	Verrucomicrobia subdivision 3	-3.43E+13	TRUE	gray
+Proteobacteria unclassified	Candidatus Beckwithbacteria unclassified	-3.39E+13	TRUE	gray
+Proteobacteria unclassified	Thaumarchaeota unclassified	-2.74E+13	TRUE	gray
+Proteobacteria unclassified	Flavobacteriia unclassified	-3.40E+12	TRUE	gray
+Proteobacteria unclassified	Aspergillaceae	-0.000167291633227814	FALSE	green
+Proteobacteria unclassified	Cryptosporangiaceae	2.47E+13	FALSE	green
+Proteobacteria unclassified	Desulfobacteraceae	2.65E+13	FALSE	green
+Proteobacteria unclassified	Halobacteriaceae	2.67E+13	FALSE	green
+Proteobacteria unclassified	Pasteurellaceae	2.77E+13	FALSE	green
+Proteobacteria unclassified	Methanosarcinaceae	3.66E+13	FALSE	green
+Proteobacteria unclassified	Desulfohalobiaceae	4.86E+13	FALSE	green
+Proteobacteria unclassified	Hypocreaceae	6.20E+13	FALSE	green
+Proteobacteria unclassified	Marinilabiliaceae	9.52E+13	FALSE	green
+Proteobacteria unclassified	Blattabacteriaceae	2.70E+14	FALSE	green
+Proteobacteria unclassified	Candidatus Poribacteria unclassified	2.70E+14	FALSE	green
+Proteobacteria unclassified	Nanoarchaeota unclassified	2.91E+14	FALSE	green
+Proteobacteria unclassified	Sutterellaceae	3.14E+14	FALSE	green
+Proteobacteria unclassified	Geodermatophilaceae	3.24E+14	FALSE	green
+Proteobacteria unclassified	Archaea unclassified	3.40E+14	FALSE	green
+Proteobacteria unclassified	Candidatus Aminicenantes unclassified	3.49E+14	FALSE	green
+Proteobacteria unclassified	Halothiobacillaceae	3.54E+14	FALSE	green
+Proteobacteria unclassified	Anaerolineae unclassified	3.63E+14	FALSE	green
+Proteobacteria unclassified	Spirochaetaceae	3.66E+14	FALSE	green
+Proteobacteria unclassified	Synergistaceae	3.84E+14	FALSE	green
+Proteobacteria unclassified	Euryarchaeota unclassified	4.08E+14	FALSE	green
+Proteobacteria unclassified	Thermoplasmatales unclassified	4.22E+14	FALSE	green
+Proteobacteria unclassified	Syntrophaceae	5.56E+14	FALSE	green
+Pseudomonadaceae	Aspergillaceae	-5.79E+14	TRUE	gray
+Pseudomonadaceae	Unclassified Gammaproteobacteria unclassified	-2.99E+14	TRUE	gray
+Pseudomonadaceae	Bacillaceae	-2.87E+14	TRUE	gray
+Pseudomonadaceae	Francisellaceae	-2.86E+14	TRUE	gray
+Pseudomonadaceae	Leotiomyceta unclassified	-2.68E+14	TRUE	gray
+Pseudomonadaceae	Marinilabiliaceae	2.91E+14	FALSE	green
+Rhizobiaceae	Aspergillaceae	-5.07E+14	TRUE	gray
+Rhizobiaceae	Unclassified Gammaproteobacteria unclassified	-3.43E+14	TRUE	gray
+Rhizobiaceae	Patulibacteraceae	-2.86E+14	TRUE	gray
+Rhizobiaceae	Leotiomyceta unclassified	-2.67E+14	TRUE	gray
+Rhizobiaceae	Microthrixaceae	-2.60E+14	TRUE	gray
+Rhizobiaceae	Salinisphaeraceae	-2.46E+14	TRUE	gray
+Rhizobiaceae	Microchaetaceae	-2.48E+13	TRUE	gray
+Rhizobiaceae	Syntrophaceae	2.75E+13	FALSE	green
+Rhizobiaceae	Desulfohalobiaceae	2.57E+14	FALSE	green
+Rhizobiaceae	Marinilabiliaceae	5.23E+14	FALSE	green
+Rhizobiales unclassified	Aspergillaceae	-4.62E+14	TRUE	gray
+Rhizobiales unclassified	Unclassified Gammaproteobacteria unclassified	-3.35E+14	TRUE	gray
+Rhizobiales unclassified	Patulibacteraceae	-3.16E+14	TRUE	gray
+Rhizobiales unclassified	Unclassified Verrucomicrobia unclassified	-2.70E+14	TRUE	gray
+Rhizobiales unclassified	Leotiomyceta unclassified	-2.53E+14	TRUE	gray
+Rhizobiales unclassified	Microthrixaceae	-2.87E+13	TRUE	gray
+Rhizobiales unclassified	Salinisphaeraceae	-2.56E+13	TRUE	gray
+Rhizobiales unclassified	Synergistaceae	2.54E+12	FALSE	green
+Rhizobiales unclassified	Desulfohalobiaceae	2.70E+14	FALSE	green
+Rhizobiales unclassified	Syntrophaceae	2.85E+14	FALSE	green
+Rhizobiales unclassified	Marinilabiliaceae	5.53E+14	FALSE	green
+Rhodobacteraceae	Acidimicrobiaceae	-9.97E+14	TRUE	gray
+Rhodobacteraceae	Hypocreaceae	-9.40E+14	TRUE	gray
+Rhodobacteraceae	Candidatus Kaiserbacteria unclassified	-8.62E+14	TRUE	gray
+Rhodobacteraceae	Symbiobacteriaceae	-7.39E+14	TRUE	gray
+Rhodobacteraceae	Hypocreales unclassified	-6.67E+14	TRUE	gray
+Rhodobacteraceae	Candidatus Gottesmanbacteria unclassified	-6.67E+14	TRUE	gray
+Rhodobacteraceae	Thaumarchaeota unclassified	-6.22E+14	TRUE	gray
+Rhodobacteraceae	Unclassified Gammaproteobacteria unclassified	-6.01E+14	TRUE	gray
+Rhodobacteraceae	Patescibacteria group unclassified	-5.83E+14	TRUE	gray
+Rhodobacteraceae	Methanomicrobiaceae	-5.42E+14	TRUE	gray
+Rhodobacteraceae	Gloeobacterales unclassified	-5.30E+14	TRUE	gray
+Rhodobacteraceae	Oceanospirillaceae	-5.28E+14	TRUE	gray
+Rhodobacteraceae	Candidate division WWE3 unclassified	-5.28E+14	TRUE	gray
+Rhodobacteraceae	Gallionellaceae	-5.07E+14	TRUE	gray
+Rhodobacteraceae	Thermoanaerobacterales unclassified	-4.80E+14	TRUE	gray
+Rhodobacteraceae	Cellvibrionaceae	-4.71E+14	TRUE	gray
+Rhodobacteraceae	Candidatus Nomurabacteria unclassified	-4.59E+14	TRUE	gray
+Rhodobacteraceae	Sphaerobacteraceae	-4.53E+14	TRUE	gray
+Rhodobacteraceae	Hyphomicrobiaceae	-4.52E+14	TRUE	gray
+Rhodobacteraceae	Oceanospirillales unclassified	-4.49E+14	TRUE	gray
+Rhodobacteraceae	Rhodospirillales unclassified	-4.09E+14	TRUE	gray
+Rhodobacteraceae	Saprospiraceae	-3.90E+14	TRUE	gray
+Rhodobacteraceae	Frankiaceae	-3.84E+14	TRUE	gray
+Rhodobacteraceae	Natrialbaceae	-3.83E+14	TRUE	gray
+Rhodobacteraceae	Gemmatimonadetes unclassified_class_219685	-3.74E+14	TRUE	gray
+Rhodobacteraceae	Actinobacteria unclassified_phylum_201174	-3.68E+14	TRUE	gray
+Rhodobacteraceae	Chitinophagaceae	-3.61E+14	TRUE	gray
+Rhodobacteraceae	Chromatiales unclassified	-3.59E+14	TRUE	gray
+Rhodobacteraceae	Aurantimonadaceae	-3.53E+14	TRUE	gray
+Rhodobacteraceae	Streptosporangiaceae	-3.40E+14	TRUE	gray
+Rhodobacteraceae	Oscillatoriophycideae unclassified	-3.38E+14	TRUE	gray
+Rhodobacteraceae	Peptococcaceae	-3.37E+14	TRUE	gray
+Rhodobacteraceae	Rhodothermaceae	-3.35E+14	TRUE	gray
+Rhodobacteraceae	Rhizobiaceae	-3.33E+14	TRUE	gray
+Rhodobacteraceae	Sphingomonadaceae	-3.29E+14	TRUE	gray
+Rhodobacteraceae	Caulobacteraceae	-3.25E+14	TRUE	gray
+Rhodobacteraceae	Thermithiobacillaceae	-3.24E+14	TRUE	gray
+Rhodobacteraceae	Microchaetaceae	-3.12E+14	TRUE	gray
+Rhodobacteraceae	Candidatus Falkowbacteria unclassified	-3.09E+14	TRUE	gray
+Rhodobacteraceae	Nitrosomonadaceae	-3.07E+14	TRUE	gray
+Rhodobacteraceae	Brucellaceae	-3.02E+14	TRUE	gray
+Rhodobacteraceae	Xanthobacteraceae	-2.96E+14	TRUE	gray
+Rhodobacteraceae	Nocardiopsaceae	-2.94E+14	TRUE	gray
+Rhodobacteraceae	Sphingomonadales unclassified	-2.93E+14	TRUE	gray
+Rhodobacteraceae	Rhodobiaceae	-2.93E+14	TRUE	gray
+Rhodobacteraceae	Bacteroidia unclassified	-2.89E+14	TRUE	gray
+Rhodobacteraceae	Oscillochloridaceae	-2.87E+14	TRUE	gray
+Rhodobacteraceae	Xanthomonadales unclassified	-2.85E+14	TRUE	gray
+Rhodobacteraceae	Pleurocapsales unclassified	-2.81E+14	TRUE	gray
+Rhodobacteraceae	Botryosphaeriaceae	-2.81E+14	TRUE	gray
+Rhodobacteraceae	Lactobacillaceae	-2.80E+14	TRUE	gray
+Rhodobacteraceae	Bradyrhizobiaceae	-2.80E+14	TRUE	gray
+Rhodobacteraceae	Candidatus Magasanikbacteria unclassified	-2.70E+14	TRUE	gray
+Rhodobacteraceae	Beijerinckiaceae	-2.69E+14	TRUE	gray
+Rhodobacteraceae	Bifidobacteriaceae	-2.64E+14	TRUE	gray
+Rhodobacteraceae	PVC group unclassified	-2.61E+14	TRUE	gray
+Rhodobacteraceae	Rhizobiales unclassified	-2.57E+14	TRUE	gray
+Rhodobacteraceae	Phyllobacteriaceae	-2.55E+14	TRUE	gray
+Rhodobacteraceae	Nostocales unclassified	-2.55E+14	TRUE	gray
+Rhodobacteraceae	Kosmotogaceae	-2.49E+14	TRUE	gray
+Rhodobacteraceae	Chloroflexaceae	-2.48E+14	TRUE	gray
+Rhodobacteraceae	Armatimonadetes unclassified	-7.46E+13	TRUE	gray
+Rhodobacteraceae	Flavobacteriia unclassified	-6.65E+13	TRUE	gray
+Rhodobacteraceae	Nostocaceae	-3.24E+13	TRUE	gray
+Rhodobacteraceae	Thermomonosporaceae	-2.95E+13	TRUE	gray
+Rhodobacteraceae	Gemmatimonadaceae	-2.63E+13	TRUE	gray
+Rhodobacteraceae	Cryptosporangiaceae	-5.20E+12	TRUE	gray
+Rhodobacteraceae	Patulibacteraceae	-0.000216221641422506	FALSE	green
+Rhodobacteraceae	Microthrixaceae	-0.000196124001832138	FALSE	green
+Rhodobacteraceae	Unclassified Verrucomicrobia unclassified	-0.00018719774163505	FALSE	green
+Rhodobacteraceae	Salinisphaeraceae	-0.000110712394708261	FALSE	green
+Rhodobacteraceae	Neisseriales unclassified	-0.000103495026302722	FALSE	green
+Rhodobacteraceae	Clostridiales Family XVII. Incertae Sedis	0.000103185972427048	FALSE	green
+Rhodobacteraceae	Spirochaetaceae	0.000104684946113101	FALSE	green
+Rhodobacteraceae	Desulfobacteraceae	0.000108516230134898	FALSE	green
+Rhodobacteraceae	Glycomycetaceae	0.000109248931838029	FALSE	green
+Rhodobacteraceae	Anaerolineae unclassified	0.000120458461175555	FALSE	green
+Rhodobacteraceae	Pasteurellaceae	0.000121365732264003	FALSE	green
+Rhodobacteraceae	Syntrophaceae	0.000122729192846592	FALSE	green
+Rhodobacteraceae	Limnochordaceae	0.000122732609533561	FALSE	green
+Rhodobacteraceae	Desulfohalobiaceae	0.000130320940103055	FALSE	green
+Rhodobacteraceae	Prolixibacteraceae	0.000135784113164834	FALSE	green
+Rhodobacteraceae	Synergistaceae	0.000147902859083468	FALSE	green
+Rhodobacteraceae	Marinifilaceae	0.000181320616596453	FALSE	green
+Rhodobacteraceae	Rivulariaceae	0.000199434244577929	FALSE	green
+Rhodobacteraceae	Chlorobiaceae	0.000202859877247475	FALSE	green
+Rhodobacteraceae	Marinilabiliaceae	0.000281080054888523	FALSE	green
+Rhodobacteraceae	Alteromonadaceae	3.28E+13	FALSE	green
+Rhodobacteraceae	Nocardioidaceae	4.11E+13	FALSE	green
+Rhodobacteraceae	Bacteria candidate phyla unclassified	4.21E+13	FALSE	green
+Rhodobacteraceae	Helicobacteraceae	5.25E+13	FALSE	green
+Rhodobacteraceae	Colwelliaceae	5.83E+13	FALSE	green
+Rhodobacteraceae	Petrotogales unclassified	7.71E+13	FALSE	green
+Rhodobacteraceae	Dehalococcoidia unclassified	8.36E+13	FALSE	green
+Rhodobacteraceae	Anaplasmataceae	8.80E+13	FALSE	green
+Rhodobacteraceae	Candidatus Peregrinibacteria unclassified	2.52E+14	FALSE	green
+Rhodobacteraceae	Halieaceae	2.54E+14	FALSE	green
+Rhodobacteraceae	Parcubacteria group unclassified	2.58E+14	FALSE	green
+Rhodobacteraceae	Fibrobacteria unclassified	2.61E+14	FALSE	green
+Rhodobacteraceae	Deinococci unclassified	2.61E+14	FALSE	green
+Rhodobacteraceae	Verrucomicrobia subdivision 3	2.65E+14	FALSE	green
+Rhodobacteraceae	Lactobacillales unclassified	2.68E+14	FALSE	green
+Rhodobacteraceae	Verrucomicrobia subdivision 6	2.80E+14	FALSE	green
+Rhodobacteraceae	Candidatus Rokubacteria unclassified	2.81E+14	FALSE	green
+Rhodobacteraceae	Sutterellaceae	2.81E+14	FALSE	green
+Rhodobacteraceae	Thermoplasmatales unclassified	2.89E+14	FALSE	green
+Rhodobacteraceae	Shewanellaceae	2.90E+14	FALSE	green
+Rhodobacteraceae	Desulfobacterales unclassified	2.93E+14	FALSE	green
+Rhodobacteraceae	Unclassified Bacteria unclassified	2.94E+14	FALSE	green
+Rhodobacteraceae	Desulfuromonadaceae	3.03E+14	FALSE	green
+Rhodobacteraceae	Eggerthellaceae	3.09E+14	FALSE	green
+Rhodobacteraceae	Bacteroidaceae	3.10E+14	FALSE	green
+Rhodobacteraceae	Methanobacteriaceae	3.14E+14	FALSE	green
+Rhodobacteraceae	Pelagibacteraceae	3.14E+14	FALSE	green
+Rhodobacteraceae	Propionibacteriales unclassified	3.14E+14	FALSE	green
+Rhodobacteraceae	Desulfarculaceae	3.15E+14	FALSE	green
+Rhodobacteraceae	Hydrogenophilaceae	3.24E+14	FALSE	green
+Rhodobacteraceae	Flavobacteriaceae	3.25E+14	FALSE	green
+Rhodobacteraceae	Nitriliruptoraceae	3.30E+14	FALSE	green
+Rhodobacteraceae	Candidatus Beckwithbacteria unclassified	3.31E+14	FALSE	green
+Rhodobacteraceae	Desulfonatronaceae	3.36E+14	FALSE	green
+Rhodobacteraceae	Solibacteraceae	3.45E+14	FALSE	green
+Rhodobacteraceae	Alteromonadales unclassified	3.46E+14	FALSE	green
+Rhodobacteraceae	Chromobacteriaceae	3.47E+14	FALSE	green
+Rhodobacteraceae	Solibacterales unclassified	3.48E+14	FALSE	green
+Rhodobacteraceae	Staphylococcaceae	3.55E+14	FALSE	green
+Rhodobacteraceae	Planctomycetes unclassified	3.65E+14	FALSE	green
+Rhodobacteraceae	Candidatus Woesebacteria unclassified	3.66E+14	FALSE	green
+Rhodobacteraceae	Clostridiales unclassified	3.68E+14	FALSE	green
+Rhodobacteraceae	Pelobacteraceae	3.69E+14	FALSE	green
+Rhodobacteraceae	Acidithiobacillales unclassified	3.69E+14	FALSE	green
+Rhodobacteraceae	Clostridia unclassified	3.81E+14	FALSE	green
+Rhodobacteraceae	Piscirickettsiaceae	3.93E+14	FALSE	green
+Rhodobacteraceae	Leptospiraceae	4.14E+14	FALSE	green
+Rhodobacteraceae	Rickettsiaceae	4.15E+14	FALSE	green
+Rhodobacteraceae	Pseudoalteromonadaceae	4.25E+14	FALSE	green
+Rhodobacteraceae	Promicromonosporaceae	4.33E+14	FALSE	green
+Rhodobacteraceae	Ardenticatenaceae	4.36E+14	FALSE	green
+Rhodobacteraceae	Methylothermaceae	4.36E+14	FALSE	green
+Rhodobacteraceae	Candidatus Shapirobacteria unclassified	4.38E+14	FALSE	green
+Rhodobacteraceae	Cloacimonetes unclassified	4.38E+14	FALSE	green
+Rhodobacteraceae	Coriobacteriales unclassified	4.49E+14	FALSE	green
+Rhodobacteraceae	Nitrosopumilaceae	4.49E+14	FALSE	green
+Rhodobacteraceae	Geodermatophilaceae	4.66E+14	FALSE	green
+Rhodobacteraceae	Verrucomicrobiales unclassified	4.73E+14	FALSE	green
+Rhodobacteraceae	Akkermansiaceae	4.86E+14	FALSE	green
+Rhodobacteraceae	Micromonosporaceae	4.95E+14	FALSE	green
+Rhodobacteraceae	Epsilonproteobacteria unclassified	5.22E+14	FALSE	green
+Rhodobacteraceae	Jiangellaceae	5.30E+14	FALSE	green
+Rhodobacteraceae	Atopobiaceae	5.35E+14	FALSE	green
+Rhodobacteraceae	Desulfovibrionaceae	5.41E+14	FALSE	green
+Rhodobacteraceae	Francisellaceae	5.42E+14	FALSE	green
+Rhodobacteraceae	Bacteroidales unclassified	5.59E+14	FALSE	green
+Rhodobacteraceae	Clostridiaceae	5.69E+14	FALSE	green
+Rhodobacteraceae	Vibrionaceae	5.76E+14	FALSE	green
+Rhodobacteraceae	Brachyspiraceae	5.83E+14	FALSE	green
+Rhodobacteraceae	Methanosarcinaceae	6.16E+14	FALSE	green
+Rhodobacteraceae	Desulfobulbaceae	6.23E+14	FALSE	green
+Rhodobacteraceae	Sphingobacteriaceae	6.29E+14	FALSE	green
+Rhodobacteraceae	Bacillaceae	6.37E+14	FALSE	green
+Rhodobacteraceae	Euryarchaeota unclassified	6.43E+14	FALSE	green
+Rhodobacteraceae	Ferrimonadaceae	6.47E+14	FALSE	green
+Rhodobacteraceae	Halobacteroidaceae	6.47E+14	FALSE	green
+Rhodobacteraceae	Halobacteriaceae	6.75E+14	FALSE	green
+Rhodobacteraceae	Thermotogaceae	6.84E+14	FALSE	green
+Rhodobacteraceae	Aspergillaceae	6.84E+14	FALSE	green
+Rhodobacteraceae	Verrucomicrobia unclassified	7.59E+14	FALSE	green
+Rhodobacteraceae	Syntrophorhabdaceae	7.62E+14	FALSE	green
+Rhodobacteraceae	Desulfomicrobiaceae	7.65E+14	FALSE	green
+Rhodobacteraceae	Thermotogae unclassified__188708	7.71E+14	FALSE	green
+Rhodobacteraceae	Trypanosomatidae	7.71E+14	FALSE	green
+Rhodobacteraceae	Spongiibacteraceae	7.71E+14	FALSE	green
+Rhodobacteraceae	Williamsiaceae	8.08E+14	TRUE	green
+Rhodobacteraceae	Puniceicoccaceae	8.16E+14	TRUE	green
+Rhodobacteraceae	Planctomycetia unclassified	8.44E+14	TRUE	green
+Rhodobacteraceae	Syntrophomonadaceae	8.44E+14	TRUE	green
+Rhodobacteraceae	Flammeovirgaceae	8.50E+14	TRUE	green
+Rhodobacteraceae	Nanoarchaeota unclassified	8.55E+14	TRUE	green
+Rhodobacteraceae	Alcanivoracaceae	8.57E+14	TRUE	green
+Rhodobacteraceae	FCB group unclassified	8.80E+14	TRUE	green
+Rhodobacteraceae	Halothiobacillaceae	9.01E+14	TRUE	green
+Rhodobacteraceae	Peptostreptococcaceae	9.16E+14	TRUE	green
+Rhodobacteraceae	Roseiflexaceae	9.79E+14	TRUE	green
+Rhodobacteraceae	Bartonellaceae	9.97E+14	TRUE	green
+Rhodocyclaceae	Aspergillaceae	-2.91E+13	TRUE	gray
+Rhodospirillaceae	Aspergillaceae	-8.11E+14	TRUE	gray
+Rhodospirillaceae	Leotiomyceta unclassified	-3.99E+14	TRUE	gray
+Rhodospirillaceae	Francisellaceae	-3.89E+14	TRUE	gray
+Rhodospirillaceae	Microchaetaceae	-3.53E+14	TRUE	gray
+Rhodospirillaceae	Competibacteraceae	-3.37E+14	TRUE	gray
+Rhodospirillaceae	Ardenticatenaceae	-3.17E+14	TRUE	gray
+Rhodospirillaceae	Verrucomicrobiales unclassified	-3.09E+14	TRUE	gray
+Rhodospirillaceae	Salinisphaeraceae	-2.97E+14	TRUE	gray
+Rhodospirillaceae	Saprospiraceae	-2.97E+14	TRUE	gray
+Rhodospirillaceae	Symbiobacteriaceae	-2.97E+14	TRUE	gray
+Rhodospirillaceae	Kordiimonadaceae	-2.89E+14	TRUE	gray
+Rhodospirillaceae	Patulibacteraceae	-2.86E+14	TRUE	gray
+Rhodospirillaceae	Oscillochloridaceae	-2.82E+14	TRUE	gray
+Rhodospirillaceae	Acidimicrobiaceae	-2.81E+14	TRUE	gray
+Rhodospirillaceae	Roseiflexaceae	-2.64E+14	TRUE	gray
+Rhodospirillaceae	Methylothermaceae	-2.62E+14	TRUE	gray
+Rhodospirillaceae	Microthrixaceae	-2.61E+14	TRUE	gray
+Rhodospirillaceae	Trueperaceae	-2.54E+14	TRUE	gray
+Rhodospirillaceae	Listeriaceae	-2.45E+14	TRUE	gray
+Rhodospirillaceae	Unclassified Gammaproteobacteria unclassified	-4.77E+13	TRUE	gray
+Rhodospirillaceae	Bacillaceae	-3.83E+13	TRUE	gray
+Rhodospirillaceae	Nitriliruptoraceae	-3.33E+13	TRUE	gray
+Rhodospirillaceae	Synergistaceae	2.57E+14	FALSE	green
+Rhodospirillaceae	Hypocreaceae	2.71E+14	FALSE	green
+Rhodospirillaceae	Desulfohalobiaceae	3.01E+14	FALSE	green
+Rhodospirillaceae	Syntrophaceae	3.33E+14	FALSE	green
+Rhodospirillaceae	Marinilabiliaceae	6.01E+14	FALSE	green
+Sphingomonadaceae	Aspergillaceae	-6.87E+14	TRUE	gray
+Sphingomonadaceae	Unclassified Gammaproteobacteria unclassified	-4.75E+14	TRUE	gray
+Sphingomonadaceae	Patulibacteraceae	-4.13E+14	TRUE	gray
+Sphingomonadaceae	Microthrixaceae	-3.76E+14	TRUE	gray
+Sphingomonadaceae	Leotiomyceta unclassified	-3.66E+14	TRUE	gray
+Sphingomonadaceae	Salinisphaeraceae	-3.48E+14	TRUE	gray
+Sphingomonadaceae	Microchaetaceae	-3.42E+14	TRUE	gray
+Sphingomonadaceae	Symbiobacteriaceae	-3.21E+14	TRUE	gray
+Sphingomonadaceae	Francisellaceae	-3.14E+14	TRUE	gray
+Sphingomonadaceae	Competibacteraceae	-3.12E+14	TRUE	gray
+Sphingomonadaceae	Bacillaceae	-3.02E+14	TRUE	gray
+Sphingomonadaceae	Saprospiraceae	-2.97E+14	TRUE	gray
+Sphingomonadaceae	Nitriliruptoraceae	-2.79E+14	TRUE	gray
+Sphingomonadaceae	Oscillochloridaceae	-2.76E+14	TRUE	gray
+Sphingomonadaceae	Candidatus Kaiserbacteria unclassified	-2.71E+14	TRUE	gray
+Sphingomonadaceae	Ardenticatenaceae	-2.57E+14	TRUE	gray
+Sphingomonadaceae	Sphaerobacteraceae	-2.52E+14	TRUE	gray
+Sphingomonadaceae	Verrucomicrobiales unclassified	-2.47E+14	TRUE	gray
+Sphingomonadaceae	Unclassified Verrucomicrobia unclassified	-3.52E+13	TRUE	gray
+Sphingomonadaceae	Acidimicrobiaceae	-3.26E+13	TRUE	gray
+Sphingomonadaceae	Neisseriales unclassified	-2.92E+13	TRUE	gray
+Sphingomonadaceae	Kordiimonadaceae	-2.49E+13	TRUE	gray
+Sphingomonadaceae	Euryarchaeota unclassified	2.57E+14	FALSE	green
+Sphingomonadaceae	Pasteurellaceae	2.60E+14	FALSE	green
+Sphingomonadaceae	Halothiobacillaceae	2.61E+14	FALSE	green
+Sphingomonadaceae	Spirochaetaceae	2.82E+14	FALSE	green
+Sphingomonadaceae	Chlorobiaceae	2.89E+14	FALSE	green
+Sphingomonadaceae	Anaerolineae unclassified	2.98E+14	FALSE	green
+Sphingomonadaceae	Synergistaceae	3.38E+14	FALSE	green
+Sphingomonadaceae	Desulfohalobiaceae	3.65E+14	FALSE	green
+Sphingomonadaceae	Syntrophaceae	3.89E+14	FALSE	green
+Sphingomonadaceae	Marinilabiliaceae	7.44E+14	FALSE	green
+Streptomycetaceae	Aspergillaceae	-2.68E+14	TRUE	gray
+Unclassified Gammaproteobacteria unclassified	Aspergillaceae	-5.66E+14	TRUE	gray
+Unclassified Gammaproteobacteria unclassified	Francisellaceae	-2.79E+14	TRUE	gray
+Unclassified Gammaproteobacteria unclassified	Bacillaceae	-2.78E+14	TRUE	gray
+Unclassified Gammaproteobacteria unclassified	Leotiomyceta unclassified	-2.65E+14	TRUE	gray
+Unclassified Gammaproteobacteria unclassified	Marinilabiliaceae	3.06E+14	FALSE	green
+Verrucomicrobia unclassified	Aspergillaceae	-2.67E+13	TRUE	gray
+Xanthomonadaceae	Aspergillaceae	-4.55E+14	TRUE	gray
+Xanthomonadaceae	Unclassified Gammaproteobacteria unclassified	-2.47E+14	TRUE	gray
+Xanthomonadaceae	Marinilabiliaceae	2.70E+14	FALSE	green
