@@ -63,6 +63,7 @@ originalUndirNetwork = nx.Graph()
 originalDirecNetwork = nx.DiGraph()
 networkCounter = 0
 networkType = ""
+lecture = "ok"
 
 # Function: clean network file name -----------------------
 def CleanNetworkFilename(networkFileName):
@@ -73,15 +74,19 @@ def CleanNetworkFilename(networkFileName):
     if("/" in networkFileName):
         nameArray = networkFileName.split("/")
         nameTxt = nameArray[-1].split(".")
-        name = nameTxt[0]
+        nameTxt.pop()
+        name = ".".join(nameTxt)
         return(name)
     if("\\" in networkFileName):
         nameArray = networkFileName.split("\\")
         nameTxt = nameArray[-1].split(".")
-        name = nameTxt[0]
+        nameTxt.pop()
+        name = ".".join(nameTxt)
         return(name)
-    nameTxt = networkFileName.split(".")
-    name = nameTxt[0]
+    nameArray = networkFileName.split("/")
+    nameTxt = nameArray[-1].split(".")
+    nameTxt.pop()
+    name = ".".join(nameTxt)
     return(name)
 
 # Function: ParseNetwork ----------------------------------
@@ -106,18 +111,20 @@ def ParseFileToNetwork(networkFileName, typeNW, weight):
     # create network looping to get the arrows
     for eachLine in FILE:
         possEdge = eachLine.split("\t")
-        if(len(possEdge) >= 3):
+        if(len(possEdge) >= 2):
             firstNode = possEdge[0].strip()
             secondNode = possEdge[1].strip()
-            if(weight == "community"):
+            if(weight == "community" or (len(possEdge) == 2)):
                 edgeWeight = 1
             else:
                 edgeWeight = float(possEdge[2].strip())
             # add edge to network
             fileNetwork.add_edge(firstNode, secondNode, weight = edgeWeight)
+        else:
+            return(fileNetwork, "Error - Nodo solitario etiquetado como: " + eachLine)
     FILE.close()
     # end of function
-    return(fileNetwork)
+    return(fileNetwork, "ok")
 
 # Function: analize order ---------------------------------
 def AnalizeOrder(someNetwork):
@@ -478,8 +485,9 @@ def AnalizeCommunitiesAndMakeDrawings(name, fileName, someNetwork):
     positions = []
     counter = 0
     counter2 = 0
+    lectura = "ok"
     # get undir graph integer-weighted
-    graphForCommunities = ParseFileToNetwork(fileName, "-u", "community")
+    (graphForCommunities, lectura) = ParseFileToNetwork(fileName, "-u", "community")
     # get communities
     bestPartition = community.best_partition(graphForCommunities)
     networkModularity = community.modularity(bestPartition, graphForCommunities)
@@ -557,6 +565,9 @@ def AnalizeDegreeDistribution(someNetwork, typeNW, name):
     strDistVector = []
     strInDistVector = []
     strOutDistVector = []
+    maxDegFrec = 0
+    maxInDegFrec = 0
+    maxOutDegFrec = 0
     # get degree distribution for undirected
     if(typeNW == "-u"):
         degMapping = dict(someNetwork.degree())
@@ -572,9 +583,11 @@ def AnalizeDegreeDistribution(someNetwork, typeNW, name):
             distVector.append(0)
         for counter in range(len(degVector)):
             distVector[degVector[counter]] = distVector[degVector[counter]] + 1
+        maxDegFrec = max(distVector)
         bars = range(len(distVector))
         plt.bar(bars, distVector, bottom = 0, width = 0.99, align = "center", color = "m")
-        plt.xticks(range(0, maxDegree + 1, int(math.ceil(maxDegree*0.05))))
+        plt.xticks(range(0, maxDegree + 1, int(math.ceil(maxDegree*0.07))))
+        plt.yticks(range(0, maxDegFrec + 1, int(math.ceil(maxDegFrec*0.07))))
         plt.xlabel("Degree")
         plt.ylabel("Number of nodes with each degree")
         plt.title(name + " degree distribution")
@@ -605,9 +618,11 @@ def AnalizeDegreeDistribution(someNetwork, typeNW, name):
             inDistVector.append(0)
         for counter in range(len(inDegVector)):
             inDistVector[inDegVector[counter]] = inDistVector[inDegVector[counter]] + 1
+        maxInDegFrec = max(inDistVector)
         bars = range(len(inDistVector))
         plt.bar(bars, inDistVector, bottom = 0, width = 0.99, align = "center", color = "b")
-        plt.xticks(range(0, inMaxDegree + 1, int(math.ceil(inMaxDegree*0.05))))
+        plt.xticks(range(0, inMaxDegree + 1, int(math.ceil(inMaxDegree*0.07))))
+        plt.yticks(range(0, maxInDegFrec + 1, int(math.ceil(maxInDegFrec*0.07))))
         plt.xlabel("In Degree")
         plt.ylabel("Number of nodes with each in-degree")
         plt.title(name + " in-degree distribution")
@@ -624,9 +639,11 @@ def AnalizeDegreeDistribution(someNetwork, typeNW, name):
             outDistVector.append(0)
         for counter in range(len(outDegVector)):
             outDistVector[outDegVector[counter]] = outDistVector[outDegVector[counter]] + 1
+        maxOutDegFrec = max(outDistVector)
         bars = range(len(outDistVector))
         plt.bar(bars, outDistVector, bottom = 0, width = 0.99, align = "center", color = "r")
-        plt.xticks(range(0, outMaxDegree + 1, int(math.ceil(outMaxDegree*0.05))))
+        plt.xticks(range(0, outMaxDegree + 1, int(math.ceil(outMaxDegree*0.07))))
+        plt.yticks(range(0, maxOutDegFrec + 1, int(math.ceil(maxOutDegFrec*0.07))))
         plt.xlabel("Out Degree")
         plt.ylabel("Number of nodes with each out-degree")
         plt.title(name + " out-degree distribution")
@@ -674,8 +691,9 @@ def RandomNetworkAnalysis(someNetwork, name):
     # iterate generating random networks and obtaining sum of properties
     for i in range(samples):
         randomGNM = nx.gnm_random_graph(orderRef, sizeRef, directed = True)
-        diameterMean = diameterMean + float(nx.diameter(randomGNM.to_undirected()))
-        radiusMean = radiusMean + float(nx.radius(randomGNM.to_undirected()))
+        if(nx.is_connected(randomGNM.to_undirected())):
+            diameterMean = diameterMean + float(nx.diameter(randomGNM.to_undirected()))
+            radiusMean = radiusMean + float(nx.radius(randomGNM.to_undirected()))
         densityMean = densityMean + float(nx.density(randomGNM))
         meanDegreeMean = meanDegreeMean + float(sizeRef/orderRef)
         clustCoeffMean = clustCoeffMean + (float(nx.average_clustering(randomGNM.to_undirected()))/2)
@@ -715,8 +733,8 @@ def RandomNetworkAnalysis(someNetwork, name):
                          " - [d] density:\t" + str(densityMean) + "\n" +
                          " - [d] mean degree:\t" + str(meanDegreeMean) + "\n" +
                          " - [d] clustering coefficient:\t" + str(clustCoeffMean) + "\n" +
-                         " - [d] maximum in degree:\t" + str(maxInDegreeMean) + "\n" +
-                         " - [d] maximum out degree:\t" + str(maxOutDegreeMean) + "\n" + 
+                         " - [/] maximum in degree:\t" + str(maxInDegreeMean) + "\n" +
+                         " - [/] maximum out degree:\t" + str(maxOutDegreeMean) + "\n" + 
                          " - [d] hubs with max in degree:\t" + str(numMaxInDegreeHubsMean) + "\n" +
                          " - [d] hubs with max out degree:\t" + str(numMaxOutDegreeHubsMean) + "\n" +
                          " - [u] modularity:\t" + str(modularityMean) + "\n" +
@@ -863,17 +881,22 @@ if(CheckInputStr(argv) == 1):
         networkType = argv[networkCounter]
         if(networkType == "-u"):
             print("\n> Analysing Network:\t" + argv[networkCounter + 1] + "\ttype:\tUndirected")
-            originalUndirNetwork = ParseFileToNetwork(argv[networkCounter + 1], networkType, "else")
-            AnalizeNetwork(originalUndirNetwork, argv[networkCounter + 1], networkType)
-            print("\t- Finished analysis for this network")
+            (originalUndirNetwork, lecture) = ParseFileToNetwork(argv[networkCounter + 1], networkType, "else")
+            if(lecture == "ok"):
+                AnalizeNetwork(originalUndirNetwork, argv[networkCounter + 1], networkType)
+                print("\t- Finished analysis for this network")
         if(networkType == "-d"):
             print("\n> Analysing Network:\t" + argv[networkCounter + 1] + "\ttype:\tDirected")
-            originalDirecNetwork = ParseFileToNetwork(argv[networkCounter + 1], networkType, "else")
-            AnalizeNetwork(originalDirecNetwork, argv[networkCounter + 1], networkType)
-            print("\t- Finished analysis for this network")
-    print("\n\n--- Finished Analyzing Every Given Network ---\n\n")
+            (originalDirecNetwork, lecture) = ParseFileToNetwork(argv[networkCounter + 1], networkType, "else")
+            if(lecture == "ok"):
+                AnalizeNetwork(originalDirecNetwork, argv[networkCounter + 1], networkType)
+                print("\t- Finished analysis for this network")
+    if(lecture == "ok"):
+        print("\n\n--- Finished Analyzing Every Given Network ---\n\n")
+    else:
+        print(lecture)
 else:
-    print("\n\n\t :O Sorry, Wrong Input.\n\n")
+    print("\n\n\t Sorry, Wrong Input.\n\n")
 
 # SUPLEMENTARY ######################################################
 
