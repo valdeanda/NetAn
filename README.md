@@ -1,5 +1,10 @@
 # Network analysis
 We provide a single script  that use the output derived from [Metamis sofware](https://www.ncbi.nlm.nih.gov/pubmed/27887570) sofware, which is a directed and weighted adyacence list , and compute several statistics 
+Adyacency list derived from another software can also be used. The input list must be in .txt extention 
+
+## Example of directed adyacency list 
+Separated by tab 
+
 ```
 Firmicutes      Ascomycota      -0.000272753971115013
 Firmicutes      Chlorobi        -0.000242343947634859
@@ -13,7 +18,24 @@ Firmicutes      Cloacimonetes   -0.000130612871481698
 Firmicutes      Candidatus Shapirobacteria      -0.00013061259484347
 ```
 
+## Example of undirected adyacency list 
+Separated by tab
+
+```
+Firmicutes	Actinobacteria
+Ascomycota	Nitrospinae
+Firmicutes	Candidatus Magasanikbacteria
+Ascomycota	Candidatus Pacebacteria
+Actinobacteria	Candidate division CPR2
+Bacteria unclassified	Dikarya unclassified
+Actinobacteria	Thermotogae
+Bacteria unclassified	Ignavibacteriae
+Bacteria unclassified	Candidatus Beckwithbacteria
+Actinobacteria	Patescibacteria group unclassified
+```
+
 The main script :  [NetworkAnalysis.py](./scripts/NetworkAnalysis.py) recieves the above mentioned list and compute several topological features such as density, mean degree, hubs, connected components, clustering coefficient modularity etc.  
+
 
 # Dependencies 
 
