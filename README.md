@@ -1,4 +1,4 @@
-# NentAan: Network Analyzer
+# NentAn: Network Analyzer
 We provide a single script  that use the output derived from [Metamis sofware](https://www.ncbi.nlm.nih.gov/pubmed/27887570) sofware, which is a directed and weighted adyacence list , and compute several statistics 
 Adyacency list derived from another software can also be used. Please note that the input adyacency  list must have(.txt) extention 
 
