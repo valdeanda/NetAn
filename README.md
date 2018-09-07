@@ -179,5 +179,5 @@ Random Analysis Results, Mean Measures:                 runs(100)
 ### If you want to customize your networks..
 We recomend to use [visNetwork](https://datastorm-open.github.io/visNetwork/). 
 We provide a simple data test  containing the nodes and the edges and the [R script](./scripts/plot_graph.R)
-to obtain the following [interactive graph](https://valdeanda.github.io/Networks/testNetwork.html)
+to obtain the following [interactive graph](https://valdeanda.github.io/NetAn/testNetwork.html)
 
