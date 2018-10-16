@@ -12,9 +12,10 @@ We provide a single script  that use the output derived from [Metamis sofware](h
 Please note that any **adyacency list derived from another software can also be used**. The input adyacency  list must have(.txt) extention 
 
 
-#Cite
+# Cite
 
 The software implementation is described in  
+
 [De Anda et al., 2018. Understanding the mechanisms behind the response to environmental perturbation in microbial mats: a metagenomic-network based approach.Front. Microbio](https://www.frontiersin.org/articles/10.3389/fmicb.2018.02606/abstract)
 
 
