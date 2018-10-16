@@ -1,6 +1,7 @@
 # NetAn: Network Analyzer
 
 
+
 Authors:  Maribel Hernandez Rosales(1), Marcos Gonzales laffitte (1), Valerie de Anda (2) 
 
 1. Instituto de Matemáticas, Universidad Nacional Autónoma de México, Mexico
@@ -9,6 +10,14 @@ Authors:  Maribel Hernandez Rosales(1), Marcos Gonzales laffitte (1), Valerie de
 
 We provide a single script  that use the output derived from [Metamis sofware](https://www.ncbi.nlm.nih.gov/pubmed/27887570) sofware,  which is a directed and weighted adyacence list , and compute several statistics 
 Please note that any **adyacency list derived from another software can also be used**. The input adyacency  list must have(.txt) extention 
+
+
+#Cite
+
+The software implementation is described in  
+[De Anda et al., 2018. Understanding the mechanisms behind the response to environmental perturbation in microbial mats: a metagenomic-network based approach.Front. Microbio](https://www.frontiersin.org/articles/10.3389/fmicb.2018.02606/abstract)
+
+
 
 ## Example of directed adyacency list 
 Separated by tab 
