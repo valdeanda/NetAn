@@ -2,14 +2,16 @@
 
 # **Net**work **An**alyzer
 
-### Authors:  Maribel Hernandez Rosales(1), Marcos Gonzales laffitte (1), Valerie de Anda (2) 
+### Authors: Maribel Hernandez Rosales(1), Marcos Gonzales laffitte (1), Valerie de Anda (2) 
 
 1. Instituto de Matemáticas, Universidad Nacional Autónoma de México, Mexico
 2. University of Austin at Texas. Marine Science Institute.  
 
 
-We provide a single script  that use the output derived from [Metamis sofware](https://www.ncbi.nlm.nih.gov/pubmed/27887570) sofware,  which is a directed and weighted adyacence list , and compute several statistics 
-Please note that any **adyacency list derived from another software can also be used**. The input adyacency  list must have(.txt) extention 
+
+We provide a single script  that use the output derived from [Metamis sofware](https://www.ncbi.nlm.nih.gov/pubmed/27887570) sofware,  which is a directed network , and compute several statistics 
+Please note that any **networked from another software can also be used** ie [WGCNA: Weighted Correlation Network Analysis](https://cran.r-project.org/web/packages/WGCNA/index.html), [MENA:Molecular Ecological Network Analyses](http://129.15.40.240/mena/). 
+Please note that your input file must have(.txt) extention 
 
 
 # Cite
@@ -20,7 +22,8 @@ The software implementation is described in
 
 
 
-## Example of directed adyacency list 
+## Example of directed network 
+
 Separated by tab 
 
 ```
@@ -36,7 +39,8 @@ Firmicutes      Cloacimonetes   -0.000130612871481698
 Firmicutes      Candidatus Shapirobacteria      -0.00013061259484347
 ```
 
-## Example of undirected adyacency list 
+## Example of undirected network 
+
 Separated by tab
 
 ```
@@ -52,7 +56,7 @@ Bacteria unclassified	Candidatus Beckwithbacteria
 Actinobacteria	Patescibacteria group unclassified
 ```
 
-The main script :  [NetworkAnalysis.py](./scripts/NetworkAnalysis.py) recieves the above mentioned list and compute several topological features such as density, mean degree, hubs, connected components, clustering coefficient modularity etc.  
+The main script :  [NetworkAnalysis.py](./scripts/NetworkAnalysis.py) recieves the above mentioned files and compute several topological features such as density, mean degree, hubs, connected components, clustering coefficient modularity etc.  
 
 
 # Dependencies 
@@ -82,7 +86,7 @@ sudo apt-get install python-tk
 ```
 python Networks/scripts/NetworkAnalysis.py -d Networks/data/a_phylum_consensus.txt
 ```
-In the case of having and adyacency list with no directionality, you can use the option -u for undirected networks
+In the case of having  undirected networks , you can use the  -u option
 ```
 python Networks/scripts/NetworkAnalysis.py -u Networks/data/a_phylum_consensus.txt
 ```
@@ -195,6 +199,7 @@ Random Analysis Results, Mean Measures:                 runs(100)
 
 
 ### If you want to customize your networks..
+
 We recomend to use [visNetwork](https://datastorm-open.github.io/visNetwork/). 
 We provide a simple data test  containing the nodes and the edges and the [R script](./scripts/plot_graph.R)
 to obtain the following [interactive graph](https://valdeanda.github.io/NetAn/testNetwork.html)
