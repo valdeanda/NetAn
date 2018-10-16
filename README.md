@@ -1,6 +1,14 @@
 # NetAn: Network Analyzer
-We provide a single script  that use the output derived from [Metamis sofware](https://www.ncbi.nlm.nih.gov/pubmed/27887570) sofware, which is a directed and weighted adyacence list , and compute several statistics 
-Adyacency list derived from another software can also be used. Please note that the input adyacency  list must have(.txt) extention 
+
+
+Authors:  Maribel Hernandez Rosales(1), Marcos Gonzales laffitte (1), Valerie de Anda (2) 
+
+1. Instituto de Matemáticas, Universidad Nacional Autónoma de México, Mexico
+2. University of Austin at Texas. Marine Science Institute.  
+
+
+We provide a single script  that use the output derived from [Metamis sofware](https://www.ncbi.nlm.nih.gov/pubmed/27887570) sofware,  which is a directed and weighted adyacence list , and compute several statistics 
+Please note that any **adyacency list derived from another software can also be used**. The input adyacency  list must have(.txt) extention 
 
 ## Example of directed adyacency list 
 Separated by tab 
