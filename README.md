@@ -1,6 +1,6 @@
+![NetAn](./NetAn.png) 
+
 # NetAn: Network Analyzer
-
-
 
 Authors:  Maribel Hernandez Rosales(1), Marcos Gonzales laffitte (1), Valerie de Anda (2) 
 
