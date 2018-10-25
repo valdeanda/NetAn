@@ -16,7 +16,8 @@ Created:    September  2017
 import networkx as nx
 from numpy import arange
 import matplotlib.pyplot as plt
-import community
+from networkx.algorithms.community import greedy_modularity_communities, coverage, performance
+import community as louv
 
 """Already in python 3.5"""
 from sys import argv
@@ -29,9 +30,9 @@ plt.switch_backend('agg')
 # Dependencies info --------------------------------------
 """
 - Networkx:
-               - version: 1.11
-               - site: https://networkx.github.io/documentation/networkx-1.11/
-               - last checked: October/17/2017
+               - version: 2.2
+               - site: https://networkx.github.io/documentation/stable/release/release_2.2.html
+               - last checked: October/24/2018
 - Numpy:
                - version: 1.13.1
                - site: http://www.numpy.org/
@@ -40,7 +41,8 @@ plt.switch_backend('agg')
                - version: 2.0.2
                - site: https://matplotlib.org/
                - last checked: October/17/2017
-- Community:
+
+- Python-Louvain (community):
                - version: 0.8
                - site: https://github.com/taynaud/python-louvain
                - last checked: October/17/2017
@@ -234,13 +236,7 @@ def AnalizeClustCoeff(someNetwork, typeNW):
     clustCoeffFinalResult = ""
     clustCoeffResult = "Clustering Coefficient:"
     # get clustering coefficient
-    if(nx.is_connected(someNetwork.to_undirected())):
-        if(typeNW == "-u"):
-            clustCoeffResult = clustCoeffResult + str(nx.average_clustering(someNetwork.to_undirected()))
-        if(typeNW == "-d"):
-            clustCoeffResult = clustCoeffResult + str((nx.average_clustering(someNetwork.to_undirected()))/2)
-    else:
-        clustCoeffResult = clustCoeffResult + "NOT CONNECTED"
+    clustCoeffResult = clustCoeffResult + str(nx.average_clustering(someNetwork))
     # end of function
     clustCoeffFinalResult = "\n\n" + clustCoeffResult + "\n\n"
     return(clustCoeffFinalResult)
@@ -464,7 +460,60 @@ def AnalizeIndependentSets(someNetwork, totIndSet):
     independentSetsFinalResult = "\n\n" + independentSetsResult + "\n\n"
     return(independentSetsFinalResult)
 
-# Function: analize communities and make drawings ---------------------
+# Function: draw communinties -----------------------------------------
+def drawCommunities(someNetwork, communities, name):
+    # function message
+    print("\t- Drawing communities the network ...")
+    # variables
+    totCommunities = 0
+    palet = []
+    colorMap = None
+    intervals = []
+    color = None
+    vertices = []
+    communityOrder = 0
+    colors = []
+    i = 0
+    j = 0
+    positions = None
+    nameComplement = ""
+    # obtain number of communities
+    totCommunities = len(communities)
+    # define colors
+    colorMap = plt.cm.get_cmap('gist_rainbow')
+    intervals = arange(0, 1, (1/ totCommunities))
+    for color in intervals:
+        palet.append(colorMap(color))
+    # define arrays of vertices and their respective colors 
+    for i in range(totCommunities):
+        communityOrder = len(list(communities[i]))
+        vertices = vertices + list(communities[i])
+        for j in range(communityOrder):
+            colors.append(palet[i])
+    # draw networks
+    positions = nx.kamada_kawai_layout(someNetwork)
+    # define type of network
+    if(someNetwork.is_directed()):
+        nameComplement = "_directed_network.png"
+    else:
+        nameComplement = "_undirected_network.png"
+    # draw network with communities
+    nx.draw_networkx(someNetwork, with_labels = False, pos = positions, nodelist = vertices, node_color = colors, node_size = 20, width = 0.4)
+    plt.axis("off")
+    plt.title(name + " communities")
+    plt.tight_layout()
+    plt.savefig(name + "_community_network.png" , dpi=300)
+    plt.close()
+    # draw network without communities
+    nx.draw_networkx(someNetwork, with_labels = False, pos = positions, node_size = 20, width = 0.4)
+    plt.axis("off")
+    plt.title(name)
+    plt.tight_layout()
+    plt.savefig(name + nameComplement , dpi=300) 
+    plt.close()
+    # fin de funcion
+
+# Function: analize communities ---------------------------------------
 def AnalizeCommunitiesAndMakeDrawings(name, fileName, someNetwork):
     # function message
     print("\t- Obtaining communities (for undir network version)...")
@@ -472,68 +521,39 @@ def AnalizeCommunitiesAndMakeDrawings(name, fileName, someNetwork):
     communitiesFinalResult = ""
     communitiesResult = "Communities (Undirected):\n"
     graphForCommunities = nx.Graph()
-    bestPartition = dict()
-    listPartition = dict()
-    networkModularity = 0
-    everyCommunity = dict()
+    read = "ok"
+    com = 0
+    communitiesListCNM = []
     listCommunities = []
-    colors = []
-    cmap = []
-    between = []
-    eachNodes = []
-    eachColor = []
-    positions = []
+    communitiesDict = dict()
+    community = None
+    vertex = None
+    networkModularity = 0
+    networkCoverage = 0
+    networkPerformance = 0
     counter = 0
-    counter2 = 0
-    lectura = "ok"
     # get undir graph integer-weighted
-    (graphForCommunities, lectura) = ParseFileToNetwork(fileName, "-u", "community")
-    # get communities
-    bestPartition = community.best_partition(graphForCommunities)
-    networkModularity = community.modularity(bestPartition, graphForCommunities)
-    listPartition = list(bestPartition.keys())
-    for counter in range(len(listPartition)):
-        if(not(bestPartition[listPartition[counter]] in everyCommunity)):
-            everyCommunity[bestPartition[listPartition[counter]]] = []
-            everyCommunity[bestPartition[listPartition[counter]]].append(listPartition[counter])
-        else:
-            everyCommunity[bestPartition[listPartition[counter]]].append(listPartition[counter])
+    (graphForCommunities, read) = ParseFileToNetwork(fileName, "-u", "community")
+    # get Clauset-Newman-Moore communities
+    communitiesListCNM = list(greedy_modularity_communities(graphForCommunities))
+    # evaluate modularity
+    for  community in communitiesListCNM:
+        for vertex in set(community):
+            communitiesDict[vertex] = com
+        listCommunities.append(set(community))
+        com = com + 1
+    networkModularity = louv.modularity(communitiesDict, graphForCommunities)
+    networkCoverage = coverage(graphForCommunities, listCommunities)
+    networkPerformance = performance(graphForCommunities, listCommunities)
     communitiesResult = communitiesResult + "- Modularity: " + str(networkModularity) + "\n"
-    listCommunities = list(everyCommunity.keys())
+    communitiesResult = communitiesResult + "- Coverage: " + str(networkCoverage) + "\n"
+    communitiesResult = communitiesResult + "- Performance: " + str(networkPerformance) + "\n"
     communitiesResult = communitiesResult + "- Number of Communities: " + str(len(listCommunities)) + "\n"
     for counter in range(len(listCommunities)):
-        communitiesResult=communitiesResult+"- Number of nodes in community "+str(counter+1)+": "+str(len(everyCommunity[listCommunities[counter]]))+"\n"
-        communitiesResult = communitiesResult + "- Nodes in C_" + str(counter + 1) + ": " + ",".join(everyCommunity[listCommunities[counter]]) + "\n"
-    # plot message
-    print("\t- Drawing networks ...")
+        communitiesResult = communitiesResult + "- Number of nodes in community " + str(counter+1) + ": " + str(len(listCommunities[counter])) + "\n"
+        communitiesResult = communitiesResult + "- Nodes in C_" + str(counter + 1) + ": " + ",".join(listCommunities[counter]) + "\n"
     # plot graph with communities
-    cmap = plt.cm.get_cmap('gist_rainbow')
-    between = arange(0.01, 1, float(0.99/float(len(listCommunities))))
-    for counter in range(len(listCommunities)):
-        for counter2 in range(len(everyCommunity[listCommunities[counter]])):
-            eachNodes.append(everyCommunity[listCommunities[counter]][counter2])
-            eachColor.append(cmap(between[counter]))
-    positions = nx.spring_layout(graphForCommunities)
-    nx.draw_networkx(graphForCommunities, with_labels = False, pos = positions, nodelist = eachNodes, node_color = eachColor, node_size = 20, width = 0.4)
-    plt.axis("off")
-    plt.title(name + " communities")
-    plt.tight_layout()
-    plt.savefig(name + "_community_network.png" , dpi=300)
-    plt.close()
-    if(someNetwork.is_directed()):
-        nx.draw_networkx(someNetwork, with_labels = False, pos = positions, node_size = 20, width = 0.4)
-        plt.axis("off")
-        plt.title(name)
-        plt.tight_layout()
-        plt.savefig(name + "_directed_network.png" , dpi=300) 
-        plt.close()
-    else:
-        nx.draw_networkx(someNetwork, with_labels = False, pos = positions, node_size = 20, width = 0.4)
-        plt.axis("off")
-        plt.title(name)
-        plt.tight_layout()
-        plt.savefig(name + "_undirected_network.png" , dpi=300)
-        plt.close()
+    drawCommunities(someNetwork, listCommunities, name)
     # end of function
     communitiesFinalResult = "\n\n" + communitiesResult + "\n\n"
     return(communitiesFinalResult)
@@ -677,6 +697,8 @@ def RandomNetworkAnalysis(someNetwork, name):
     numMaxOutDegreeHubsMean = 0
     clustCoeffMean = 0
     modularityMean = 0
+    coverageMean = 0
+    performanceMean = 0
     numConnCompsMean = 0
     numStroConnCompsMean = 0
     numCyclesMean = 0
@@ -696,14 +718,16 @@ def RandomNetworkAnalysis(someNetwork, name):
             radiusMean = radiusMean + float(nx.radius(randomGNM.to_undirected()))
         densityMean = densityMean + float(nx.density(randomGNM))
         meanDegreeMean = meanDegreeMean + float(sizeRef/orderRef)
-        clustCoeffMean = clustCoeffMean + (float(nx.average_clustering(randomGNM.to_undirected()))/2)
+        clustCoeffMean = clustCoeffMean + (float(nx.average_clustering(randomGNM)))
         (auxA, auxB, auxC, auxD) = maxDegreeRandomModule(randomGNM)
         maxInDegreeMean = maxInDegreeMean + float(auxA)
         maxOutDegreeMean = maxOutDegreeMean + float(auxB) 
         numMaxInDegreeHubsMean = numMaxInDegreeHubsMean + float(auxC) 
         numMaxOutDegreeHubsMean = numMaxOutDegreeHubsMean + float(auxD)
-        (auxA, auxB) = communitiesRandomModule(randomGNM.to_undirected())
+        (auxA, auxB, auxC, auxD) = communitiesRandomModule(randomGNM.to_undirected())
         modularityMean = modularityMean + float(auxA)
+        coverageMean = coverageMean + float(auxC)
+        performanceMean = performanceMean + float(auxD)
         numCommunitiesMean = numCommunitiesMean + float(auxB)
         numConnCompsMean = numConnCompsMean + float(len(list(nx.connected_components(randomGNM.to_undirected()))))
         numStroConnCompsMean = numStroConnCompsMean + float(len(list(nx.strongly_connected_components(randomGNM))))
@@ -719,6 +743,8 @@ def RandomNetworkAnalysis(someNetwork, name):
     numMaxOutDegreeHubsMean = numMaxOutDegreeHubsMean / samples
     clustCoeffMean = clustCoeffMean / samples 
     modularityMean = modularityMean / samples
+    coverageMean = coverageMean / samples
+    performanceMean = performanceMean / samples
     numConnCompsMean = numConnCompsMean / samples
     numStroConnCompsMean = numStroConnCompsMean / samples
     numCyclesMean = numCyclesMean / samples
@@ -738,6 +764,8 @@ def RandomNetworkAnalysis(someNetwork, name):
                          " - [d] hubs with max in degree:\t" + str(numMaxInDegreeHubsMean) + "\n" +
                          " - [d] hubs with max out degree:\t" + str(numMaxOutDegreeHubsMean) + "\n" +
                          " - [u] modularity:\t" + str(modularityMean) + "\n" +
+                         " - [u] coverage:\t" + str(coverageMean) + "\n" +
+                         " - [u] performance:\t" + str(performanceMean) + "\n" +
                          " - [u] number of communities:\t" + str(numCommunitiesMean) + "\n" + 
                          " - [/] number of connected components:\t" + str(numConnCompsMean) + "\n" +
                          " - [d] number of strongly connected components:\t" + str(numStroConnCompsMean) + "\n" +
@@ -785,29 +813,33 @@ def maxDegreeRandomModule(someNetwork):
             outHubsVector.append(outNodeVector[counter])
     # end of function
     return(inMaxDegree, outMaxDegree, len(inHubsVector), len(outHubsVector))
-    
-def communitiesRandomModule(someNetwork):
+
+def communitiesRandomModule(graphForCommunities):
     # function for random analysis
     # variables
-    bestPartition = dict()
-    everyCommunity = dict()
-    networkModularity = 0
-    listPartition = []
+    com = 0
+    communitiesListCNM = []
     listCommunities = []
+    communitiesDict = dict()
+    community = None
+    vertex = None
+    networkModularity = 0
+    networkCoverage = 0
+    networkPerformance = 0
     counter = 0
-    # get communities
-    bestPartition = community.best_partition(someNetwork)
-    networkModularity = community.modularity(bestPartition, someNetwork)
-    listPartition = list(bestPartition.keys())
-    for counter in range(len(listPartition)):
-        if(not(bestPartition[listPartition[counter]] in everyCommunity)):
-            everyCommunity[bestPartition[listPartition[counter]]] = []
-            everyCommunity[bestPartition[listPartition[counter]]].append(listPartition[counter])
-        else:
-            everyCommunity[bestPartition[listPartition[counter]]].append(listPartition[counter])
-    listCommunities = list(everyCommunity.keys())
+    # get Clauset-Newman-Moore communities
+    communitiesListCNM = list(greedy_modularity_communities(graphForCommunities))
+    # evaluate modularity
+    for  community in communitiesListCNM:
+        for vertex in set(community):
+            communitiesDict[vertex] = com
+        listCommunities.append(set(community))
+        com = com + 1
+    networkModularity = louv.modularity(communitiesDict, graphForCommunities)
+    networkCoverage = coverage(graphForCommunities, listCommunities)
+    networkPerformance = performance(graphForCommunities, listCommunities)
     # end of function
-    return(networkModularity, len(listCommunities))
+    return(networkModularity, len(listCommunities), networkCoverage, networkPerformance)
     
 # Function: analize network -----------------------------------------------
 def AnalizeNetwork(analysisNetwork, networkFileName, typeNW):
