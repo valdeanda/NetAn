@@ -491,7 +491,7 @@ def drawCommunities(someNetwork, communities, name):
         for j in range(communityOrder):
             colors.append(palet[i])
     # draw networks
-    positions = nx.kamada_kawai_layout(someNetwork)
+    positions = nx.kamada_kawai_layout(someNetwork, weight = None)
     # define type of network
     if(someNetwork.is_directed()):
         nameComplement = "_directed_network.png"
