@@ -2,7 +2,7 @@
 
 # **Net**work **An**alyzer
 
-### Authors: Maribel Hernández Rosales(1), Marcos Gonzales laffitte (1), Valerie de Anda (2) 
+### Authors: Maribel Hernández Rosales(1), Marcos González Laffitte (1), Valerie de Anda (2) 
 
 1. Instituto de Matemáticas, Universidad Nacional Autónoma de México, Mexico
 2. University of Austin at Texas. Marine Science Institute.  
