@@ -5,7 +5,7 @@
 """
 Name:     NetworkAnalysis.py
 Purpose:  Compute topological statistics and some figures from adyacence list  
-@uthor:   Marcos Emmanuel Gonzales Laffitte  - laffitte6345@live.com.mx
+@uthor:   Marcos Emmanuel Gonzalez Laffitte  - laffitte6345@live.com.mx
 modifications: Valerie de Anda -vdeanda@ciencias.unam.mx
 Created:    September  2017
 """
