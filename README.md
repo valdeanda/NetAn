@@ -1,6 +1,5 @@
 ![NetAn](./NetAn.png) 
 
-# **Net**work **An**alyzer
 
 ### Authors: Maribel Hernández Rosales(1), Marcos González Laffitte (1), Valerie de Anda (2) 
 
@@ -8,8 +7,7 @@
 2. University of Austin at Texas. Marine Science Institute.  
 
 
-
-We provide a single script  that use the output derived from [Metamis sofware](https://www.ncbi.nlm.nih.gov/pubmed/27887570) sofware,  which is a directed network , and compute several statistics 
+NetAn consist of a single script  that uses the output derived from [Metamis sofware](https://www.ncbi.nlm.nih.gov/pubmed/27887570) sofware,  which is a directed network , and compute several statistics 
 Please note that any **networked from another software can also be used** ie [WGCNA: Weighted Correlation Network Analysis](https://cran.r-project.org/web/packages/WGCNA/index.html), [MENA:Molecular Ecological Network Analyses](http://129.15.40.240/mena/). 
 Please note that your input file must have(.txt) extention 
 
