@@ -1,5 +1,3 @@
-![NetAn](./NetAn.png)  
-
 # **Net**work **An**alyzer
 
 ### Authors: Maribel Hernández Rosales(1), Marcos González Laffitte (1), Valerie de Anda (2) 
