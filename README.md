@@ -4,7 +4,7 @@
 ### Authors: Maribel Hernández Rosales(1), Marcos González Laffitte (1), Valerie de Anda (2) 
 
 1. Instituto de Matemáticas, Universidad Nacional Autónoma de México, Mexico
-2. University of Austin at Texas. Marine Science Institute.  
+2. University of Texas at Austin. Marine Science Institute.  
 
 
 NetAn consist of a single script  that uses the output derived from [Metamis sofware](https://www.ncbi.nlm.nih.gov/pubmed/27887570) sofware,  which is a directed network , and compute several statistics 
