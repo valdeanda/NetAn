@@ -1,0 +1,101 @@
+from	to	Strength
+Firmicutes	Ascomycota	-0.000272754
+Firmicutes	Chlorobi	-0.000242344
+Firmicutes	Ignavibacteriae	0.000178797
+Firmicutes	Dikarya unclassified	-0.000177384
+Firmicutes	Candidatus Beckwithbacteria	-0.000173505
+Firmicutes	Candidatus Woesebacteria	-0.00015914
+Firmicutes	Bacteroidetes/Chlorobi group unclassified	-0.000153791
+Firmicutes	Armatimonadetes	0.000145294
+Firmicutes	Cloacimonetes	-0.000130613
+Firmicutes	Candidatus Shapirobacteria	-0.000130613
+Firmicutes	Marinimicrobia	-0.000130375
+Firmicutes	FCB group unclassified	-0.000129103
+Actinobacteria	Ascomycota	-0.000128495
+Firmicutes	Archaea unclassified	0.000121817
+Ascomycota	Chlorobi	-0.000121755
+Proteobacteria	Chlorobi	0.000112576
+Actinobacteria	Chlorobi	-0.000108803
+Ascomycota	Firmicutes	-9.99E-05
+Firmicutes	Candidatus Aminicenantes	9.87E-05
+Firmicutes	Tenericutes	-9.71E-05
+Firmicutes	Candidatus Poribacteria	9.71E-05
+Firmicutes	Candidatus Fervidibacteria	-9.55E-05
+Actinobacteria	Firmicutes	-9.14E-05
+Ascomycota	Ignavibacteriae	9.04E-05
+Ascomycota	Dikarya unclassified	-9.00E-05
+Ascomycota	Candidatus Beckwithbacteria	-8.79E-05
+Proteobacteria	Synergistetes	8.69E-05
+Firmicutes	Candidatus Nomurabacteria	8.54E-05
+Actinobacteria	Dikarya unclassified	-8.27E-05
+Actinobacteria	Ignavibacteriae	8.24E-05
+Ascomycota	Candidatus Woesebacteria	-8.06E-05
+Actinobacteria	Candidatus Beckwithbacteria	-8.04E-05
+Ascomycota	Bacteroidetes/Chlorobi group unclassified	-7.82E-05
+Firmicutes	Thermotogae	-7.73E-05
+Actinobacteria	Candidatus Woesebacteria	-7.36E-05
+Firmicutes	Patescibacteria group unclassified	7.36E-05
+Ascomycota	Armatimonadetes	7.32E-05
+Firmicutes	Candidate division CPR2	-7.25E-05
+Actinobacteria	Bacteroidetes/Chlorobi group unclassified	-7.23E-05
+Firmicutes	Nitrospinae	7.00E-05
+Firmicutes	Candidatus Pacebacteria	-6.86E-05
+Ascomycota	Marinimicrobia	-6.63E-05
+Ascomycota	Cloacimonetes	-6.61E-05
+Ascomycota	Candidatus Shapirobacteria	-6.61E-05
+Actinobacteria	Armatimonadetes	6.59E-05
+Ascomycota	FCB group unclassified	-6.50E-05
+Firmicutes	Nitrospirae	-6.39E-05
+Ascomycota	Archaea unclassified	6.19E-05
+Actinobacteria	Marinimicrobia	-6.13E-05
+Actinobacteria	Cloacimonetes	-6.01E-05
+Actinobacteria	Candidatus Shapirobacteria	-6.01E-05
+Actinobacteria	FCB group unclassified	-5.84E-05
+Firmicutes	Candidatus Peregrinibacteria	-5.82E-05
+Firmicutes	Bacteroidetes	-5.78E-05
+Actinobacteria	Archaea unclassified	5.71E-05
+Firmicutes	Unclassified Bacteria unclassified	-5.61E-05
+Proteobacteria	Thermotogae	5.51E-05
+Bacteria unclassified	Ascomycota	-5.33E-05
+Firmicutes	Synergistetes	-5.16E-05
+Firmicutes	Fusobacteria	5.15E-05
+Firmicutes	Euryarchaeota	5.12E-05
+Proteobacteria	Armatimonadetes	-5.12E-05
+Firmicutes	Chloroflexi	-5.04E-05
+Ascomycota	Candidatus Aminicenantes	5.03E-05
+Proteobacteria	Candidatus Kaiserbacteria	-5.00E-05
+Ascomycota	Tenericutes	-4.94E-05
+Ascomycota	Candidatus Poribacteria	4.94E-05
+Proteobacteria	Nanoarchaeota	4.90E-05
+Proteobacteria	Spirochaetes	4.87E-05
+Proteobacteria	FCB group unclassified	4.84E-05
+Firmicutes	Cyanobacteria	-4.83E-05
+Firmicutes	Candidatus Rokubacteria	-4.81E-05
+Ascomycota	Candidatus Fervidibacteria	-4.79E-05
+Proteobacteria	Candidatus Fervidibacteria	4.69E-05
+Actinobacteria	Candidatus Aminicenantes	4.67E-05
+Actinobacteria	Tenericutes	-4.55E-05
+Actinobacteria	Candidatus Poribacteria	4.55E-05
+Firmicutes	Deinococcus-Thermus	-4.52E-05
+Bacteria unclassified	Chlorobi	-4.43E-05
+Firmicutes	Verrucomicrobia	-4.39E-05
+Ascomycota	Candidatus Nomurabacteria	4.31E-05
+Actinobacteria	Candidatus Fervidibacteria	-4.28E-05
+Actinobacteria	Candidatus Nomurabacteria	3.89E-05
+Proteobacteria	Candidatus Gottesmanbacteria	-3.87E-05
+Ascomycota	Thermotogae	-3.86E-05
+Firmicutes	Candidatus Uhrbacteria	-3.80E-05
+Bacteria unclassified	Firmicutes	-3.77E-05
+Ascomycota	Patescibacteria group unclassified	3.70E-05
+Ascomycota	Candidate division CPR2	-3.69E-05
+Firmicutes	Bacteria candidate phyla unclassified	-3.58E-05
+Firmicutes	Actinobacteria	-3.55E-05
+Ascomycota	Nitrospinae	3.54E-05
+Firmicutes	Candidatus Magasanikbacteria	3.50E-05
+Ascomycota	Candidatus Pacebacteria	-3.48E-05
+Actinobacteria	Candidate division CPR2	-3.42E-05
+Bacteria unclassified	Dikarya unclassified	-3.42E-05
+Actinobacteria	Thermotogae	-3.39E-05
+Bacteria unclassified	Ignavibacteriae	3.39E-05
+Bacteria unclassified	Candidatus Beckwithbacteria	-3.32E-05
+Actinobacteria	Patescibacteria group unclassified	3.31E-05

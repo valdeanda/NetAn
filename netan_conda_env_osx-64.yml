@@ -1,0 +1,44 @@
+name: netan_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - ca-certificates=2020.4.5.2=hecda079_0
+  - certifi=2020.4.5.2=py38h32f6830_0
+  - cycler=0.10.0=py_2
+  - decorator=4.4.2=py_0
+  - freetype=2.10.2=h8da9a1a_0
+  - kiwisolver=1.2.0=py38ha0d09dd_0
+  - libblas=3.8.0=16_openblas
+  - libcblas=3.8.0=16_openblas
+  - libcxx=10.0.0=1
+  - libedit=3.1.20191231=haf1e3a3_0
+  - libffi=3.3=h0a44026_1
+  - libgfortran=4.0.0=2
+  - liblapack=3.8.0=16_openblas
+  - libopenblas=0.3.9=h3d69b6c_0
+  - libpng=1.6.37=hbbe82c9_1
+  - llvm-openmp=10.0.0=h28b9765_0
+  - matplotlib=3.2.1=0
+  - matplotlib-base=3.2.1=py38h1300a51_0
+  - ncurses=6.2=h0a44026_1
+  - networkx=2.4=py_1
+  - numpy=1.18.5=py38h1f821a2_0
+  - openssl=1.1.1g=h0b31af3_0
+  - pip=20.1.1=py38_1
+  - pyparsing=2.4.7=pyh9f0ad1d_0
+  - python=3.8.3=h26836e1_1
+  - python-dateutil=2.8.1=py_0
+  - python-louvain=0.13=py_0
+  - python_abi=3.8=1_cp38
+  - readline=8.0=h1de35cc_0
+  - scipy=1.4.1=py38h38b60c6_3
+  - setuptools=47.3.0=py38_0
+  - six=1.15.0=pyh9f0ad1d_0
+  - sqlite=3.32.2=hffcf06c_0
+  - tk=8.6.10=hbbe82c9_0
+  - tornado=6.0.4=py38h64e0658_1
+  - wheel=0.34.2=py38_0
+  - xz=5.2.5=h1de35cc_0
+  - zlib=1.2.11=h1de35cc_3
+
