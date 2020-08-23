@@ -58,8 +58,8 @@ data_dir <- "../data/"
 output_dir <- "~/data/"
 
 #Necesitas cambiar los nombres de los archivos
-nodes <- read.table(file.path(data_dir, "nodes_tax.tab"), sep = "\t", header = TRUE)
-edges <- read.table(file.path(data_dir, "edges.tab"), header = TRUE, sep="\t")
+nodes <- read.table(file.path(data_dir, "nodes2addColors.tab"), sep = "\t", header = TRUE)
+edges <- read.table(file.path(data_dir, "edges2addTax.tab"), header = TRUE, sep="\t")
 
 edges$color <- vector(mode = "character", length = nrow(edges))
 
@@ -74,14 +74,21 @@ nodes_colshape <- nodes %>% left_join(tax_col_shape)
 
 create.network(nodes_colshape, edges,
               tmain = "Red de interaccion con VisNetwork", tsub = "RLadies Workshop",
-              select_by = "Phylum")
+              select_by = "Phylum")%>%
+visEdges(arrows="to")%>%
+  visOptions(selectedBy = "Domain", 
+             highlightNearest = TRUE, 
+             nodesIdSelection = TRUE,
+             manipulation=TRUE) %>%
+  visPhysics(stabilization =FALSE)%>%
+  visConfigure(enabled=TRUE)
 
-vis_network <- create.network(nodes_colshape, edges,
-               tmain = "Only 0.05% of the total interactions", tsub = "Mi red chido",
-               select_by = "Phylum")
 
-network_name <- paste("visNetwork_", Sys.Date(), ".html", sep = '')
-network_html <- file.path(output_dir, network_name)
+#vis_network <- create.network(nodes_colshape, edges,
+#                              tmain = "Only 0.05% of the total interactions", tsub = "Mi red chido",
+#                              select_by = "Phylum")
+#network_name <- paste("visNetwork_", Sys.Date(), ".html", sep = '')
+#network_html <- file.path(output_dir, network_name)
 
 #visSave(vis_network, file = network_html)
 
