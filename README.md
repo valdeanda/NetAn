@@ -2,7 +2,7 @@
 ![NetAn](./NetAn.png)
 
 
-Network Analyzer NetAn is built on broadly used python libraries that are freely available, such as [Networkx](https://networkx.org/). The main script NetworkAnalysis.py receives a list of interactions weighted or unweighted (-d and –u options, respectively) and computes several metrics. 
+Network Analyzer *NetAn* is built on broadly used python libraries that are freely available, such as [Networkx](https://networkx.org/). The main script `NetworkAnalysis.py` receives a list of interactions weighted or unweighted (-d and –u options, respectively) and computes several metrics. 
 
 We focused on identifying key features that are showed to be significant in comparison with those in random networks. Therefore, NetAn computes properties of the directed networks such as density, hubs with maximum in-degree and out-degree and clustering coefficient, among others. NetAn also  assumes the networks as non-directed and calculated further topological features such as modularity and communities using the Louvain method (Blondel et al., 2008).
 
