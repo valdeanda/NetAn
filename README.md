@@ -10,6 +10,8 @@ Currently NetAn uses the output derived from [Metamis sofware](https://www.ncbi.
 Please note that any **networked from another software can also be used** ie [WGCNA: Weighted Correlation Network Analysis](https://cran.r-project.org/web/packages/WGCNA/index.html), [MENA:Molecular Ecological Network Analyses](http://129.15.40.240/mena/). 
 Please note that your input file must have(.txt) extention 
 
+---
+
  # Dependencies 
 
 The following dependencies must be installed first.
@@ -33,6 +35,7 @@ Librarpy tk
 ```
 sudo apt-get install python-tk
 ```
+---
 
 # Running NetAn
 ```
@@ -42,8 +45,9 @@ In case of having  undirected networks , you can use the  -u option
 ```
 python Networks/scripts/NetworkAnalysis.py -u Networks/data/a_phylum_consensus.txt
 ```
+---
 
-## Example of directed network 
+## `Example of directed network` 
 
 Separated by tab 
 
@@ -60,7 +64,7 @@ Firmicutes      Cloacimonetes   -0.000130612871481698
 Firmicutes      Candidatus Shapirobacteria      -0.00013061259484347
 ```
 
-## Example of undirected network 
+## `Example of undirected network` 
 
 Separated by tab
 
@@ -80,7 +84,7 @@ Actinobacteria	Patescibacteria group unclassified
 The main script :  [NetworkAnalysis.py](./scripts/NetworkAnalysis.py) recieves the above mentioned files and compute several topological features such as density, mean degree, hubs, connected components, clustering coefficient modularity etc.  
 
 
-# Analyzing the output 
+# `Analyzing the output` 
 
 Once the program has finished, the following message will appears in the terminal
 ```
@@ -189,7 +193,7 @@ to obtain the following interactive graph
 
 [<img  src="https://valdeanda.github.io/NetAn/interactive_plot.png" width="200" height="200" align="center">](https://valdeanda.github.io/NetAn/testNetwork.html)
 
-# Propierties 
+# `Propierties` 
 
 * **Order**: Number of nodes
 * **Size**: Number of edges 
@@ -204,7 +208,7 @@ to obtain the following interactive graph
 * **Maximum_independent_sets_with_order**: Is a set of vertices in a graph, no two of which are adjacen
 
 
-# Cite
+# `Cite`
 
 If you find this software usefull please cite us as:
 
@@ -212,7 +216,7 @@ If you find this software usefull please cite us as:
 [De Anda et al., 2018. Understanding the mechanisms behind the response to environmental perturbation in microbial mats: a metagenomic-network based approach.Front. Microbio](https://www.frontiersin.org/articles/10.3389/fmicb.2018.02606/abstract)
 
 
-### Support and Develpment by:
+# `Support and Develpment by`
 
 * Maribel Hernández Rosales Instituto de Matemáticas, Universidad Nacional Autónoma de México, Mexico
 * Marcos González Laffitte Instituto de Matemáticas, Universidad Nacional Autónoma de México, Mexico
