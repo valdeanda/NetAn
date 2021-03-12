@@ -202,3 +202,18 @@ We recomend to use [visNetwork](https://datastorm-open.github.io/visNetwork/).
 We provide a simple data test  containing the nodes and the edges and the [R script](./scripts/plot_graph.R)
 to obtain the following [interactive graph](https://valdeanda.github.io/NetAn/testNetwork.html)
 
+
+# Propierties 
+
+* **Order**: Number of nodes
+* **Size**: Number of edges 
+* **Density**: Describes the portion of the potential connections in a network that are actual connections
+* **Modularity**: Measure the strength of division of a network into modules (also called groups, clusters or communities), re defined as groups of densely interconnected nodes that are only sparsely connected with the rest of the network
+* **Node degree**: Is the number of connections or edges the node has to other nodes.
+* **Connectivity**: The minimum number of elements (nodes or edges) that need to be removed to disconnect the remaining nodes from each other
+* **Average_degree_centrality**: Is defined as the number of links incident upon a node 
+* **Average_closenss_centrality**: The more central a node is the lower its total distance from all other nodes
+* **Average_betweenness_centrality**: Quantifies the number of times a node acts as a bridge along the shortest path between two other nodes
+* **Average_number_of_cliques_with_order**: Is a subset of the vertices, c ⊆ v, such that every two distinct vertices are adjacen
+* **Maximum_independent_sets_with_order**: Is a set of vertices in a graph, no two of which are adjacen
+
