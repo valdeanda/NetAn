@@ -1,12 +1,45 @@
 
 ![NetAn](./NetAn.png)
 
-Network Anazyler NetAn,  helps facilitate the overal analysis of complext networks by computing several topologic statistics and visualization plots. 
+Network Anazyler **NetAn**,  helps facilitate the overal analysis of complext networks by computing several topologic statistics and visualization plots. 
+
 Currently NetAn uses the output derived from [Metamis sofware](https://www.ncbi.nlm.nih.gov/pubmed/27887570) sofware,  which is a directed network , and compute several statistics 
+
 Please note that any **networked from another software can also be used** ie [WGCNA: Weighted Correlation Network Analysis](https://cran.r-project.org/web/packages/WGCNA/index.html), [MENA:Molecular Ecological Network Analyses](http://129.15.40.240/mena/). 
 Please note that your input file must have(.txt) extention 
 
- 
+ # Dependencies 
+
+In order to use the script, the following dependencies must be installed first.
+1. [ Python3  ](https://www.python.org/)
+2. [Networkx](https://networkx.github.io/) 
+3. [Community library](https://github.com/taynaud/python-louvain/) 
+
+```
+sudo -H pip install python-louvain
+```
+
+Some extra python libreries 
+
+Numpy and matplotlib
+```
+sudo pip2 install numpy matplotlib
+```
+Librarpy tk 
+
+```
+sudo apt-get install python-tk
+```
+
+# Running NetAn
+```
+python Networks/scripts/NetworkAnalysis.py -d Networks/data/a_phylum_consensus.txt
+```
+In case of having  undirected networks , you can use the  -u option
+```
+python Networks/scripts/NetworkAnalysis.py -u Networks/data/a_phylum_consensus.txt
+```
+
 
 ## Example of directed network 
 
@@ -44,38 +77,6 @@ Actinobacteria	Patescibacteria group unclassified
 
 The main script :  [NetworkAnalysis.py](./scripts/NetworkAnalysis.py) recieves the above mentioned files and compute several topological features such as density, mean degree, hubs, connected components, clustering coefficient modularity etc.  
 
-
-# Dependencies 
-
-In order to use the script, the following dependencies must be installed first.
-1. [ Python3  ](https://www.python.org/)
-2. [Networkx](https://networkx.github.io/) 
-3. [Community library](https://github.com/taynaud/python-louvain/) 
-
-```
-sudo -H pip install python-louvain
-```
-
-Some extra python libreries 
-
-Numpy and matplotlib
-```
-sudo pip2 install numpy matplotlib
-```
-Librarpy tk 
-
-```
-sudo apt-get install python-tk
-```
-
-# Running the script     
-```
-python Networks/scripts/NetworkAnalysis.py -d Networks/data/a_phylum_consensus.txt
-```
-In the case of having  undirected networks , you can use the  -u option
-```
-python Networks/scripts/NetworkAnalysis.py -u Networks/data/a_phylum_consensus.txt
-```
 
 # Analyzing the output 
 
@@ -174,7 +175,11 @@ Random Analysis Results, Mean Measures:                 runs(100)
 ```
 
 
-### Plot your networks
+# Example of output networks using communities 
+![NetAn](./NetAnplots.png)
+
+
+# Example of interactive network using R
 
 We recomend to use [visNetwork](https://datastorm-open.github.io/visNetwork/). 
 We provide a simple data test  containing the nodes and the edges and the [R script](./scripts/plot_graph.R)
