@@ -1,24 +1,12 @@
 
 ![NetAn](./NetAn.png)
 
-### Authors: Maribel Hernández Rosales(1), Marcos González Laffitte (1), Valerie de Anda (2) 
-
-1. Instituto de Matemáticas, Universidad Nacional Autónoma de México, Mexico
-2. University of Texas at Austin. Marine Science Institute.  
-
-
-NetAn consist of a single script  that uses the output derived from [Metamis sofware](https://www.ncbi.nlm.nih.gov/pubmed/27887570) sofware,  which is a directed network , and compute several statistics 
+Network Anazyler NetAn,  helps facilitate the overal analysis of complext networks by computing several topologic statistics and visualization plots. 
+Currently NetAn uses the output derived from [Metamis sofware](https://www.ncbi.nlm.nih.gov/pubmed/27887570) sofware,  which is a directed network , and compute several statistics 
 Please note that any **networked from another software can also be used** ie [WGCNA: Weighted Correlation Network Analysis](https://cran.r-project.org/web/packages/WGCNA/index.html), [MENA:Molecular Ecological Network Analyses](http://129.15.40.240/mena/). 
 Please note that your input file must have(.txt) extention 
 
-
-# Cite
-
-The software implementation is described in  
-
-[De Anda et al., 2018. Understanding the mechanisms behind the response to environmental perturbation in microbial mats: a metagenomic-network based approach.Front. Microbio](https://www.frontiersin.org/articles/10.3389/fmicb.2018.02606/abstract)
-
-
+ 
 
 ## Example of directed network 
 
@@ -206,4 +194,19 @@ to obtain the following [interactive graph](https://valdeanda.github.io/NetAn/te
 * **Average_betweenness_centrality**: Quantifies the number of times a node acts as a bridge along the shortest path between two other nodes
 * **Average_number_of_cliques_with_order**: Is a subset of the vertices, c ⊆ v, such that every two distinct vertices are adjacen
 * **Maximum_independent_sets_with_order**: Is a set of vertices in a graph, no two of which are adjacen
+
+
+# Cite
+
+The software implementation is described in  
+
+[De Anda et al., 2018. Understanding the mechanisms behind the response to environmental perturbation in microbial mats: a metagenomic-network based approach.Front. Microbio](https://www.frontiersin.org/articles/10.3389/fmicb.2018.02606/abstract)
+
+
+### Authors
+
+* Maribel Hernández Rosales Instituto de Matemáticas, Universidad Nacional Autónoma de México, Mexico
+* Marcos González Laffitte Instituto de Matemáticas, Universidad Nacional Autónoma de México, Mexico
+* Valerie de Anda University of Texas at Austin. Marine Science Institute.  
+
 
