@@ -1,6 +1,8 @@
 
 ![NetAn](./NetAn.png)
 
+
+
 Network Anazyler **NetAn**,  helps facilitate the overal analysis of complext networks by computing several topologic statistics and visualization plots. 
 
 Currently NetAn uses the output derived from [Metamis sofware](https://www.ncbi.nlm.nih.gov/pubmed/27887570) sofware,  which is a directed network , and compute several statistics 
@@ -184,6 +186,7 @@ Random Analysis Results, Mean Measures:                 runs(100)
 We recomend to use [visNetwork](https://datastorm-open.github.io/visNetwork/). 
 We provide a simple data test  containing the nodes and the edges and the [R script](./scripts/plot_graph.R)
 to obtain the following [interactive graph](https://valdeanda.github.io/NetAn/testNetwork.html)
+![NetAn](./interactive_plot.png)
 
 
 # Propierties 
@@ -203,15 +206,16 @@ to obtain the following [interactive graph](https://valdeanda.github.io/NetAn/te
 
 # Cite
 
-The software implementation is described in  
+If you find this software usefull please cite us as:
+
 
 [De Anda et al., 2018. Understanding the mechanisms behind the response to environmental perturbation in microbial mats: a metagenomic-network based approach.Front. Microbio](https://www.frontiersin.org/articles/10.3389/fmicb.2018.02606/abstract)
 
 
-### Authors
+### Support and Develpment by:
 
 * Maribel Hernández Rosales Instituto de Matemáticas, Universidad Nacional Autónoma de México, Mexico
 * Marcos González Laffitte Instituto de Matemáticas, Universidad Nacional Autónoma de México, Mexico
-* Valerie de Anda University of Texas at Austin. Marine Science Institute.  
-
+* [Valerie de AndaUniversity of Texas at Austin. Marine Science Institute](https://sites.google.com/ciencias.unam.mx/valdeanda/home)
+ 
 
