@@ -191,7 +191,7 @@ We recomend to use [visNetwork](https://datastorm-open.github.io/visNetwork/).
 We provide a simple data test  containing the nodes and the edges and the [R script](./scripts/plot_graph.R)
 to obtain the following interactive graph
 
-[<img  src="https://valdeanda.github.io/NetAn/interactive_plot.png" width="200" height="200" align="center">](https://valdeanda.github.io/NetAn/testNetwork.html)
+[<img  src="https://valdeanda.github.io/NetAn/interactive_plot.png" width="200" height="200" align="right">](https://valdeanda.github.io/NetAn/testNetwork.html)
 
 ## `Propierties` 
 
