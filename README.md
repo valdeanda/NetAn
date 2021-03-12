@@ -12,7 +12,8 @@ Please note that your input file must have(.txt) extention
 
  # Dependencies 
 
-In order to use the script, the following dependencies must be installed first.
+The following dependencies must be installed first.
+
 1. [ Python3  ](https://www.python.org/)
 2. [Networkx](https://networkx.github.io/) 
 3. [Community library](https://github.com/taynaud/python-louvain/) 
@@ -41,7 +42,6 @@ In case of having  undirected networks , you can use the  -u option
 ```
 python Networks/scripts/NetworkAnalysis.py -u Networks/data/a_phylum_consensus.txt
 ```
-
 
 ## Example of directed network 
 
