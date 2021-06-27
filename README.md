@@ -1,6 +1,12 @@
 
 ![NetAn](./NetAn.png)
 
+## `Support and Develpment by`
+
+1.  Maribel Hernández Rosales [Laboratory of Bioinformatics and Complex Networks, Center for Research and Advanced Studies (CINVESTAV), Irapuato Unit](http://www.ira.cinvestav.mx/Investigaci%C3%B3n/DepartamentodeIngenier%C3%ADaGen%C3%A9tica/ProfesoresInvestigadores/DraMaribelHernandezRosales/tabid/1639/language/es-MX/Default.aspx)
+2. Marcos González Laffitte Instituto de Matemáticas, Universidad Nacional Autónoma de México, Mexico
+3. Valerie De Anda [University of Texas at Austin. Marine Science Institute](https://sites.google.com/ciencias.unam.mx/valdeanda/home)
+ 
 
 Network Analyzer *NetAn* is built on broadly used python libraries that are freely available, such as [Networkx](https://networkx.org/). The main script `NetworkAnalysis.py` receives a list of interactions weighted or unweighted (-d and –u options, respectively) and computes several metrics. 
 
@@ -222,10 +228,5 @@ If you find this software usefull please cite us as:
 [De Anda et al., 2018. Understanding the mechanisms behind the response to environmental perturbation in microbial mats: a metagenomic-network based approach.Front. Microbio](https://www.frontiersin.org/articles/10.3389/fmicb.2018.02606/abstract)
 
 
-## `Support and Develpment by`
 
-* Maribel Hernández Rosales Instituto de Matemáticas, Universidad Nacional Autónoma de México, Mexico
-* Marcos González Laffitte Instituto de Matemáticas, Universidad Nacional Autónoma de México, Mexico
-* [Valerie de AndaUniversity of Texas at Austin. Marine Science Institute](https://sites.google.com/ciencias.unam.mx/valdeanda/home)
- 
 
