@@ -1,7 +1,7 @@
 
 ![NetAn](./NetAn.png)
 
-## `Support and Develpment by`
+## `Support and Development by`
 
 1.  Maribel Hernández Rosales [Laboratory of Bioinformatics and Complex Networks, Center for Research and Advanced Studies (CINVESTAV), Irapuato Unit](http://www.ira.cinvestav.mx/Investigaci%C3%B3n/DepartamentodeIngenier%C3%ADaGen%C3%A9tica/ProfesoresInvestigadores/DraMaribelHernandezRosales/tabid/1639/language/es-MX/Default.aspx)
 2. Marcos González Laffitte Instituto de Matemáticas, Universidad Nacional Autónoma de México, Mexico
