@@ -24,9 +24,21 @@ Please note that your input file must have(.txt) extention
 
 ---
 
- ## `Dependencies` 
+ ## `Installation` 
+ 
+ ### Using Conda 
+Install  conda or miniconda depending of your needs. 
 
-The following dependencies must be installed first.
+Once conda is installed activate conda and use the yml file provided with netan. 
+
+```
+conda activate
+conda env create -f netan_conda_env_osx-64.yml
+conda activate netan_env
+``` 
+You are ready to use netan with all the dependencies. 
+
+If you don't want to use conda, the following dependencies must be installed first.
 
 1. [ Python3  ](https://www.python.org/)
 2. [Networkx](https://networkx.github.io/) 
