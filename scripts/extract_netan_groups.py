@@ -7,8 +7,9 @@
 """
 Name: extract_netan_groups.py
 Purpose: Extract node group information from NetAn network output. 
-@uthor: Ian M Rambo - ian.rambo@utexas.edu, shrimpngrits44@gmail.com
+@uthor: Ian M Rambo - ian.maguire.rambo44@gmail.com
 Created: July 1, 2020
+Updated: April 7, 2022
 """
 
 # Dependencies -------------------------------------------
@@ -16,6 +17,7 @@ import re
 import os
 import argparse
 import logging
+from datetime import datetime
 
 def connected_components(line):
     """
@@ -41,7 +43,7 @@ parser.add_argument('-i', '--input', type=str, dest='infile', action='store',
 help='input NetAn network file')
 
 parser.add_argument('-o', '--output', type=str, dest='output', action='store',
-help='output NetAn groups file')
+help='output NetAn groups file', default='netan_components.txt')
 
 parser.add_argument('-l', '--log', type=str, dest='log', action='store',
 help='logfile')
@@ -65,6 +67,7 @@ else:
     level = logging.DEBUG, format = logging_format)
 
 logger = logging.getLogger()
+
 
 try:
     input_handle = open(args.infile, 'r')
